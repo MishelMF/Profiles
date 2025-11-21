@@ -19,10 +19,10 @@
         "detour": "direct"
       },
       {
-        "tag": "dns-local",
+		"tag": "dns-local",
         "type": "local",
         "detour": "direct"
-      },
+      }
     ],
     "rules": [
       {
