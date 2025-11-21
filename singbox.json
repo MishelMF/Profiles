@@ -4,6 +4,41 @@
     "output": "box.log",
     "timestamp": true
   },
+ "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "type": "udp",
+        "server": "1.1.1.1",
+        "detour": "select"  
+      },
+      {
+        "tag": "dns-direct",
+        "server": "1.1.1.1",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-local",
+        "type": "local",
+        "detour": "direct"
+      },
+    ],
+    "rules": [
+      {
+        "domain_suffix": ".ru",
+        "server": "dns-direct"
+      },
+      {
+        "rule_set": [
+          "geoip-ru",
+          "geosite-ru"
+        ],
+        "server": "dns-direct"
+      }
+    ],
+    "final": "dns-remote",
+    "independent_cache": true
+  },
   "inbounds": [
     {
       "type": "tun",
