@@ -256,10 +256,6 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
     }
   ]
   }
