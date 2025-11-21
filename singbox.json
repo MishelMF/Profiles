@@ -13,12 +13,6 @@
         "detour": "select"  
       },
       {
-        "tag": "dns-direct",
-		"type": "udp",  
-        "server": "1.1.1.1",
-        "detour": "direct"
-      },
-      {
 		"tag": "dns-local",
         "type": "local",
         "detour": "direct"
@@ -27,14 +21,14 @@
     "rules": [
       {
         "domain_suffix": ".ru",
-        "server": "dns-direct"
+        "server": "dns-local"
       },
       {
         "rule_set": [
           "geoip-ru",
           "geosite-ru"
         ],
-        "server": "dns-direct"
+        "server": "dns-local"
       }
     ],
     "final": "dns-remote",
