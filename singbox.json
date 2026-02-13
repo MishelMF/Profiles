@@ -1,88 +1,126 @@
 {
   "log": {
-    "level": "warn",
+    "level": "fatal",
     "output": "box.log",
     "timestamp": true
   },
  "dns": {
     "servers": [
       {
+        "tag": "dns-local",
+        "type": "local",
+      },
+       {
         "tag": "dns-remote",
         "type": "udp",
         "server": "1.1.1.1",
         "detour": "select"  
       },
-      {
-		"tag": "dns-local",
-        "type": "local",
-        "detour": "direct"
+	   {
+        "tag": "dns-doh",
+        "type": "https",
+        "server": "1.1.1.1",
+        "server_port": 443,
+        "path": "/dns-query"
+      },
+	  {
+        "tag": "dns-google",
+        "type": "tls",
+        "server": "8.8.8.8"
+      },
+	  {
+        "type": "fakeip",
+        "tag": "dns-fakeip",
+        "inet4_range": "198.18.0.0/15",
+        "inet6_range": "fc00::/18"
       }
     ],
     "rules": [
       {
-        "domain_suffix": ".ru",
+        "rule_set": "geosite-geolocation-ru",
         "server": "dns-local"
       },
       {
-        "rule_set": [
-          "geoip-ru",
-          "geosite-ru"
-        ],
+        "rule_set": "geoip-ru",
         "server": "dns-local"
+      },
+	  {
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "server": "fakeip"
       }
     ],
-    "final": "dns-remote",
-    "independent_cache": true
+	"final": "dns-doh",
+	"independent_cache": true,
+	"strategy": "ipv4_only"
+  },
+  "route": {
+    "rules": [
+    {
+      "action": "sniff"
+    },
+    {
+      "protocol": "dns",
+      "action": "hijack-dns"
+    },
+    {
+      "inbound": "dns-in",
+      "action": "hijack-dns"
+    },
+	{
+      "ip_is_private": true,
+      "outbound": "direct"
+    },
+	{
+      "rule_set": "geosite-geolocation-ru",
+      "outbound": "direct"
+    },
+	{
+      "rule_set": "geoip-ru",
+      "outbound": "direct"
+    }
+    ],
+    "default_domain_resolver": "dns-doh",
+    "auto_detect_interface": true,
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geosite-geolocation-ru",
+        "format": "binary",
+        "url": "https://github.com/MishelMF/Profiles/raw/refs/heads/main/geosite-ru.srs"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-ru",
+        "format": "binary",
+        "url": "https://github.com/MishelMF/Profiles/raw/refs/heads/main/geoip-ru.srs"
+      }
+    ],
+	"final": "select"
   },
   "inbounds": [
     {
       "type": "tun",
       "tag": "tun-in",
-      "address": "192.168.7.1/28",
+      "address": "192.168.17.1/28",
       "auto_route": true,
       "strict_route": true,
-      "stack": "gvisor",
-      "domain_strategy": "ipv4_only"
+      "stack": "gvisor"
     }
   ],
-"route": {
-    "rules": [
-      {
-        "action": "sniff"
-      },
-      {
-        "protocol": "dns",
-        "action": "hijack-dns"
-      }, 
-      {
-        "domain_suffix": ".ru",
-        "outbound": "direct"
-      }
-    ],
-	"rule_set": [
-      {
-        "type": "remote",
-        "tag": "geoip-ru",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geoip-ru.srs",
-        "update_interval": "120h0m0s"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-ru",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-ru.srs",
-        "update_interval": "120h0m0s"
-      }
-    ],
-    "final": "select",
-    "auto_detect_interface": true,
-    "override_android_vpn": true
-  },
   "experimental": {
     "cache_file": {
       "enabled": true,
       "path": "clash.db"
+    },
+	"clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "ui",
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "direct",
+      "default_mode": "Rule"
     }
   },
   "outbounds": [
@@ -90,168 +128,100 @@
       "type": "direct",
       "tag": "direct"
     },
-	{
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "???? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 25e52 § 0",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? fc45e § 1",
-        "???? NL 193.29.139.168 ? tcp:8080 ? Greenhost BV ? a7456 § 2",
-        "???? NL 193.29.139.132 ? tcp:8080 ? Greenhost BV ? 0365b § 3",
-        "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? 706b9 § 4",
-        "???? NL 193.29.139.168 ? tcp:8080 ? Greenhost BV ? eb151 § 5",
-        "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? f7bd5 § 6",
-        "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? b7ac6 § 7",
-        "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? f95f3 § 8",
-        "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? de5e9 § 9",
-        "???? NL 193.29.139.177 ? tcp:8080 ? Greenhost BV ? 0ef0e § 10",
-        "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? a6172 § 11",
-        "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? c00a3 § 12",
-        "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? 92f4a § 13",
-        "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? 15093 § 14",
-        "???? NL 193.29.139.240 ? tcp:8080 ? Greenhost BV ? d5c71 § 15",
-        "???? NL 193.29.139.202 ? tcp:8080 ? Greenhost BV ? 2b49e § 16",
-        "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? 07cb4 § 17",
-        "???? NL 193.29.139.141 ? tcp:8080 ? Greenhost BV ? 98450 § 18",
-        "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? 6833c § 19",
-        "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? 522ff § 20",
-        "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? 7865e § 21",
-        "???? NL 193.29.139.240 ? tcp:8080 ? Greenhost BV ? 89d0c § 22",
-        "???? FR 5.196.29.123 ? ws:2082 ? OVH ? 8b09b § 23",
-        "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? cca4b § 24",
-        "???? NL 193.29.139.160 ? tcp:8080 ? Greenhost BV ? b56fd § 25",
-        "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? 2ecef § 26",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 3cecb § 27",
-        "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? 65e2f § 28",
-        "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? 19f22 § 29",
-        "???? NL 193.29.139.235 ? tcp:8080 ? Greenhost BV ? 0bbd5 § 30",
-        "???? NL 193.29.139.132 ? tcp:8080 ? Greenhost BV ? 88110 § 31",
-        "???? NL 193.29.139.188 ? tcp:8080 ? Greenhost BV ? df72f § 32",
-        "???? NL 193.29.139.202 ? tcp:8080 ? Greenhost BV ? 771ee § 33",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? 7eb2e § 34",
-        "???? NL 193.29.139.209 ? tcp:8080 ? Greenhost BV ? 43b47 § 35",
-        "?????? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 4ac5b § 36",
-        "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? ea717 § 37",
-        "???? NL 193.29.139.177 ? tcp:8080 ? Greenhost BV ? 9a7b0 § 38",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? ebc5d § 39",
-        "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? ec22b § 40",
-        "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? e0f72 § 41",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 47bd2 § 42",
-        "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 60af9 § 43",
-        "???? NL 193.29.139.188 ? tcp:8080 ? Greenhost BV ? d0367 § 44",
-        "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? af0f1 § 45",
-        "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? 2b9df § 46",
-        "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? abfe9 § 47",
-        "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 1b111 § 48",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 1e781 § 49",
-        "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? eed2c § 50",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? e9a7b § 51",
-        "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? fa224 § 52",
-        "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? 4633e § 53",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? 2638e § 54",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? 82d2a § 55",
-        "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? db7b7 § 56",
-        "?????? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 4ac5b § 57",
-        "?????? PL 217.30.10.18 ? tcp:9031 ? Melbikomas UAB ? 9197f § 58",
-        "???? NL 193.29.139.141 ? tcp:8080 ? Greenhost BV ? a7f10 § 59",
-        "???? NL 208.67.105.196 ? tcp:42029 ? Des Equity / Serverion ? 13b45 § 60",
-        "???? RU 95.141.205.39 ? tcp:7557 ? \"SMART CENTER\" ? 4d817 § 61",
-        "???? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 25e52 § 62",
-        "?????? PL 217.30.10.18 ? tcp:9050 ? Melbikomas UAB ? c5785 § 63",
-        "???? RU 95.141.205.39 ? tcp:7557 ? \"SMART CENTER\" ? 560d5 § 64",
-        "???? NL 193.29.139.144 ? tcp:8080 ? Greenhost BV ? 1dc46 § 65",
-        "?????? PL 2.56.125.113 ? ws:2025 ? Stark Industries ? afa6e § 66",
-        "???? NL 193.29.139.251 ? tcp:8080 ? Greenhost BV ? 8ba56 § 67",
-        "?????? PL 217.30.10.18 ? tcp:9038 ? Melbikomas UAB ? c3755 § 68",
-        "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? 0f8a0 § 69",
-        "???? PL 2.56.125.113 ? ws:2025 ? Stark Industries ? 1ceb6 § 70",
-        "???? NL 208.67.105.196 ? tcp:42029 ? Des Equity / Serverion ? 07d52 § 71",
-        "???? NL 213.109.147.242 ? tcp:62685 ? BlueVPS OU ? 9f9f4 § 72",
-        "?????? PL 217.30.10.18 ? tcp:9079 ? Melbikomas UAB ? f8d9f § 73",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 50855 § 74",
-        "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 37cab § 75",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? aad9d § 76",
-        "?????? NL 109.201.152.181 ? tcp:443 ? NForce Entertainment B.V. / Customer 3015 ? 825f8 § 77",
-        "???? GB 141.98.101.178 ? tcp:443 ? M247 Europe SRL / M247 ? ea633 § 78",
-        "???? GB 141.98.101.178 ? tcp:443 ? M247 Europe SRL / M247 ? ea633 § 79",
-        "???? GB 141.98.101.182 ? tcp:443 ? M247 Europe SRL / M247 ? f48b5 § 80",
-        "???? GB 141.98.101.179 ? tcp:443 ? M247 Europe SRL / M247 ? 8dbeb § 81",
-        "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 10ead § 82",
-        "???? SE 212.113.102.67 ? ws:2025 ? xorek.cloud International ? b7537 § 83",
-        "?????? SE 212.113.102.67 ? ws:2025 ? xorek.cloud International ? 059b5 § 84",
-        "???? GB 141.98.101.182 ? tcp:443 ? M247 Europe SRL / M247 ? f48b5 § 85",
-        "???? NL 193.29.139.251 ? tcp:8080 ? Greenhost BV ? 24e57 § 86",
-        "???? GB 141.98.101.179 ? tcp:443 ? M247 Europe SRL / M247 ? 8dbeb § 87",
-        "?????? KZ 38.107.234.57 ? ws:80 ? Newserverlife / TOO Tol'ko litsenzionnyye produkty ? 836d7 § 88",
-        "?????? PL 217.30.10.18 ? tcp:9084 ? Melbikomas UAB ? e74d1 § 89",
-        "???? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 107ce § 90",
-        "?????? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 700f6 § 91",
-        "???? US 37.19.198.243 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? 84c86 § 92",
-        "???? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 107ce § 93",
-        "???? US 37.19.198.236 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? d6c05 § 94",
-        "???? US 37.19.198.244 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? d9bda § 95",
-        "???? US 37.19.198.160 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? 632e6 § 96",
-        "???? NL 179.61.219.170 ? tcp:22934 ? HOSTINGER NL ? 17807 § 97",
-        "?????? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 700f6 § 98",
-        "?????? HK 103.141.221.200 ? tcp:8388 ? Strong Worth Holdings Limited ? 45c41 § 99",
-        "?????? HK 103.149.182.191 ? tcp:8388 ? DALIAN YICHUAN INDUSTRIAL CO., LIMITED ? e3368 § 100",
-        "?????? HK 154.197.26.237 ? tcp:8388 ? SonderCloud Limited ? 44a8d § 101",
-        "?????? HK 103.149.183.10 ? tcp:8388 ? DALIAN YICHUAN INDUSTRIAL CO., LIMITED ? 5c1f2 § 102",
-        "???? CA 142.4.216.225 ? tcp:80 ? OVH, Inc. ? 72180 § 103",
-        "?????? PL 217.30.10.18 ? tcp:9093 ? Melbikomas UAB ? cabcd § 104",
-        "???? CA 142.4.216.225 ? tcp:80 ? OVH, Inc. ? 72180 § 105",
-        "???? CA 142.4.216.225 ? tcp:80 ? OVH, Inc. ? 8483e § 106",
-        "?????? DE 157.173.127.227 ? tcp:443 ? Contabo ? 596b9 § 107",
-        "???? US 156.146.38.169 ? tcp:443 ? Datacamp Limited ? b2fd5 § 108",
-        "???? US 156.146.38.168 ? tcp:443 ? Datacamp Limited ? 0b9ba § 109",
-        "???? US 156.146.38.170 ? tcp:443 ? Datacamp Limited ? 9a1f4 § 110",
-        "???? US 156.146.38.167 ? tcp:443 ? Datacamp Limited ? c0bdd § 111",
-        "?????? CN 137.175.97.159 ? tcp:8388 ? PEG TECH INC / Xiong Weng ? c1e9e § 112",
-        "???? CA 149.22.95.183 ? tcp:443 ? Datacamp Limited ? d6fc1 § 113",
-        "?????? CN 137.175.97.159 ? tcp:8388 ? PEG TECH INC / Xiong Weng ? c1e9e § 114",
-        "???? US 173.244.56.6 ? tcp:443 ? LogicWeb Inc. / Tesonet ? dfda8 § 115",
-        "???????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 4ca67 § 116",
-        "???????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 26f8c § 117",
-        "???????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 1fae6 § 118",
-        "?????? DE 157.173.127.233 ? tcp:443 ? Contabo ? 648ca § 119",
-        "???????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? dd21b § 120",
-        "???????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? 82a4c § 121",
-        "?????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? d1023 § 122",
-        "?????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 512eb § 123",
-        "?????? PL 217.30.10.18 ? tcp:9064 ? Melbikomas UAB ? 67923 § 124",
-        "???? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? 0ab4d § 125",
-        "?????? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? d707c § 126",
-        "???? VN 160.19.78.75 ? tcp:443 ? VNPT Corp / Minh Nhat Paper General Company Limited ? d79cb § 127",
-        "???? JP 149.22.87.241 ? tcp:443 ? Datacamp Limited ? d9cfa § 128",
-        "???? JP 149.22.87.204 ? tcp:443 ? Datacamp Limited ? 8a05a § 129",
-        "???? KR 146.56.112.110 ? tcp:8888 ? Oracle Cloud (ap-chuncheon-1) ? 35ce6 § 130",
-        "???? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? 0ab4d § 131",
-        "?????? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? d707c § 132",
-        "?????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? a7201 § 133",
-        "???? JP 149.22.87.240 ? tcp:443 ? Datacamp Limited ? 223d1 § 134",
-        "???? KR 146.56.112.110 ? tcp:8888 ? Oracle Cloud (ap-chuncheon-1) ? 35ce6 § 135",
-        "?????? PL 217.30.10.18 ? tcp:9018 ? Melbikomas UAB ? 46398 § 136",
-        "???? VN 160.19.78.75 ? tcp:443 ? VNPT Corp / Minh Nhat Paper General Company Limited ? 6623c § 137",
-        "?????? PL 217.30.10.18 ? tcp:9042 ? Melbikomas UAB ? ab32e § 138",
-        "???????? SG 38.180.249.177 ? tcp:8443 ? M247 Europe SRL / 3NT SOLUTIONS LLP ? c4862 § 139",
-        "?????? PL 217.30.10.18 ? tcp:9025 ? Melbikomas UAB ? acf73 § 140",
-        "?????? PL 217.30.10.18 ? tcp:9026 ? Melbikomas UAB ? 784d5 § 141",
-        "?????? CA 51.79.103.76 ? ws:80 ? OVH, Inc. ? f111c § 142",
-        "?????? DE 157.173.127.224 ? tcp:443 ? Contabo ? 6112f § 143",
-        "?????? PL 217.30.10.18 ? tcp:9037 ? Melbikomas UAB ? 5c63d § 144",
-        "?????? PL 217.30.10.18 ? tcp:9005 ? Melbikomas UAB ? 62f84 § 145",
-        "?????? PL 217.30.10.18 ? tcp:9041 ? Melbikomas UAB ? bf54d § 146",
-        "?????? PL 217.30.10.18 ? tcp:9045 ? Melbikomas UAB ? 7fbbb § 147",
-        "?????? PL 217.30.10.18 ? tcp:9040 ? Melbikomas UAB ? d2614 § 148",
-        "?????? PL 217.30.10.18 ? tcp:9020 ? Melbikomas UAB ? f4530 § 149",
-        "?????? PL 217.30.10.18 ? tcp:9027 ? Melbikomas UAB ? 7bba5 § 150",
-        "?????? PL 217.30.10.18 ? tcp:9033 ? Melbikomas UAB ? 9b7d1 § 151",
-        "?????? CA 51.79.103.76 ? ws:80 ? OVH, Inc. ? ee044 § 152",
-        "?????? PL 217.30.10.18 ? tcp:9094 ? Melbikomas UAB ? 471aa § 153",
-        "???? CA 51.79.103.76 ? ws:80 ? OVH, Inc. ? d9be1 § 154",
-        "?????? PL 217.30.10.18 ? tcp:9011 ? Melbikomas UAB ? 6caae § 155",
-        "?????? PL 217.30.10.18 ? tcp:9088 ? Melbikomas UAB ? c864f § 156"
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁰⁵』 § 0",
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁴⁰』 § 1",
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁹⁶』 § 2",
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴⁰』 § 3",
+        "🇬🇧 GB 141.98.101.179 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ 8dbeb § 4",
+        "🇺🇸_美国 § 5",
+        "🇬🇧 GB 141.98.101.182 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ f48b5 § 6",
+        "🇬🇧 GB 141.98.101.178 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ ea633 § 7",
+        "_未知 § 8",
+        "_未知 § 9",
+        "_未知 § 10",
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴³』 § 11",
+        "_未知 § 12",
+        "🇷🇺_俄罗斯 § 13",
+        "🚫🇭🇰 HK 103.149.183.10 ◈ tcp:8388 ◈ DALIAN YICHUAN INDUSTRIAL CO., LIMITED ◈ 5c1f2 § 14",
+        "🇷🇺_俄罗斯 § 15",
+        "🇰🇷_韩国 § 16",
+        "🚫🇭🇰 HK 103.141.221.200 ◈ tcp:8388 ◈ Strong Worth Holdings Limited ◈ 45c41 § 17",
+        "🆔️ | @Eag1e_YT『🇩🇪²⁰』 § 18",
+        "🆔️ | @Eag1e_YT『🇩🇪³』 § 19",
+        "🆔️ | @Eag1e_YT『🇩🇪⁹⁴』 § 20",
+        "🆔️ | @Eag1e_YT『🇨🇦¹⁰⁷』 § 21",
+        "🆔️ | @Eag1e_YT『🇩🇪⁷⁵』 § 22",
+        "🆔️ | @Eag1e_YT『🇩🇪¹⁰⁰』 § 23",
+        "🆔️ | @Eag1e_YT『🇩🇪⁴⁸』 § 24",
+        "🆔️ | @Eag1e_YT『🇩🇪⁹⁶』 § 25",
+        "🆔️ | @Eag1e_YT『🇩🇪⁹⁹』 § 26",
+        "🆔️ | @Eag1e_YT『🇩🇪⁷⁶』 § 27",
+        "🆔️ | @Eag1e_YT『🇩🇪³¹』 § 28",
+        "🆔️ | @Eag1e_YT『🇩🇪⁷』 § 29",
+        "🆔️ | @Eag1e_YT『🇩🇪⁵⁷』 § 30",
+        "_未知 § 31",
+        "_未知 § 32",
+        "_未知 § 33",
+        "🇸🇬_新加坡 § 34",
+        "🇷🇺_俄罗斯 § 35",
+        "🇺🇸_美国 § 36",
+        "_未知 § 37",
+        "_未知 § 38",
+        "_未知 § 39",
+        "🇺🇸_美国 § 40",
+        "_未知 § 41",
+        "🇺🇸_美国 § 42",
+        "[OpenRay] 🇧🇦 BA-2 § 43",
+        "[OpenRay] 🇨🇦 CA-12045 § 44",
+        "[OpenRay] Dynamic-13305 § 45",
+        "[OpenRay] Dynamic-11959 § 46",
+        "[OpenRay] 🇨🇦 CA-12178 § 47",
+        "[OpenRay] 🇨🇦 CA-12634 § 48",
+        "[OpenRay] 🇫🇷 FR-429 § 49",
+        "[OpenRay] 🇧🇦 BA-1 § 50",
+        "[OpenRay] 🇫🇷 FR-463 § 51",
+        "[OpenRay] Dynamic-12271 § 52",
+        "[OpenRay] 🇫🇮 FI-310 § 53",
+        "[OpenRay] 🇷🇺 RU-2376 § 54",
+        "[OpenRay] 🇫🇮 FI-251 § 55",
+        "[OpenRay] Dynamic-11672 § 56",
+        "[OpenRay] 🇨🇦 CA-12297 § 57",
+        "[OpenRay] Dynamic-13237 § 58",
+        "[OpenRay] 🇫🇮 FI-279 § 59",
+        "[OpenRay] 🇷🇺 RU-2412 § 60",
+        "[OpenRay] 🇺🇸 US-11240 § 61",
+        "[OpenRay] 🇰🇿 KZ-125 § 62",
+        "[OpenRay] 🇺🇸 US-11263 § 63",
+        "[OpenRay] 🇺🇸 US-11415 § 64",
+        "[OpenRay] Dynamic-11554 § 65",
+        "[OpenRay] Dynamic-13239 § 66",
+        "[OpenRay] 🇨🇦 CA-12383 § 67",
+        "[OpenRay] 🇨🇦 CA-11997 § 68",
+        "[OpenRay] 🇮🇳 IN-14 § 69",
+        "[OpenRay] 🇮🇳 IN-15 § 70",
+        "[OpenRay] 🇮🇳 IN-17 § 71",
+        "0607 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 72",
+        "0567 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 73",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-2605ms-Greenhost BV § 74",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-331ms-Greenhost BV § 75",
+        "0149 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 76",
+        "🇳🇱[openproxylist.com] ss-NL § 77",
+        "0186 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 78",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 79",
+        "0876 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 80",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 81",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-4809ms-Greenhost BV § 82",
+        "0237 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 83",
+        "https://t.me/ForceRunVPN-🇩🇪-FrankfurtamMain-1253ms-ALEXANDRU VLAD trading as FREAKHOSTING § 84",
+        "🇩🇪 Germany — #250 § 85",
+        "0344 | 🇳🇱 Netherlands | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 86",
+        "0614 | 🌐 Unknown | HYSTERIA2 | TG: @YoutubeUnBlockRu § 87",
+        "0345 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 88"
       ],
       "default": "auto"
     },
@@ -259,163 +229,95 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "???? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 25e52 § 0",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? fc45e § 1",
-        "???? NL 193.29.139.168 ? tcp:8080 ? Greenhost BV ? a7456 § 2",
-        "???? NL 193.29.139.132 ? tcp:8080 ? Greenhost BV ? 0365b § 3",
-        "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? 706b9 § 4",
-        "???? NL 193.29.139.168 ? tcp:8080 ? Greenhost BV ? eb151 § 5",
-        "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? f7bd5 § 6",
-        "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? b7ac6 § 7",
-        "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? f95f3 § 8",
-        "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? de5e9 § 9",
-        "???? NL 193.29.139.177 ? tcp:8080 ? Greenhost BV ? 0ef0e § 10",
-        "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? a6172 § 11",
-        "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? c00a3 § 12",
-        "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? 92f4a § 13",
-        "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? 15093 § 14",
-        "???? NL 193.29.139.240 ? tcp:8080 ? Greenhost BV ? d5c71 § 15",
-        "???? NL 193.29.139.202 ? tcp:8080 ? Greenhost BV ? 2b49e § 16",
-        "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? 07cb4 § 17",
-        "???? NL 193.29.139.141 ? tcp:8080 ? Greenhost BV ? 98450 § 18",
-        "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? 6833c § 19",
-        "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? 522ff § 20",
-        "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? 7865e § 21",
-        "???? NL 193.29.139.240 ? tcp:8080 ? Greenhost BV ? 89d0c § 22",
-        "???? FR 5.196.29.123 ? ws:2082 ? OVH ? 8b09b § 23",
-        "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? cca4b § 24",
-        "???? NL 193.29.139.160 ? tcp:8080 ? Greenhost BV ? b56fd § 25",
-        "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? 2ecef § 26",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 3cecb § 27",
-        "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? 65e2f § 28",
-        "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? 19f22 § 29",
-        "???? NL 193.29.139.235 ? tcp:8080 ? Greenhost BV ? 0bbd5 § 30",
-        "???? NL 193.29.139.132 ? tcp:8080 ? Greenhost BV ? 88110 § 31",
-        "???? NL 193.29.139.188 ? tcp:8080 ? Greenhost BV ? df72f § 32",
-        "???? NL 193.29.139.202 ? tcp:8080 ? Greenhost BV ? 771ee § 33",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? 7eb2e § 34",
-        "???? NL 193.29.139.209 ? tcp:8080 ? Greenhost BV ? 43b47 § 35",
-        "?????? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 4ac5b § 36",
-        "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? ea717 § 37",
-        "???? NL 193.29.139.177 ? tcp:8080 ? Greenhost BV ? 9a7b0 § 38",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? ebc5d § 39",
-        "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? ec22b § 40",
-        "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? e0f72 § 41",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 47bd2 § 42",
-        "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 60af9 § 43",
-        "???? NL 193.29.139.188 ? tcp:8080 ? Greenhost BV ? d0367 § 44",
-        "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? af0f1 § 45",
-        "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? 2b9df § 46",
-        "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? abfe9 § 47",
-        "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 1b111 § 48",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 1e781 § 49",
-        "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? eed2c § 50",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? e9a7b § 51",
-        "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? fa224 § 52",
-        "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? 4633e § 53",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? 2638e § 54",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? 82d2a § 55",
-        "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? db7b7 § 56",
-        "?????? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 4ac5b § 57",
-        "?????? PL 217.30.10.18 ? tcp:9031 ? Melbikomas UAB ? 9197f § 58",
-        "???? NL 193.29.139.141 ? tcp:8080 ? Greenhost BV ? a7f10 § 59",
-        "???? NL 208.67.105.196 ? tcp:42029 ? Des Equity / Serverion ? 13b45 § 60",
-        "???? RU 95.141.205.39 ? tcp:7557 ? \"SMART CENTER\" ? 4d817 § 61",
-        "???? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 25e52 § 62",
-        "?????? PL 217.30.10.18 ? tcp:9050 ? Melbikomas UAB ? c5785 § 63",
-        "???? RU 95.141.205.39 ? tcp:7557 ? \"SMART CENTER\" ? 560d5 § 64",
-        "???? NL 193.29.139.144 ? tcp:8080 ? Greenhost BV ? 1dc46 § 65",
-        "?????? PL 2.56.125.113 ? ws:2025 ? Stark Industries ? afa6e § 66",
-        "???? NL 193.29.139.251 ? tcp:8080 ? Greenhost BV ? 8ba56 § 67",
-        "?????? PL 217.30.10.18 ? tcp:9038 ? Melbikomas UAB ? c3755 § 68",
-        "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? 0f8a0 § 69",
-        "???? PL 2.56.125.113 ? ws:2025 ? Stark Industries ? 1ceb6 § 70",
-        "???? NL 208.67.105.196 ? tcp:42029 ? Des Equity / Serverion ? 07d52 § 71",
-        "???? NL 213.109.147.242 ? tcp:62685 ? BlueVPS OU ? 9f9f4 § 72",
-        "?????? PL 217.30.10.18 ? tcp:9079 ? Melbikomas UAB ? f8d9f § 73",
-        "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 50855 § 74",
-        "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 37cab § 75",
-        "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? aad9d § 76",
-        "?????? NL 109.201.152.181 ? tcp:443 ? NForce Entertainment B.V. / Customer 3015 ? 825f8 § 77",
-        "???? GB 141.98.101.178 ? tcp:443 ? M247 Europe SRL / M247 ? ea633 § 78",
-        "???? GB 141.98.101.178 ? tcp:443 ? M247 Europe SRL / M247 ? ea633 § 79",
-        "???? GB 141.98.101.182 ? tcp:443 ? M247 Europe SRL / M247 ? f48b5 § 80",
-        "???? GB 141.98.101.179 ? tcp:443 ? M247 Europe SRL / M247 ? 8dbeb § 81",
-        "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 10ead § 82",
-        "???? SE 212.113.102.67 ? ws:2025 ? xorek.cloud International ? b7537 § 83",
-        "?????? SE 212.113.102.67 ? ws:2025 ? xorek.cloud International ? 059b5 § 84",
-        "???? GB 141.98.101.182 ? tcp:443 ? M247 Europe SRL / M247 ? f48b5 § 85",
-        "???? NL 193.29.139.251 ? tcp:8080 ? Greenhost BV ? 24e57 § 86",
-        "???? GB 141.98.101.179 ? tcp:443 ? M247 Europe SRL / M247 ? 8dbeb § 87",
-        "?????? KZ 38.107.234.57 ? ws:80 ? Newserverlife / TOO Tol'ko litsenzionnyye produkty ? 836d7 § 88",
-        "?????? PL 217.30.10.18 ? tcp:9084 ? Melbikomas UAB ? e74d1 § 89",
-        "???? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 107ce § 90",
-        "?????? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 700f6 § 91",
-        "???? US 37.19.198.243 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? 84c86 § 92",
-        "???? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 107ce § 93",
-        "???? US 37.19.198.236 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? d6c05 § 94",
-        "???? US 37.19.198.244 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? d9bda § 95",
-        "???? US 37.19.198.160 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? 632e6 § 96",
-        "???? NL 179.61.219.170 ? tcp:22934 ? HOSTINGER NL ? 17807 § 97",
-        "?????? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 700f6 § 98",
-        "?????? HK 103.141.221.200 ? tcp:8388 ? Strong Worth Holdings Limited ? 45c41 § 99",
-        "?????? HK 103.149.182.191 ? tcp:8388 ? DALIAN YICHUAN INDUSTRIAL CO., LIMITED ? e3368 § 100",
-        "?????? HK 154.197.26.237 ? tcp:8388 ? SonderCloud Limited ? 44a8d § 101",
-        "?????? HK 103.149.183.10 ? tcp:8388 ? DALIAN YICHUAN INDUSTRIAL CO., LIMITED ? 5c1f2 § 102",
-        "???? CA 142.4.216.225 ? tcp:80 ? OVH, Inc. ? 72180 § 103",
-        "?????? PL 217.30.10.18 ? tcp:9093 ? Melbikomas UAB ? cabcd § 104",
-        "???? CA 142.4.216.225 ? tcp:80 ? OVH, Inc. ? 72180 § 105",
-        "???? CA 142.4.216.225 ? tcp:80 ? OVH, Inc. ? 8483e § 106",
-        "?????? DE 157.173.127.227 ? tcp:443 ? Contabo ? 596b9 § 107",
-        "???? US 156.146.38.169 ? tcp:443 ? Datacamp Limited ? b2fd5 § 108",
-        "???? US 156.146.38.168 ? tcp:443 ? Datacamp Limited ? 0b9ba § 109",
-        "???? US 156.146.38.170 ? tcp:443 ? Datacamp Limited ? 9a1f4 § 110",
-        "???? US 156.146.38.167 ? tcp:443 ? Datacamp Limited ? c0bdd § 111",
-        "?????? CN 137.175.97.159 ? tcp:8388 ? PEG TECH INC / Xiong Weng ? c1e9e § 112",
-        "???? CA 149.22.95.183 ? tcp:443 ? Datacamp Limited ? d6fc1 § 113",
-        "?????? CN 137.175.97.159 ? tcp:8388 ? PEG TECH INC / Xiong Weng ? c1e9e § 114",
-        "???? US 173.244.56.6 ? tcp:443 ? LogicWeb Inc. / Tesonet ? dfda8 § 115",
-        "???????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 4ca67 § 116",
-        "???????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 26f8c § 117",
-        "???????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 1fae6 § 118",
-        "?????? DE 157.173.127.233 ? tcp:443 ? Contabo ? 648ca § 119",
-        "???????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? dd21b § 120",
-        "???????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? 82a4c § 121",
-        "?????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? d1023 § 122",
-        "?????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 512eb § 123",
-        "?????? PL 217.30.10.18 ? tcp:9064 ? Melbikomas UAB ? 67923 § 124",
-        "???? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? 0ab4d § 125",
-        "?????? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? d707c § 126",
-        "???? VN 160.19.78.75 ? tcp:443 ? VNPT Corp / Minh Nhat Paper General Company Limited ? d79cb § 127",
-        "???? JP 149.22.87.241 ? tcp:443 ? Datacamp Limited ? d9cfa § 128",
-        "???? JP 149.22.87.204 ? tcp:443 ? Datacamp Limited ? 8a05a § 129",
-        "???? KR 146.56.112.110 ? tcp:8888 ? Oracle Cloud (ap-chuncheon-1) ? 35ce6 § 130",
-        "???? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? 0ab4d § 131",
-        "?????? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? d707c § 132",
-        "?????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? a7201 § 133",
-        "???? JP 149.22.87.240 ? tcp:443 ? Datacamp Limited ? 223d1 § 134",
-        "???? KR 146.56.112.110 ? tcp:8888 ? Oracle Cloud (ap-chuncheon-1) ? 35ce6 § 135",
-        "?????? PL 217.30.10.18 ? tcp:9018 ? Melbikomas UAB ? 46398 § 136",
-        "???? VN 160.19.78.75 ? tcp:443 ? VNPT Corp / Minh Nhat Paper General Company Limited ? 6623c § 137",
-        "?????? PL 217.30.10.18 ? tcp:9042 ? Melbikomas UAB ? ab32e § 138",
-        "???????? SG 38.180.249.177 ? tcp:8443 ? M247 Europe SRL / 3NT SOLUTIONS LLP ? c4862 § 139",
-        "?????? PL 217.30.10.18 ? tcp:9025 ? Melbikomas UAB ? acf73 § 140",
-        "?????? PL 217.30.10.18 ? tcp:9026 ? Melbikomas UAB ? 784d5 § 141",
-        "?????? CA 51.79.103.76 ? ws:80 ? OVH, Inc. ? f111c § 142",
-        "?????? DE 157.173.127.224 ? tcp:443 ? Contabo ? 6112f § 143",
-        "?????? PL 217.30.10.18 ? tcp:9037 ? Melbikomas UAB ? 5c63d § 144",
-        "?????? PL 217.30.10.18 ? tcp:9005 ? Melbikomas UAB ? 62f84 § 145",
-        "?????? PL 217.30.10.18 ? tcp:9041 ? Melbikomas UAB ? bf54d § 146",
-        "?????? PL 217.30.10.18 ? tcp:9045 ? Melbikomas UAB ? 7fbbb § 147",
-        "?????? PL 217.30.10.18 ? tcp:9040 ? Melbikomas UAB ? d2614 § 148",
-        "?????? PL 217.30.10.18 ? tcp:9020 ? Melbikomas UAB ? f4530 § 149",
-        "?????? PL 217.30.10.18 ? tcp:9027 ? Melbikomas UAB ? 7bba5 § 150",
-        "?????? PL 217.30.10.18 ? tcp:9033 ? Melbikomas UAB ? 9b7d1 § 151",
-        "?????? CA 51.79.103.76 ? ws:80 ? OVH, Inc. ? ee044 § 152",
-        "?????? PL 217.30.10.18 ? tcp:9094 ? Melbikomas UAB ? 471aa § 153",
-        "???? CA 51.79.103.76 ? ws:80 ? OVH, Inc. ? d9be1 § 154",
-        "?????? PL 217.30.10.18 ? tcp:9011 ? Melbikomas UAB ? 6caae § 155",
-        "?????? PL 217.30.10.18 ? tcp:9088 ? Melbikomas UAB ? c864f § 156"
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁰⁵』 § 0",
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁴⁰』 § 1",
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁹⁶』 § 2",
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴⁰』 § 3",
+        "🇬🇧 GB 141.98.101.179 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ 8dbeb § 4",
+        "🇺🇸_美国 § 5",
+        "🇬🇧 GB 141.98.101.182 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ f48b5 § 6",
+        "🇬🇧 GB 141.98.101.178 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ ea633 § 7",
+        "_未知 § 8",
+        "_未知 § 9",
+        "_未知 § 10",
+        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴³』 § 11",
+        "_未知 § 12",
+        "🇷🇺_俄罗斯 § 13",
+        "🚫🇭🇰 HK 103.149.183.10 ◈ tcp:8388 ◈ DALIAN YICHUAN INDUSTRIAL CO., LIMITED ◈ 5c1f2 § 14",
+        "🇷🇺_俄罗斯 § 15",
+        "🇰🇷_韩国 § 16",
+        "🚫🇭🇰 HK 103.141.221.200 ◈ tcp:8388 ◈ Strong Worth Holdings Limited ◈ 45c41 § 17",
+        "🆔️ | @Eag1e_YT『🇩🇪²⁰』 § 18",
+        "🆔️ | @Eag1e_YT『🇩🇪³』 § 19",
+        "🆔️ | @Eag1e_YT『🇩🇪⁹⁴』 § 20",
+        "🆔️ | @Eag1e_YT『🇨🇦¹⁰⁷』 § 21",
+        "🆔️ | @Eag1e_YT『🇩🇪⁷⁵』 § 22",
+        "🆔️ | @Eag1e_YT『🇩🇪¹⁰⁰』 § 23",
+        "🆔️ | @Eag1e_YT『🇩🇪⁴⁸』 § 24",
+        "🆔️ | @Eag1e_YT『🇩🇪⁹⁶』 § 25",
+        "🆔️ | @Eag1e_YT『🇩🇪⁹⁹』 § 26",
+        "🆔️ | @Eag1e_YT『🇩🇪⁷⁶』 § 27",
+        "🆔️ | @Eag1e_YT『🇩🇪³¹』 § 28",
+        "🆔️ | @Eag1e_YT『🇩🇪⁷』 § 29",
+        "🆔️ | @Eag1e_YT『🇩🇪⁵⁷』 § 30",
+        "_未知 § 31",
+        "_未知 § 32",
+        "_未知 § 33",
+        "🇸🇬_新加坡 § 34",
+        "🇷🇺_俄罗斯 § 35",
+        "🇺🇸_美国 § 36",
+        "_未知 § 37",
+        "_未知 § 38",
+        "_未知 § 39",
+        "🇺🇸_美国 § 40",
+        "_未知 § 41",
+        "🇺🇸_美国 § 42",
+        "[OpenRay] 🇧🇦 BA-2 § 43",
+        "[OpenRay] 🇨🇦 CA-12045 § 44",
+        "[OpenRay] Dynamic-13305 § 45",
+        "[OpenRay] Dynamic-11959 § 46",
+        "[OpenRay] 🇨🇦 CA-12178 § 47",
+        "[OpenRay] 🇨🇦 CA-12634 § 48",
+        "[OpenRay] 🇫🇷 FR-429 § 49",
+        "[OpenRay] 🇧🇦 BA-1 § 50",
+        "[OpenRay] 🇫🇷 FR-463 § 51",
+        "[OpenRay] Dynamic-12271 § 52",
+        "[OpenRay] 🇫🇮 FI-310 § 53",
+        "[OpenRay] 🇷🇺 RU-2376 § 54",
+        "[OpenRay] 🇫🇮 FI-251 § 55",
+        "[OpenRay] Dynamic-11672 § 56",
+        "[OpenRay] 🇨🇦 CA-12297 § 57",
+        "[OpenRay] Dynamic-13237 § 58",
+        "[OpenRay] 🇫🇮 FI-279 § 59",
+        "[OpenRay] 🇷🇺 RU-2412 § 60",
+        "[OpenRay] 🇺🇸 US-11240 § 61",
+        "[OpenRay] 🇰🇿 KZ-125 § 62",
+        "[OpenRay] 🇺🇸 US-11263 § 63",
+        "[OpenRay] 🇺🇸 US-11415 § 64",
+        "[OpenRay] Dynamic-11554 § 65",
+        "[OpenRay] Dynamic-13239 § 66",
+        "[OpenRay] 🇨🇦 CA-12383 § 67",
+        "[OpenRay] 🇨🇦 CA-11997 § 68",
+        "[OpenRay] 🇮🇳 IN-14 § 69",
+        "[OpenRay] 🇮🇳 IN-15 § 70",
+        "[OpenRay] 🇮🇳 IN-17 § 71",
+        "0607 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 72",
+        "0567 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 73",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-2605ms-Greenhost BV § 74",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-331ms-Greenhost BV § 75",
+        "0149 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 76",
+        "🇳🇱[openproxylist.com] ss-NL § 77",
+        "0186 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 78",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 79",
+        "0876 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 80",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 81",
+        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-4809ms-Greenhost BV § 82",
+        "0237 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 83",
+        "https://t.me/ForceRunVPN-🇩🇪-FrankfurtamMain-1253ms-ALEXANDRU VLAD trading as FREAKHOSTING § 84",
+        "🇩🇪 Germany — #250 § 85",
+        "0344 | 🇳🇱 Netherlands | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 86",
+        "0614 | 🌐 Unknown | HYSTERIA2 | TG: @YoutubeUnBlockRu § 87",
+        "0345 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 88"
       ],
       "url": "http://cp.cloudflare.com",
       "interval": "10m0s",
@@ -424,708 +326,118 @@
     },
     {
       "type": "trojan",
-      "tag": "???? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 25e52 § 0",
-      "server": "62.133.60.83",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "dns.google.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? fc45e § 1",
-      "server": "193.29.139.162",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.168 ? tcp:8080 ? Greenhost BV ? a7456 § 2",
-      "server": "45.87.175.65",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.132 ? tcp:8080 ? Greenhost BV ? 0365b § 3",
-      "server": "45.87.175.35",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? 706b9 § 4",
-      "server": "193.29.139.217",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.168 ? tcp:8080 ? Greenhost BV ? eb151 § 5",
-      "server": "193.29.139.168",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? f7bd5 § 6",
-      "server": "193.29.139.179",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? b7ac6 § 7",
-      "server": "193.29.139.164",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? f95f3 § 8",
-      "server": "193.29.139.227",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? de5e9 § 9",
-      "server": "193.29.139.179",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.177 ? tcp:8080 ? Greenhost BV ? 0ef0e § 10",
-      "server": "193.29.139.177",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? a6172 § 11",
-      "server": "193.29.139.227",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? c00a3 § 12",
-      "server": "193.29.139.217",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? 92f4a § 13",
-      "server": "193.29.139.189",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? 15093 § 14",
-      "server": "193.29.139.179",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.240 ? tcp:8080 ? Greenhost BV ? d5c71 § 15",
-      "server": "45.158.171.66",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.202 ? tcp:8080 ? Greenhost BV ? 2b49e § 16",
-      "server": "45.87.175.69",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? 07cb4 § 17",
-      "server": "193.29.139.217",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.141 ? tcp:8080 ? Greenhost BV ? 98450 § 18",
-      "server": "45.87.175.22",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? 6833c § 19",
-      "server": "193.29.139.206",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? 522ff § 20",
-      "server": "193.29.139.164",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? 7865e § 21",
-      "server": "193.29.139.164",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.240 ? tcp:8080 ? Greenhost BV ? 89d0c § 22",
-      "server": "193.29.139.240",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "vmess",
-      "tag": "???? FR 5.196.29.123 ? ws:2082 ? OVH ? 8b09b § 23",
-      "server": "5.196.29.123",
-      "server_port": 2082,
-      "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? cca4b § 24",
-      "server": "193.29.139.175",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.160 ? tcp:8080 ? Greenhost BV ? b56fd § 25",
-      "server": "193.29.139.160",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? 2ecef § 26",
-      "server": "193.29.139.189",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 3cecb § 27",
-      "server": "193.29.139.162",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? 65e2f § 28",
-      "server": "193.29.139.227",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? 19f22 § 29",
-      "server": "193.29.139.175",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.235 ? tcp:8080 ? Greenhost BV ? 0bbd5 § 30",
-      "server": "193.29.139.235",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.132 ? tcp:8080 ? Greenhost BV ? 88110 § 31",
-      "server": "193.29.139.132",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.188 ? tcp:8080 ? Greenhost BV ? df72f § 32",
-      "server": "45.87.175.58",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.202 ? tcp:8080 ? Greenhost BV ? 771ee § 33",
-      "server": "193.29.139.202",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? 7eb2e § 34",
-      "server": "193.29.139.157",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.209 ? tcp:8080 ? Greenhost BV ? 43b47 § 35",
-      "server": "193.29.139.209",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "trojan",
-      "tag": "?????? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 4ac5b § 36",
-      "server": "62.133.60.83",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? ea717 § 37",
-      "server": "193.29.139.206",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.177 ? tcp:8080 ? Greenhost BV ? 9a7b0 § 38",
-      "server": "45.87.175.92",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? ebc5d § 39",
-      "server": "193.29.139.157",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.217 ? tcp:8080 ? Greenhost BV ? ec22b § 40",
-      "server": "193.29.139.217",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.179 ? tcp:8080 ? Greenhost BV ? e0f72 § 41",
-      "server": "193.29.139.179",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 47bd2 § 42",
-      "server": "193.29.139.162",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 60af9 § 43",
-      "server": "193.29.139.143",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.188 ? tcp:8080 ? Greenhost BV ? d0367 § 44",
-      "server": "193.29.139.188",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.164 ? tcp:8080 ? Greenhost BV ? af0f1 § 45",
-      "server": "193.29.139.164",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? 2b9df § 46",
-      "server": "193.29.139.175",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? abfe9 § 47",
-      "server": "193.29.139.206",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 1b111 § 48",
-      "server": "193.29.139.143",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 1e781 § 49",
-      "server": "193.29.139.162",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? eed2c § 50",
-      "server": "193.29.139.189",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? e9a7b § 51",
-      "server": "45.158.171.146",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.227 ? tcp:8080 ? Greenhost BV ? fa224 § 52",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.175 ? tcp:8080 ? Greenhost BV ? 4633e § 53",
-      "server": "193.29.139.175",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? 2638e § 54",
-      "server": "193.29.139.157",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? 82d2a § 55",
-      "server": "45.158.171.146",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.206 ? tcp:8080 ? Greenhost BV ? db7b7 § 56",
-      "server": "193.29.139.206",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "trojan",
-      "tag": "?????? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 4ac5b § 57",
-      "server": "62.133.60.83",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9031 ? Melbikomas UAB ? 9197f § 58",
-      "server": "217.30.10.18",
-      "server_port": 9031,
-      "method": "aes-256-cfb",
-      "password": "BwcAUZk8hUFAkDGN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.141 ? tcp:8080 ? Greenhost BV ? a7f10 § 59",
-      "server": "193.29.139.141",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 208.67.105.196 ? tcp:42029 ? Des Equity / Serverion ? 13b45 § 60",
-      "server": "208.67.105.196",
-      "server_port": 42029,
-      "method": "chacha20-ietf-poly1305",
-      "password": "SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD"
-    },
-    {
-      "type": "vless",
-      "tag": "???? RU 95.141.205.39 ? tcp:7557 ? \"SMART CENTER\" ? 4d817 § 61",
-      "server": "95.141.205.39",
-      "server_port": 7557,
-      "uuid": "2e3bb27c-ab28-4ddb-9e33-7c5874b4d25a",
-      "transport": {
-        "type": "http",
-        "host": "web.telegram.org",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "???? DE 62.133.60.83 ? ws:2025 ? Global ConnectivityLLP / Global Internet ? 25e52 § 62",
-      "server": "62.133.60.83",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "dns.google.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9050 ? Melbikomas UAB ? c5785 § 63",
-      "server": "217.30.10.18",
-      "server_port": 9050,
-      "method": "aes-256-cfb",
-      "password": "FG5ddLsMPbV5CutE"
-    },
-    {
-      "type": "vless",
-      "tag": "???? RU 95.141.205.39 ? tcp:7557 ? \"SMART CENTER\" ? 560d5 § 64",
-      "server": "95.141.205.39",
-      "server_port": 7557,
-      "uuid": "2e3bb27c-ab28-4ddb-9e33-7c5874b4d25a",
-      "transport": {
-        "type": "http",
-        "host": "dns.google.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.144 ? tcp:8080 ? Greenhost BV ? 1dc46 § 65",
-      "server": "193.29.139.144",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "trojan",
-      "tag": "?????? PL 2.56.125.113 ? ws:2025 ? Stark Industries ? afa6e § 66",
-      "server": "2.56.125.113",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.251 ? tcp:8080 ? Greenhost BV ? 8ba56 § 67",
-      "server": "45.87.175.10",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9038 ? Melbikomas UAB ? c3755 § 68",
-      "server": "217.30.10.18",
-      "server_port": 9038,
-      "method": "aes-256-cfb",
-      "password": "gYCYXfkUQEs2TaJQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.189 ? tcp:8080 ? Greenhost BV ? 0f8a0 § 69",
-      "server": "193.29.139.189",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "trojan",
-      "tag": "???? PL 2.56.125.113 ? ws:2025 ? Stark Industries ? 1ceb6 § 70",
-      "server": "2.56.125.113",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "dns.google.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 208.67.105.196 ? tcp:42029 ? Des Equity / Serverion ? 07d52 § 71",
-      "server": "my.noisydeysy.monster",
-      "server_port": 42029,
-      "method": "chacha20-ietf-poly1305",
-      "password": "SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 213.109.147.242 ? tcp:62685 ? BlueVPS OU ? 9f9f4 § 72",
-      "server": "213.109.147.242",
-      "server_port": 62685,
-      "method": "chacha20-ietf-poly1305",
-      "password": "VpKABcOpNNA0l5G2AVOmw8"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9079 ? Melbikomas UAB ? f8d9f § 73",
-      "server": "217.30.10.18",
-      "server_port": 9079,
-      "method": "aes-256-cfb",
-      "password": "TPqX8edgbAURcAMb"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.162 ? tcp:8080 ? Greenhost BV ? 50855 § 74",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 37cab § 75",
-      "server": "193.29.139.143",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.157 ? tcp:8080 ? Greenhost BV ? aad9d § 76",
-      "server": "45.158.171.146",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? NL 109.201.152.181 ? tcp:443 ? NForce Entertainment B.V. / Customer 3015 ? 825f8 § 77",
-      "server": "109.201.152.181",
+      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁰⁵』 § 0",
+      "server": "188.114.98.0",
       "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.creationlong.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.creationlong.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁴⁰』 § 1",
+      "server": "206.71.158.37",
+      "server_port": 36600,
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁹⁶』 § 2",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴⁰』 § 3",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.creationlong.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.creationlong.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "shadowsocks",
-      "tag": "???? GB 141.98.101.178 ? tcp:443 ? M247 Europe SRL / M247 ? ea633 § 78",
-      "server": "141.98.101.178",
+      "tag": "🇬🇧 GB 141.98.101.179 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ 8dbeb § 4",
+      "server": "141.98.101.179",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
     },
     {
-      "type": "shadowsocks",
-      "tag": "???? GB 141.98.101.178 ? tcp:443 ? M247 Europe SRL / M247 ? ea633 § 79",
-      "server": "141.98.101.178",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "type": "trojan",
+      "tag": "🇺🇸_美国 § 5",
+      "server": "v3.dabache.top",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
+      "tls": {
+        "enabled": true,
+        "server_name": "sweden.vmaxpanel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/amd",
+        "headers": {
+          "Host": "sweden.vmaxpanel.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "shadowsocks",
-      "tag": "???? GB 141.98.101.182 ? tcp:443 ? M247 Europe SRL / M247 ? f48b5 § 80",
+      "tag": "🇬🇧 GB 141.98.101.182 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ f48b5 § 6",
       "server": "141.98.101.182",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -1133,358 +445,207 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "???? GB 141.98.101.179 ? tcp:443 ? M247 Europe SRL / M247 ? 8dbeb § 81",
-      "server": "141.98.101.179",
+      "tag": "🇬🇧 GB 141.98.101.178 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ ea633 § 7",
+      "server": "141.98.101.178",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
     },
     {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.143 ? tcp:8080 ? Greenhost BV ? 10ead § 82",
-      "server": "193.29.139.143",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
       "type": "trojan",
-      "tag": "???? SE 212.113.102.67 ? ws:2025 ? xorek.cloud International ? b7537 § 83",
-      "server": "212.113.102.67",
-      "server_port": 2025,
-      "password": "testme",
+      "tag": "_未知 § 8",
+      "server": "vip3.kaixincloud.top",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
+      "tls": {
+        "enabled": true,
+        "server_name": "sweden.vmaxpanel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/amd",
         "headers": {
-          "Host": "dns.google.com"
+          "Host": "sweden.vmaxpanel.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "trojan",
-      "tag": "?????? SE 212.113.102.67 ? ws:2025 ? xorek.cloud International ? 059b5 § 84",
-      "server": "212.113.102.67",
-      "server_port": 2025,
-      "password": "testme",
+      "tag": "_未知 § 9",
+      "server": "vip1.kaixincloud.top",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
+      "tls": {
+        "enabled": true,
+        "server_name": "sweden.vmaxpanel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/amd",
         "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+          "Host": "sweden.vmaxpanel.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "???? GB 141.98.101.182 ? tcp:443 ? M247 Europe SRL / M247 ? f48b5 § 85",
-      "server": "141.98.101.182",
+      "type": "trojan",
+      "tag": "_未知 § 10",
+      "server": "vip2.kaixincloud.top",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
+      "tls": {
+        "enabled": true,
+        "server_name": "sweden.vmaxpanel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/amd",
+        "headers": {
+          "Host": "sweden.vmaxpanel.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴³』 § 11",
+      "server": "172.64.152.23",
       "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
-      "type": "shadowsocks",
-      "tag": "???? NL 193.29.139.251 ? tcp:8080 ? Greenhost BV ? 24e57 § 86",
-      "server": "193.29.139.251",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? GB 141.98.101.179 ? tcp:443 ? M247 Europe SRL / M247 ? 8dbeb § 87",
-      "server": "141.98.101.179",
+      "type": "vless",
+      "tag": "_未知 § 12",
+      "server": "vip3.kaixincloud.top",
       "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "apii.onlineshoppingez.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/O1w0n3vYgFKYs7EzNAvLPvOp",
+        "headers": {
+          "Host": "apii.onlineshoppingez.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "?????? KZ 38.107.234.57 ? ws:80 ? Newserverlife / TOO Tol'ko litsenzionnyye produkty ? 836d7 § 88",
-      "server": "3h-kazakhstan1.09vpn.com",
+      "type": "vless",
+      "tag": "🇷🇺_俄罗斯 § 13",
+      "server": "nl-90w-c.southnetworks.cloud",
       "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "uuid": "e08f1ad7-0c60-446d-baec-08b3b69bb3d0",
       "transport": {
         "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        },
+        "path": "/getWorkerUpdates",
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9084 ? Melbikomas UAB ? e74d1 § 89",
-      "server": "217.30.10.18",
-      "server_port": 9084,
-      "method": "aes-256-cfb",
-      "password": "c3NtHJ5ujV2tGDfj"
-    },
-    {
-      "type": "trojan",
-      "tag": "???? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 107ce § 90",
-      "server": "45.82.14.144",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "dns.google.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "?????? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 700f6 § 91",
-      "server": "45.82.14.144",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? US 37.19.198.243 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? 84c86 § 92",
-      "server": "37.19.198.243",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "trojan",
-      "tag": "???? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 107ce § 93",
-      "server": "45.82.14.144",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "dns.google.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? US 37.19.198.236 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? d6c05 § 94",
-      "server": "37.19.198.236",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? US 37.19.198.244 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? d9bda § 95",
-      "server": "37.19.198.244",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? US 37.19.198.160 ? tcp:443 ? Datacamp Limited / Cdnext NYC ? 632e6 § 96",
-      "server": "37.19.198.160",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "vless",
-      "tag": "???? NL 179.61.219.170 ? tcp:22934 ? HOSTINGER NL ? 17807 § 97",
-      "server": "179.61.219.170",
-      "server_port": 22934,
-      "uuid": "0cd276a5-4501-413a-acf8-b51c54894f02",
+      },
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "?????? KZ 45.82.14.144 ? ws:2025 ? TimeWeb Ltd. ? 700f6 § 98",
-      "server": "45.82.14.144",
-      "server_port": 2025,
-      "password": "vpn",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "?????? HK 103.141.221.200 ? tcp:8388 ? Strong Worth Holdings Limited ? 45c41 § 99",
-      "server": "103.141.221.200",
-      "server_port": 8388,
-      "method": "chacha20-ietf",
-      "password": "asd123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? HK 103.149.182.191 ? tcp:8388 ? DALIAN YICHUAN INDUSTRIAL CO., LIMITED ? e3368 § 100",
-      "server": "103.149.182.191",
-      "server_port": 8388,
-      "method": "chacha20-ietf",
-      "password": "asd123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? HK 154.197.26.237 ? tcp:8388 ? SonderCloud Limited ? 44a8d § 101",
-      "server": "154.197.26.237",
-      "server_port": 8388,
-      "method": "chacha20-ietf",
-      "password": "asd123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? HK 103.149.183.10 ? tcp:8388 ? DALIAN YICHUAN INDUSTRIAL CO., LIMITED ? 5c1f2 § 102",
+      "tag": "🚫🇭🇰 HK 103.149.183.10 ◈ tcp:8388 ◈ DALIAN YICHUAN INDUSTRIAL CO., LIMITED ◈ 5c1f2 § 14",
       "server": "103.149.183.10",
       "server_port": 8388,
       "method": "chacha20-ietf",
       "password": "asd123456"
     },
     {
-      "type": "shadowsocks",
-      "tag": "???? CA 142.4.216.225 ? tcp:80 ? OVH, Inc. ? 72180 § 103",
-      "server": "142.4.216.225",
+      "type": "vless",
+      "tag": "🇷🇺_俄罗斯 § 15",
+      "server": "nl-78w-c.southnetworks.cloud",
       "server_port": 80,
-      "method": "chacha20-ietf-poly1305",
-      "password": "JIhN6rBKkaEboLNXVSv5rq"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9093 ? Melbikomas UAB ? cabcd § 104",
-      "server": "217.30.10.18",
-      "server_port": 9093,
-      "method": "aes-256-cfb",
-      "password": "wfLC2y7rzZyCmuyt"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? CA 142.4.216.225 ? tcp:80 ? OVH, Inc. ? 72180 § 105",
-      "server": "142.4.216.225",
-      "server_port": 80,
-      "method": "chacha20-ietf-poly1305",
-      "password": "JIhN6rBKkaEboLNXVSv5rq"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? CA 142.4.216.225 ? tcp:80 ? OVH, Inc. ? 8483e § 106",
-      "server": "ca225.vpnbook.com",
-      "server_port": 80,
-      "method": "chacha20-ietf-poly1305",
-      "password": "JIhN6rBKkaEboLNXVSv5rq"
+      "uuid": "094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa",
+      "transport": {
+        "type": "ws",
+        "path": "/getWorkerUpdates",
+        "headers": {
+          "Host": "nl-78w-c.southnetworks.cloud"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "?????? DE 157.173.127.227 ? tcp:443 ? Contabo ? 596b9 § 107",
-      "server": "unique.bitiboot.com",
-      "server_port": 443,
-      "uuid": "7bda027c-cbc8-488f-864f-cfb415cd8d77",
+      "tag": "🇰🇷_韩国 § 16",
+      "server": "146.56.99.22",
+      "server_port": 20443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
         "enabled": true,
-        "server_name": "analytics.google.com",
+        "server_name": "sni.jpmj.dev",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg",
-          "short_id": "40e3350da285"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=",
+        "headers": {
+          "Host": "sni.jpmj.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
-      "tag": "???? US 156.146.38.169 ? tcp:443 ? Datacamp Limited ? b2fd5 § 108",
-      "server": "156.146.38.169",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? US 156.146.38.168 ? tcp:443 ? Datacamp Limited ? 0b9ba § 109",
-      "server": "156.146.38.168",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? US 156.146.38.170 ? tcp:443 ? Datacamp Limited ? 9a1f4 § 110",
-      "server": "156.146.38.170",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? US 156.146.38.167 ? tcp:443 ? Datacamp Limited ? c0bdd § 111",
-      "server": "156.146.38.167",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? CN 137.175.97.159 ? tcp:8388 ? PEG TECH INC / Xiong Weng ? c1e9e § 112",
-      "server": "137.175.97.159",
+      "tag": "🚫🇭🇰 HK 103.141.221.200 ◈ tcp:8388 ◈ Strong Worth Holdings Limited ◈ 45c41 § 17",
+      "server": "103.141.221.200",
       "server_port": 8388,
       "method": "chacha20-ietf",
       "password": "asd123456"
     },
     {
-      "type": "shadowsocks",
-      "tag": "???? CA 149.22.95.183 ? tcp:443 ? Datacamp Limited ? d6fc1 § 113",
-      "server": "149.22.95.183",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? CN 137.175.97.159 ? tcp:8388 ? PEG TECH INC / Xiong Weng ? c1e9e § 114",
-      "server": "137.175.97.159",
-      "server_port": 8388,
-      "method": "chacha20-ietf",
-      "password": "asd123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? US 173.244.56.6 ? tcp:443 ? LogicWeb Inc. / Tesonet ? dfda8 § 115",
-      "server": "173.244.56.6",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
       "type": "vless",
-      "tag": "???????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 4ca67 § 116",
-      "server": "92.118.228.154",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪²⁰』 § 18",
+      "server": "nodejs.org",
       "server_port": 443,
-      "uuid": "8250d638-45df-41fa-b06f-160d1cb1de0c",
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
       "tls": {
         "enabled": true,
-        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+        "server_name": "dev.nestandneighbours.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1492,9 +653,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/YnqGMcAt/",
+        "path": "/",
         "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+          "Host": "dev.nestandneighbours.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1502,13 +663,13 @@
     },
     {
       "type": "vless",
-      "tag": "???????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 26f8c § 117",
-      "server": "92.118.228.154",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪³』 § 19",
+      "server": "nodejs.org",
       "server_port": 443,
-      "uuid": "8250d638-45df-41fa-b06f-160d1cb1de0c",
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
       "tls": {
         "enabled": true,
-        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+        "server_name": "dev.nestandneighbours.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1516,9 +677,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/YnqGMcAt/",
+        "path": "/",
         "headers": {
-          "Host": "abc.vpneee.top"
+          "Host": "dev.nestandneighbours.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1526,13 +687,13 @@
     },
     {
       "type": "vless",
-      "tag": "???????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 1fae6 § 118",
-      "server": "92.118.228.154",
-      "server_port": 443,
-      "uuid": "8250d638-45df-41fa-b06f-160d1cb1de0c",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁹⁴』 § 20",
+      "server": "delilah.ns.cloudflare.com",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
       "tls": {
         "enabled": true,
-        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+        "server_name": "hetz.x-smm.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1540,9 +701,56 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/YnqGMcAt/",
+        "path": "/45.76.183.217=49292",
         "headers": {
-          "Host": "vkvd127.mycdn.me"
+          "Host": "hetz.x-smm.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "🆔️ | @Eag1e_YT『🇨🇦¹⁰⁷』 § 21",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁷⁵』 § 22",
+      "server": "clyde.ns.cloudflare.com",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "tls": {
+        "enabled": true,
+        "server_name": "hetz.x-smm.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/45.76.183.217=49292",
+        "headers": {
+          "Host": "hetz.x-smm.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1550,106 +758,37 @@
     },
     {
       "type": "vless",
-      "tag": "?????? DE 157.173.127.233 ? tcp:443 ? Contabo ? 648ca § 119",
-      "server": "157.173.127.233",
-      "server_port": 443,
-      "uuid": "17a6e953-8fac-428c-b86c-8585722b0b52",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪¹⁰⁰』 § 23",
+      "server": "norman.ns.cloudflare.com",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
       "tls": {
         "enabled": true,
-        "server_name": "analytics.google.com",
+        "server_name": "hetz.x-smm.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MbTwpwMFXu8duJgVMb_jFpqEuopSWJW1FPH_D6fZAEM",
-          "short_id": "1f"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/45.76.183.217=49292",
+        "headers": {
+          "Host": "hetz.x-smm.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
-      "tag": "???????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? dd21b § 120",
-      "server": "67.220.72.41",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁴⁸』 § 24",
+      "server": "104.18.32.47",
       "server_port": 443,
-      "password": "sharevpn",
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "host": "babybaby.canyou.see",
-        "path": "/trojan_user"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "???????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? 82a4c § 121",
-      "server": "tlsh2ss.mynode.work.gd",
-      "server_port": 443,
-      "password": "sharevpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "host": "babybaby.canyou.see",
-        "path": "/trojan_user"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "?????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? d1023 § 122",
-      "server": "67.220.72.41",
-      "server_port": 443,
-      "password": "sharevpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "tlsh2ss.mynode.work.gd",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "host": "babybaby.canyou.see",
-        "path": "/trojan_user"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "?????? US 92.118.228.154 ? ws:443 ? Sriyaan Technologies / Sriyaan technology ? 512eb § 123",
-      "server": "92.118.228.154",
-      "server_port": 443,
-      "uuid": "8250d638-45df-41fa-b06f-160d1cb1de0c",
-      "tls": {
-        "enabled": true,
-        "server_name": "abc.vpneee.top",
+        "server_name": "www.calmlunch.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1657,9 +796,80 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/YnqGMcAt/",
+        "path": "/assignment",
         "headers": {
-          "Host": "abc.vpneee.top"
+          "Host": "www.calmlunch.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁹⁶』 § 25",
+      "server": "betty.ns.cloudflare.com",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "tls": {
+        "enabled": true,
+        "server_name": "hetz.x-smm.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/45.76.183.217=49292",
+        "headers": {
+          "Host": "hetz.x-smm.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁹⁹』 § 26",
+      "server": "clyde.ns.cloudflare.com",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "tls": {
+        "enabled": true,
+        "server_name": "hetz.x-smm.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/45.76.183.217=49292",
+        "headers": {
+          "Host": "hetz.x-smm.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁷⁶』 § 27",
+      "server": "norman.ns.cloudflare.com",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "tls": {
+        "enabled": true,
+        "server_name": "hetz.x-smm.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/45.76.183.217=49292",
+        "headers": {
+          "Host": "hetz.x-smm.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1667,364 +877,1072 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9064 ? Melbikomas UAB ? 67923 § 124",
-      "server": "217.30.10.18",
-      "server_port": 9064,
-      "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
-    },
-    {
-      "type": "vmess",
-      "tag": "???? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? 0ab4d § 125",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "?????? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? d707c § 126",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? VN 160.19.78.75 ? tcp:443 ? VNPT Corp / Minh Nhat Paper General Company Limited ? d79cb § 127",
-      "server": "arxfw2b78fi2q9hzylhn.freesocks.work",
-      "server_port": 443,
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪³¹』 § 28",
+      "server": "82.38.31.89",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "Nk9asglDzHzjktVzTkvhaA"
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
-      "type": "shadowsocks",
-      "tag": "???? JP 149.22.87.241 ? tcp:443 ? Datacamp Limited ? d9cfa § 128",
-      "server": "149.22.87.241",
+      "type": "trojan",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁷』 § 29",
+      "server": "172.64.152.23",
       "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? JP 149.22.87.204 ? tcp:443 ? Datacamp Limited ? 8a05a § 129",
-      "server": "149.22.87.204",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "vmess",
-      "tag": "???? KR 146.56.112.110 ? tcp:8888 ? Oracle Cloud (ap-chuncheon-1) ? 35ce6 § 130",
-      "server": "146.56.112.110",
-      "server_port": 8888,
-      "uuid": "e7c302f3-90d6-42dd-9d7d-94a3683a3707",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "???? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? 0ab4d § 131",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.creationlong.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "?????? CA 51.79.102.253 ? ws:80 ? OVH, Inc. ? d707c § 132",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "path": "/assignment",
         "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+          "Host": "www.creationlong.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "trojan",
-      "tag": "?????? US 67.220.72.41 ? http:443 ? GTHost / objx.net ? a7201 § 133",
-      "server": "tlsh2ss.mynode.work.gd",
-      "server_port": 443,
-      "password": "sharevpn",
-      "tls": {
-        "enabled": true,
-        "disable_sni": true,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "http",
-        "host": "babybaby.canyou.see",
-        "path": "/trojan_user"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? JP 149.22.87.240 ? tcp:443 ? Datacamp Limited ? 223d1 § 134",
-      "server": "149.22.87.240",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "vmess",
-      "tag": "???? KR 146.56.112.110 ? tcp:8888 ? Oracle Cloud (ap-chuncheon-1) ? 35ce6 § 135",
-      "server": "146.56.112.110",
-      "server_port": 8888,
-      "uuid": "e7c302f3-90d6-42dd-9d7d-94a3683a3707",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9018 ? Melbikomas UAB ? 46398 § 136",
-      "server": "217.30.10.18",
-      "server_port": 9018,
-      "method": "aes-256-cfb",
-      "password": "fG2artUmHfNT2cX7"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "???? VN 160.19.78.75 ? tcp:443 ? VNPT Corp / Minh Nhat Paper General Company Limited ? 6623c § 137",
-      "server": "160.19.78.75",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Nk9asglDzHzjktVzTkvhaA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9042 ? Melbikomas UAB ? ab32e § 138",
-      "server": "217.30.10.18",
-      "server_port": 9042,
-      "method": "aes-256-cfb",
-      "password": "S7KwUu7yBy58S3Ga"
-    },
-    {
-      "type": "trojan",
-      "tag": "???????? SG 38.180.249.177 ? tcp:8443 ? M247 Europe SRL / 3NT SOLUTIONS LLP ? c4862 § 139",
-      "server": "38.180.249.177",
+      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁵⁷』 § 30",
+      "server": "v1.dabache.top",
       "server_port": 8443,
-      "password": "installshield",
+      "password": "T9BpZIVMNv",
       "tls": {
         "enabled": true,
-        "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+        "server_name": "sweden.vmaxpanel.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/amd",
+        "headers": {
+          "Host": "sweden.vmaxpanel.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9025 ? Melbikomas UAB ? acf73 § 140",
-      "server": "217.30.10.18",
-      "server_port": 9025,
-      "method": "aes-256-cfb",
-      "password": "XPtzA9sCug3SPR4c"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9026 ? Melbikomas UAB ? 784d5 § 141",
-      "server": "217.30.10.18",
-      "server_port": 9026,
-      "method": "aes-256-cfb",
-      "password": "QWDDvVE9npNurQfA"
-    },
-    {
-      "type": "vmess",
-      "tag": "?????? CA 51.79.103.76 ? ws:80 ? OVH, Inc. ? f111c § 142",
-      "server": "51.79.103.76",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "type": "trojan",
+      "tag": "_未知 § 31",
+      "server": "www.creationlong.org",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.creationlong.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "path": "/assignment",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "_未知 § 32",
+      "server": "162.159.36.5",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
+      "tls": {
+        "enabled": true,
+        "server_name": "sweden.vmaxpanel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/amd",
         "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+          "Host": "sweden.vmaxpanel.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "_未知 § 33",
+      "server": "www.calmlunch.com",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "vless",
-      "tag": "?????? DE 157.173.127.224 ? tcp:443 ? Contabo ? 6112f § 143",
-      "server": "employ.bitiboot.com",
-      "server_port": 443,
-      "uuid": "bec44ac3-a662-4179-a9dd-2aa881706dde",
+      "tag": "🇸🇬_新加坡 § 34",
+      "server": "151.101.9.80",
+      "server_port": 80,
+      "uuid": "5a1d2c0c-abfa-4050-918f-bfab3eaee62a",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "adspeedx23.global.ssl.fastly.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺_俄罗斯 § 35",
+      "server": "193.163.203.36",
+      "server_port": 18570,
+      "uuid": "88e148ba-1e39-45e9-8aef-6b207411435a",
       "tls": {
         "enabled": true,
-        "server_name": "analytics.google.com",
+        "disable_sni": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 36",
+      "server": "192.200.160.228",
+      "server_port": 2083,
+      "uuid": "9f846e5c-56f9-4670-8be2-5b00d2a107c0",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.elterido.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api03",
+        "headers": {
+          "Host": "de.elterido.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "_未知 § 37",
+      "server": "mkouy.99890604.xyz",
+      "server_port": 443,
+      "password": "5196aae7-1479-4f3c-978b-68e74977b509",
+      "tls": {
+        "enabled": true,
+        "server_name": "mkouy.99890604.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/mSZVb4DmOGWZIKMBivnR3",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "_未知 § 38",
+      "server": "jjjiu.99890604.xyz",
+      "server_port": 443,
+      "uuid": "5196aae7-1479-4f3c-978b-68e74977b509",
+      "tls": {
+        "enabled": true,
+        "server_name": "jjjiu.99890604.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vzwyBIUYH4vYIKMBivnR3",
+        "headers": {
+          "Host": "jjjiu.99890604.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "_未知 § 39",
+      "server": "mkouy.99890604.xyz",
+      "server_port": 443,
+      "password": "5196aae7-1479-4f3c-978b-68e74977b509",
+      "tls": {
+        "enabled": true,
+        "server_name": "mkouy.99890604.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/mSZVb4DmOGWZIKMBivnR3",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸_美国 § 40",
+      "server": "vvvbbbnhj.taipei102.indevs.in",
+      "server_port": 443,
+      "password": "2bfe58f7-da1d-45df-ab43-7c665b20ee29",
+      "tls": {
+        "enabled": true,
+        "server_name": "vvvbbbnhj.taipei102.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/2cO5FH0xUmT9oqnbBhmKb8nOkg",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "_未知 § 41",
+      "server": "gggbnh.www890604.dpdns.org",
+      "server_port": 443,
+      "password": "2bfe58f7-da1d-45df-ab43-7c665b20ee29",
+      "tls": {
+        "enabled": true,
+        "server_name": "gggbnh.www890604.dpdns.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/2cO5FH0xUmT9oqnbBhmKb8nOkg",
+        "headers": {
+          "Host": "gggbnh.www890604.dpdns.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 42",
+      "server": "69.84.182.13",
+      "server_port": 443,
+      "uuid": "da793913-33ef-45c0-806d-f23644c555f2",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp1-jp1.aiopen.sbs",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/kbjc/jp1",
+        "headers": {
+          "Host": "jp1-jp1.aiopen.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇧🇦 BA-2 § 43",
+      "server": "45.15.178.124",
+      "server_port": 80,
+      "uuid": "75e1fde7-6bf6-48ef-ba43-400e960e185b",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] 🇨🇦 CA-12045 § 44",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-13305 § 45",
+      "server": "www.calmlunch.com",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-11959 § 46",
+      "server": "www.calmlunch.com",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] 🇨🇦 CA-12178 § 47",
+      "server": "188.114.96.3",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-12634 § 48",
+      "server": "z1.n1server.org",
+      "server_port": 443,
+      "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092",
+      "tls": {
+        "enabled": true,
+        "server_name": "n1.n1server.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇫🇷 FR-429 § 49",
+      "server": "sktr.berkeart.ir",
+      "server_port": 19702,
+      "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
+      "tls": {
+        "enabled": true,
+        "server_name": "check-host.net",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ",
-          "short_id": "aba7bc9a"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "xyz",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇧🇦 BA-1 § 50",
+      "server": "pq-bosniaandherzegovina1.09vpn.com",
+      "server_port": 80,
+      "uuid": "75e1fde7-6bf6-48ef-ba43-400e960e185b",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇫🇷 FR-463 § 51",
+      "server": "194.35.120.116",
+      "server_port": 19702,
+      "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
+      "tls": {
+        "enabled": true,
+        "server_name": "check-host.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "xyz",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-12271 § 52",
+      "server": "v1.dabache.top",
+      "server_port": 2096,
+      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ca.adobe-connect.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ca.adobe-connect.top"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9037 ? Melbikomas UAB ? 5c63d § 144",
-      "server": "217.30.10.18",
-      "server_port": 9037,
-      "method": "aes-256-cfb",
-      "password": "TN2YqghxeFDKZfLU"
+      "tag": "[OpenRay] 🇫🇮 FI-310 § 53",
+      "server": "185.5.38.111",
+      "server_port": 55988,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k7xW6N5SAVpgeqi1wd7s7yxD7S8PxaehUM5W8apHrQi3pSoDRXScoAPk8SVa4mKbvRjrgENU3dUgzTgp9T3rrXinaDe4CXYk"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇷🇺 RU-2376 § 54",
+      "server": "ru87.lowlatency.cloud",
+      "server_port": 443,
+      "uuid": "895f94cb-5567-4731-bc2c-2f89a54bafe4",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BFu6ZFV1Ej0ekaxceff7o1vHZmAYaJSqA4lIuiEQwUE",
+          "short_id": "98c397de"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9005 ? Melbikomas UAB ? 62f84 § 145",
-      "server": "217.30.10.18",
-      "server_port": 9005,
-      "method": "aes-256-cfb",
-      "password": "ZET59LF6DvCC8KVt"
+      "tag": "[OpenRay] 🇫🇮 FI-251 § 55",
+      "server": "185.5.38.111",
+      "server_port": 55988,
+      "method": "chacha20-ietf-poly1305",
+      "password": "iZDJs2CDckHKqJ5W7cpvCq2veqsqWn95iqs6Kr6F3YNnyMsk2uPdRrChQfShvH1v56Br1qWEW44qJna5QcMcZF7RCJmdvwuq"
     },
     {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9041 ? Melbikomas UAB ? bf54d § 146",
-      "server": "217.30.10.18",
-      "server_port": 9041,
-      "method": "aes-256-cfb",
-      "password": "U6qnYRhfyDmn8sgn"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9045 ? Melbikomas UAB ? 7fbbb § 147",
-      "server": "217.30.10.18",
-      "server_port": 9045,
-      "method": "aes-256-cfb",
-      "password": "Lp27rqyJq72bZsqX"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9040 ? Melbikomas UAB ? d2614 § 148",
-      "server": "217.30.10.18",
-      "server_port": 9040,
-      "method": "aes-256-cfb",
-      "password": "p9z5BVADH2YFs3MN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9020 ? Melbikomas UAB ? f4530 § 149",
-      "server": "217.30.10.18",
-      "server_port": 9020,
-      "method": "aes-256-cfb",
-      "password": "BNmAXXxAHYpTRdzu"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9027 ? Melbikomas UAB ? 7bba5 § 150",
-      "server": "217.30.10.18",
-      "server_port": 9027,
-      "method": "aes-256-cfb",
-      "password": "EXN3S3eQpjE7EJu8"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9033 ? Melbikomas UAB ? 9b7d1 § 151",
-      "server": "217.30.10.18",
-      "server_port": 9033,
-      "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
-    },
-    {
-      "type": "vmess",
-      "tag": "?????? CA 51.79.103.76 ? ws:80 ? OVH, Inc. ? ee044 § 152",
-      "server": "51.79.103.76",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "aes-128-gcm",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-11672 § 56",
+      "server": "www.calmlunch.com",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "path": "/assignment",
         "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+          "Host": "www.calmlunch.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9094 ? Melbikomas UAB ? 471aa § 153",
-      "server": "217.30.10.18",
-      "server_port": 9094,
-      "method": "aes-256-cfb",
-      "password": "rpgbNnU9rDDU4aWZ"
-    },
-    {
-      "type": "vmess",
-      "tag": "???? CA 51.79.103.76 ? ws:80 ? OVH, Inc. ? d9be1 § 154",
-      "server": "51.79.103.76",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-12297 § 57",
+      "server": "188.114.97.185",
+      "server_port": 2053,
+      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
+      "tls": {
+        "enabled": true,
+        "server_name": "ir6.hnbyme.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "path": "/",
+        "headers": {
+          "Host": "ir6.hnbyme.online"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-13237 § 58",
+      "server": "www.creationlong.org",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.creationlong.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9011 ? Melbikomas UAB ? 6caae § 155",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
+      "tag": "[OpenRay] 🇫🇮 FI-279 § 59",
+      "server": "185.5.38.111",
+      "server_port": 55988,
+      "method": "chacha20-ietf-poly1305",
+      "password": "4ju873evpjeaAi8Zq12YoRHWp63o5exdnZ71aUg1YEChiPTc2HkasYhUBxRz7UGi4K6cLrsGaU6b44H4Qa6f4cJn3zBp2cnX"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇷🇺 RU-2412 § 60",
+      "server": "ru61.tcpnet.fun",
+      "server_port": 443,
+      "uuid": "895f94cb-5567-4731-bc2c-2f89a54bafe4",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4NjqiB_FliKff9bP2ASI3WWuhfuyviPeKoz1DyZJQDE",
+          "short_id": "574aa52c"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇺🇸 US-11240 § 61",
+      "server": "3.143.235.221",
+      "server_port": 32252,
+      "uuid": "f0a44f8f-c01f-490c-a6eb-29106a2509a4",
+      "tls": {
+        "enabled": true,
+        "server_name": "3.143.235.221",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "www.bing.com",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
-      "tag": "?????? PL 217.30.10.18 ? tcp:9088 ? Melbikomas UAB ? c864f § 156",
-      "server": "217.30.10.18",
-      "server_port": 9088,
-      "method": "aes-256-cfb",
-      "password": "f8npKgNzdkss2ytn"
+      "tag": "[OpenRay] 🇰🇿 KZ-125 § 62",
+      "server": "kazakhstan21.clearorbitllc.com",
+      "server_port": 46551,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Inv114dp2zk9ZbYFPpdQf4"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇺🇸 US-11263 § 63",
+      "server": "8.6.112.0",
+      "server_port": 2053,
+      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
+      "tls": {
+        "enabled": true,
+        "server_name": "ir6.hnbyme.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ir6.hnbyme.online"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] 🇺🇸 US-11415 § 64",
+      "server": "205.185.115.223",
+      "server_port": 19258,
+      "password": "iWnFtzMiac",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-11554 § 65",
+      "server": "chatgpt.com",
+      "server_port": 2096,
+      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ca.adobe-connect.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ca.adobe-connect.top"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-13239 § 66",
+      "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
+      "server_port": 443,
+      "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
+      "tls": {
+        "enabled": true,
+        "server_name": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/QMV9N8sI6UlesbbZ1wwDhJ3",
+        "headers": {
+          "Host": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-12383 § 67",
+      "server": "104.18.185.26",
+      "server_port": 2096,
+      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ca.adobe-connect.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ca.adobe-connect.top"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] 🇨🇦 CA-11997 § 68",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.creationlong.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.creationlong.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇮🇳 IN-14 § 69",
+      "server": "pq-india1.09vpn.com",
+      "server_port": 80,
+      "uuid": "05b544a4-d479-4ba4-8208-950bd4411453",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇮🇳 IN-15 § 70",
+      "server": "pq-india1.09vpn.com",
+      "server_port": 8443,
+      "uuid": "05b544a4-d479-4ba4-8208-950bd4411453",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇮🇳 IN-17 § 71",
+      "server": "pq-india1.09vpn.com",
+      "server_port": 80,
+      "uuid": "5a54a377-a9d3-4ea5-b7b0-17bd899e202d",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "0607 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 72",
+      "server": "m.galangedan.com",
+      "server_port": 1005,
+      "uuid": "ef17644a-cfba-4a64-a8db-8535b2d113ac",
+      "transport": {
+        "type": "http",
+        "host": "fast.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "0567 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 73",
+      "server": "193.233.230.95",
+      "server_port": 1005,
+      "uuid": "ef17644a-cfba-4a64-a8db-8535b2d113ac",
+      "transport": {
+        "type": "http",
+        "host": "fast.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-2605ms-Greenhost BV § 74",
+      "server": "82.38.31.82",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-331ms-Greenhost BV § 75",
+      "server": "82.38.31.217",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "vless",
+      "tag": "0149 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 76",
+      "server": "m.galangedan.com",
+      "server_port": 1005,
+      "uuid": "ef17644a-cfba-4a64-a8db-8535b2d113ac",
+      "transport": {
+        "type": "http",
+        "host": "fast.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱[openproxylist.com] ss-NL § 77",
+      "server": "82.38.31.69",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "0186 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 78",
+      "server": "82.38.31.186",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 79",
+      "server": "82.38.31.82",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "0876 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 80",
+      "server": "82.38.31.99",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 81",
+      "server": "82.38.31.214",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-4809ms-Greenhost BV § 82",
+      "server": "82.38.31.190",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "vless",
+      "tag": "0237 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 83",
+      "server": "nl.iccgame.site",
+      "server_port": 3000,
+      "uuid": "1e1b9a1f-47cd-4cb2-a0dc-103a09e253ba",
+      "transport": {
+        "type": "http",
+        "host": "chess.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ForceRunVPN-🇩🇪-FrankfurtamMain-1253ms-ALEXANDRU VLAD trading as FREAKHOSTING § 84",
+      "server": "chatgpt.com",
+      "server_port": 2096,
+      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ca.adobe-connect.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ca.adobe-connect.top"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Germany — #250 § 85",
+      "server": "198.62.62.127",
+      "server_port": 443,
+      "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "apii.onlineshoppingez.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/O1w0n3vYgFKYs7EzNAvLPvOp",
+        "headers": {
+          "Host": "apii.onlineshoppingez.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "0344 | 🇳🇱 Netherlands | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 86",
+      "server": "206.71.158.37",
+      "server_port": 35200,
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "0614 | 🌐 Unknown | HYSTERIA2 | TG: @YoutubeUnBlockRu § 87",
+      "server": "yapc-1.adamhayward.co.uk",
+      "server_port": 36300,
+      "password": "Yet-Another-Public-Config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "0345 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 88",
+      "server": "82.38.31.199",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
     }
   ]
   }
