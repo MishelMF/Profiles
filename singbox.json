@@ -138,95 +138,146 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁰⁵』 § 0",
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁴⁰』 § 1",
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁹⁶』 § 2",
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴⁰』 § 3",
-        "🇬🇧 GB 141.98.101.179 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ 8dbeb § 4",
-        "🇺🇸_美国 § 5",
-        "🇬🇧 GB 141.98.101.182 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ f48b5 § 6",
-        "🇬🇧 GB 141.98.101.178 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ ea633 § 7",
-        "_未知 § 8",
-        "_未知 § 9",
-        "_未知 § 10",
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴³』 § 11",
-        "_未知 § 12",
-        "🇷🇺_俄罗斯 § 13",
-        "🚫🇭🇰 HK 103.149.183.10 ◈ tcp:8388 ◈ DALIAN YICHUAN INDUSTRIAL CO., LIMITED ◈ 5c1f2 § 14",
-        "🇷🇺_俄罗斯 § 15",
-        "🇰🇷_韩国 § 16",
-        "🚫🇭🇰 HK 103.141.221.200 ◈ tcp:8388 ◈ Strong Worth Holdings Limited ◈ 45c41 § 17",
-        "🆔️ | @Eag1e_YT『🇩🇪²⁰』 § 18",
-        "🆔️ | @Eag1e_YT『🇩🇪³』 § 19",
-        "🆔️ | @Eag1e_YT『🇩🇪⁹⁴』 § 20",
-        "🆔️ | @Eag1e_YT『🇨🇦¹⁰⁷』 § 21",
-        "🆔️ | @Eag1e_YT『🇩🇪⁷⁵』 § 22",
-        "🆔️ | @Eag1e_YT『🇩🇪¹⁰⁰』 § 23",
-        "🆔️ | @Eag1e_YT『🇩🇪⁴⁸』 § 24",
-        "🆔️ | @Eag1e_YT『🇩🇪⁹⁶』 § 25",
-        "🆔️ | @Eag1e_YT『🇩🇪⁹⁹』 § 26",
-        "🆔️ | @Eag1e_YT『🇩🇪⁷⁶』 § 27",
-        "🆔️ | @Eag1e_YT『🇩🇪³¹』 § 28",
-        "🆔️ | @Eag1e_YT『🇩🇪⁷』 § 29",
-        "🆔️ | @Eag1e_YT『🇩🇪⁵⁷』 § 30",
-        "_未知 § 31",
-        "_未知 § 32",
-        "_未知 § 33",
-        "🇸🇬_新加坡 § 34",
-        "🇷🇺_俄罗斯 § 35",
-        "🇺🇸_美国 § 36",
-        "_未知 § 37",
-        "_未知 § 38",
-        "_未知 § 39",
-        "🇺🇸_美国 § 40",
-        "_未知 § 41",
-        "🇺🇸_美国 § 42",
-        "[OpenRay] 🇧🇦 BA-2 § 43",
-        "[OpenRay] 🇨🇦 CA-12045 § 44",
-        "[OpenRay] Dynamic-13305 § 45",
-        "[OpenRay] Dynamic-11959 § 46",
-        "[OpenRay] 🇨🇦 CA-12178 § 47",
-        "[OpenRay] 🇨🇦 CA-12634 § 48",
-        "[OpenRay] 🇫🇷 FR-429 § 49",
-        "[OpenRay] 🇧🇦 BA-1 § 50",
-        "[OpenRay] 🇫🇷 FR-463 § 51",
-        "[OpenRay] Dynamic-12271 § 52",
-        "[OpenRay] 🇫🇮 FI-310 § 53",
-        "[OpenRay] 🇷🇺 RU-2376 § 54",
-        "[OpenRay] 🇫🇮 FI-251 § 55",
-        "[OpenRay] Dynamic-11672 § 56",
-        "[OpenRay] 🇨🇦 CA-12297 § 57",
-        "[OpenRay] Dynamic-13237 § 58",
-        "[OpenRay] 🇫🇮 FI-279 § 59",
-        "[OpenRay] 🇷🇺 RU-2412 § 60",
-        "[OpenRay] 🇺🇸 US-11240 § 61",
-        "[OpenRay] 🇰🇿 KZ-125 § 62",
-        "[OpenRay] 🇺🇸 US-11263 § 63",
-        "[OpenRay] 🇺🇸 US-11415 § 64",
-        "[OpenRay] Dynamic-11554 § 65",
-        "[OpenRay] Dynamic-13239 § 66",
-        "[OpenRay] 🇨🇦 CA-12383 § 67",
-        "[OpenRay] 🇨🇦 CA-11997 § 68",
-        "[OpenRay] 🇮🇳 IN-14 § 69",
-        "[OpenRay] 🇮🇳 IN-15 § 70",
-        "[OpenRay] 🇮🇳 IN-17 § 71",
-        "0607 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 72",
-        "0567 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 73",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-2605ms-Greenhost BV § 74",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-331ms-Greenhost BV § 75",
-        "0149 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 76",
-        "🇳🇱[openproxylist.com] ss-NL § 77",
-        "0186 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 78",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 79",
-        "0876 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 80",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 81",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-4809ms-Greenhost BV § 82",
-        "0237 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 83",
-        "https://t.me/ForceRunVPN-🇩🇪-FrankfurtamMain-1253ms-ALEXANDRU VLAD trading as FREAKHOSTING § 84",
-        "🇩🇪 Germany — #250 § 85",
-        "0344 | 🇳🇱 Netherlands | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 86",
-        "0614 | 🌐 Unknown | HYSTERIA2 | TG: @YoutubeUnBlockRu § 87",
-        "0345 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 88"
+        "[tuic]GBR｜英国-伦敦/1 § 0",
+        "[tuic]DK｜荷兰-阿姆斯特丹/1 § 1",
+        "[tuic]DE｜德国-法兰克福/2 § 2",
+        "https://t.me/ForceRunVPN-🇩🇪-Nuremberg-874ms-netcup GmbH § 3",
+        "0109 | 🇺🇸 USA | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 4",
+        "0040 | 🇸🇪 Sweden | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 5",
+        "1086 | ☁️ Cloudflare | VLESS | TG: @YoutubeUnBlockRu § 6",
+        "0034 | 🇸🇪 Sweden | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 7",
+        "https://t.me/ForceRunVPN-🇿🇦-Johannesburg-573ms-Microsoft Corporation § 8",
+        "🇩🇪 Germany — #354 § 9",
+        "[OpenRay] 🇷🇺 RU-10969 § 10",
+        "[OpenRay] 🇷🇺 RU-11007 § 11",
+        "[OpenRay] Dynamic-13515 § 12",
+        "[OpenRay] Dynamic-13914 § 13",
+        "[OpenRay] Dynamic-16530 § 14",
+        "[OpenRay] Dynamic-282 § 15",
+        "[OpenRay] 🇩🇪 DE-10732 § 16",
+        "[OpenRay] Dynamic-15328 § 17",
+        "[OpenRay] 🇩🇪 DE-10585 § 18",
+        "[OpenRay] 🇷🇺 RU-10974 § 19",
+        "[OpenRay] 🇨🇦 CA-16461 § 20",
+        "[OpenRay] 🇺🇸 US-13721 § 21",
+        "[OpenRay] 🇷🇺 RU-10967 § 22",
+        "[OpenRay] Dynamic-14617 § 23",
+        "[OpenRay] 🇫🇮 FI-874 § 24",
+        "[OpenRay] Dynamic-15791 § 25",
+        "[OpenRay] 🇨🇦 CA-16513 § 26",
+        "[OpenRay] 🇨🇦 CA-16453 § 27",
+        "[OpenRay] Dynamic-14873 § 28",
+        "[OpenRay] 🇨🇦 CA-16441 § 29",
+        "[OpenRay] 🇺🇸 US-13414 § 30",
+        "[OpenRay] Dynamic-14912 § 31",
+        "[OpenRay] Dynamic-15058 § 32",
+        "[OpenRay] Dynamic-15788 § 33",
+        "[OpenRay] 🇺🇸 US-13722 § 34",
+        "[OpenRay] Dynamic-14871 § 35",
+        "[OpenRay] 🇨🇦 CA-16327 § 36",
+        "[OpenRay] Dynamic-16000 § 37",
+        "[OpenRay] Dynamic-15349 § 38",
+        "[OpenRay] Dynamic-15499 § 39",
+        "[OpenRay] 🇨🇦 CA-16440 § 40",
+        "[OpenRay] 🇨🇦 CA-16431 § 41",
+        "[OpenRay] Dynamic-15930 § 42",
+        "[OpenRay] Dynamic-15786 § 43",
+        "[OpenRay] 🇨🇦 CA-16432 § 44",
+        "[OpenRay] 🇨🇦 CA-15430 § 45",
+        "[OpenRay] Dynamic-14869 § 46",
+        "[OpenRay] Dynamic-15497 § 47",
+        "[OpenRay] Dynamic-15545 § 48",
+        "[OpenRay] 🇨🇦 CA-16018 § 49",
+        "[OpenRay] 🇨🇦 CA-16362 § 50",
+        "[OpenRay] 🇨🇦 CA-16439 § 51",
+        "[OpenRay] 🇨🇦 CA-16433 § 52",
+        "[OpenRay] Dynamic-14905 § 53",
+        "[OpenRay] 🇨🇦 CA-16428 § 54",
+        "[OpenRay] Dynamic-14875 § 55",
+        "[OpenRay] 🇭🇰 HK-871 § 56",
+        "[OpenRay] 🇨🇦 CA-16455 § 57",
+        "[OpenRay] Dynamic-15780 § 58",
+        "[OpenRay] 🇨🇦 CA-16515 § 59",
+        "[OpenRay] Dynamic-15242 § 60",
+        "[OpenRay] Dynamic-15546 § 61",
+        "[OpenRay] Dynamic-14914 § 62",
+        "[OpenRay] Dynamic-14870 § 63",
+        "[OpenRay] Dynamic-14973 § 64",
+        "[OpenRay] 🇨🇦 CA-16444 § 65",
+        "[OpenRay] 🇨🇦 CA-15429 § 66",
+        "[OpenRay] 🇨🇦 CA-16438 § 67",
+        "[OpenRay] Dynamic-14975 § 68",
+        "[OpenRay] Dynamic-16510 § 69",
+        "[OpenRay] 🇨🇦 CA-15394 § 70",
+        "[OpenRay] 🇨🇦 CA-15428 § 71",
+        "[OpenRay] 🇨🇦 CA-15389 § 72",
+        "[OpenRay] 🇨🇦 CA-16172 § 73",
+        "[OpenRay] Dynamic-14548 § 74",
+        "[OpenRay] 🇺🇸 US-13720 § 75",
+        "[OpenRay] 🇷🇺 RU-10970 § 76",
+        "[OpenRay] 🇺🇸 US-13415 § 77",
+        "[OpenRay] Dynamic-14874 § 78",
+        "[OpenRay] 🇨🇦 CA-15427 § 79",
+        "[OpenRay] 🇨🇦 CA-16391 § 80",
+        "[OpenRay] 🇨🇦 CA-16430 § 81",
+        "[OpenRay] 🇨🇦 CA-16517 § 82",
+        "[OpenRay] Dynamic-14549 § 83",
+        "[OpenRay] 🇨🇦 CA-15391 § 84",
+        "[OpenRay] 🇨🇦 CA-16315 § 85",
+        "[OpenRay] 🇰🇿 KZ-56 § 86",
+        "[OpenRay] 🇨🇦 CA-16171 § 87",
+        "[OpenRay] Dynamic-14915 § 88",
+        "[OpenRay] 🇰🇿 KZ-48 § 89",
+        "[OpenRay] 🇨🇦 CA-16479 § 90",
+        "[OpenRay] Dynamic-14872 § 91",
+        "[OpenRay] Dynamic-15782 § 92",
+        "[OpenRay] 🇨🇦 CA-15392 § 93",
+        "[OpenRay] 🇨🇦 CA-16393 § 94",
+        "[OpenRay] Dynamic-16523 § 95",
+        "[OpenRay] Dynamic-14909 § 96",
+        "[OpenRay] 🇨🇦 CA-16319 § 97",
+        "[OpenRay] 🇨🇦 CA-16221 § 98",
+        "[OpenRay] 🇨🇦 CA-16429 § 99",
+        "[OpenRay] 🇺🇸 US-12703 § 100",
+        "[OpenRay] 🇨🇦 CA-16169 § 101",
+        "[OpenRay] Dynamic-14910 § 102",
+        "[OpenRay] 🇨🇦 CA-15390 § 103",
+        "[OpenRay] 🇨🇦 CA-16318 § 104",
+        "[OpenRay] Dynamic-15773 § 105",
+        "[OpenRay] 🇷🇺 RU-11062 § 106",
+        "[OpenRay] 🇨🇦 CA-16167 § 107",
+        "[OpenRay] Dynamic-15948 § 108",
+        "[OpenRay] 🇷🇺 RU-10968 § 109",
+        "[OpenRay] 🇨🇦 CA-16170 § 110",
+        "[OpenRay] Dynamic-14552 § 111",
+        "[OpenRay] Dynamic-16527 § 112",
+        "[OpenRay] 🇩🇪 DE-10598 § 113",
+        "[OpenRay] 🇨🇦 CA-15532 § 114",
+        "[OpenRay] Dynamic-15002 § 115",
+        "[OpenRay] Dynamic-16512 § 116",
+        "[OpenRay] 🇫🇷 FR-1230 § 117",
+        "[OpenRay] 🇫🇷 FR-1233 § 118",
+        "[OpenRay] Dynamic-16531 § 119",
+        "[OpenRay] 🇨🇦 CA-16378 § 120",
+        "[OpenRay] Dynamic-16194 § 121",
+        "[OpenRay] 🇫🇷 FR-1223 § 122",
+        "🇺🇸_美国 § 123",
+        "_未知 § 124",
+        "🇨🇭_瑞士 § 125",
+        "🇺🇸_美国 § 126",
+        "🇨🇭_瑞士 § 127",
+        "🇺🇸_美国 § 128",
+        "🇺🇸_美国 § 129",
+        "🇺🇸_美国 § 130",
+        "_未知 § 131",
+        "🇺🇸_美国 § 132",
+        "_未知 § 133",
+        "🇺🇸_美国 § 134",
+        "🇺🇸_美国 § 135",
+        "_未知 § 136",
+        "🇺🇸_美国 § 137",
+        "_未知 § 138",
+        "🇺🇸_美国 § 139"
       ],
       "default": "auto"
     },
@@ -234,95 +285,146 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁰⁵』 § 0",
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁴⁰』 § 1",
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁹⁶』 § 2",
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴⁰』 § 3",
-        "🇬🇧 GB 141.98.101.179 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ 8dbeb § 4",
-        "🇺🇸_美国 § 5",
-        "🇬🇧 GB 141.98.101.182 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ f48b5 § 6",
-        "🇬🇧 GB 141.98.101.178 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ ea633 § 7",
-        "_未知 § 8",
-        "_未知 § 9",
-        "_未知 § 10",
-        "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴³』 § 11",
-        "_未知 § 12",
-        "🇷🇺_俄罗斯 § 13",
-        "🚫🇭🇰 HK 103.149.183.10 ◈ tcp:8388 ◈ DALIAN YICHUAN INDUSTRIAL CO., LIMITED ◈ 5c1f2 § 14",
-        "🇷🇺_俄罗斯 § 15",
-        "🇰🇷_韩国 § 16",
-        "🚫🇭🇰 HK 103.141.221.200 ◈ tcp:8388 ◈ Strong Worth Holdings Limited ◈ 45c41 § 17",
-        "🆔️ | @Eag1e_YT『🇩🇪²⁰』 § 18",
-        "🆔️ | @Eag1e_YT『🇩🇪³』 § 19",
-        "🆔️ | @Eag1e_YT『🇩🇪⁹⁴』 § 20",
-        "🆔️ | @Eag1e_YT『🇨🇦¹⁰⁷』 § 21",
-        "🆔️ | @Eag1e_YT『🇩🇪⁷⁵』 § 22",
-        "🆔️ | @Eag1e_YT『🇩🇪¹⁰⁰』 § 23",
-        "🆔️ | @Eag1e_YT『🇩🇪⁴⁸』 § 24",
-        "🆔️ | @Eag1e_YT『🇩🇪⁹⁶』 § 25",
-        "🆔️ | @Eag1e_YT『🇩🇪⁹⁹』 § 26",
-        "🆔️ | @Eag1e_YT『🇩🇪⁷⁶』 § 27",
-        "🆔️ | @Eag1e_YT『🇩🇪³¹』 § 28",
-        "🆔️ | @Eag1e_YT『🇩🇪⁷』 § 29",
-        "🆔️ | @Eag1e_YT『🇩🇪⁵⁷』 § 30",
-        "_未知 § 31",
-        "_未知 § 32",
-        "_未知 § 33",
-        "🇸🇬_新加坡 § 34",
-        "🇷🇺_俄罗斯 § 35",
-        "🇺🇸_美国 § 36",
-        "_未知 § 37",
-        "_未知 § 38",
-        "_未知 § 39",
-        "🇺🇸_美国 § 40",
-        "_未知 § 41",
-        "🇺🇸_美国 § 42",
-        "[OpenRay] 🇧🇦 BA-2 § 43",
-        "[OpenRay] 🇨🇦 CA-12045 § 44",
-        "[OpenRay] Dynamic-13305 § 45",
-        "[OpenRay] Dynamic-11959 § 46",
-        "[OpenRay] 🇨🇦 CA-12178 § 47",
-        "[OpenRay] 🇨🇦 CA-12634 § 48",
-        "[OpenRay] 🇫🇷 FR-429 § 49",
-        "[OpenRay] 🇧🇦 BA-1 § 50",
-        "[OpenRay] 🇫🇷 FR-463 § 51",
-        "[OpenRay] Dynamic-12271 § 52",
-        "[OpenRay] 🇫🇮 FI-310 § 53",
-        "[OpenRay] 🇷🇺 RU-2376 § 54",
-        "[OpenRay] 🇫🇮 FI-251 § 55",
-        "[OpenRay] Dynamic-11672 § 56",
-        "[OpenRay] 🇨🇦 CA-12297 § 57",
-        "[OpenRay] Dynamic-13237 § 58",
-        "[OpenRay] 🇫🇮 FI-279 § 59",
-        "[OpenRay] 🇷🇺 RU-2412 § 60",
-        "[OpenRay] 🇺🇸 US-11240 § 61",
-        "[OpenRay] 🇰🇿 KZ-125 § 62",
-        "[OpenRay] 🇺🇸 US-11263 § 63",
-        "[OpenRay] 🇺🇸 US-11415 § 64",
-        "[OpenRay] Dynamic-11554 § 65",
-        "[OpenRay] Dynamic-13239 § 66",
-        "[OpenRay] 🇨🇦 CA-12383 § 67",
-        "[OpenRay] 🇨🇦 CA-11997 § 68",
-        "[OpenRay] 🇮🇳 IN-14 § 69",
-        "[OpenRay] 🇮🇳 IN-15 § 70",
-        "[OpenRay] 🇮🇳 IN-17 § 71",
-        "0607 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 72",
-        "0567 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 73",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-2605ms-Greenhost BV § 74",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-331ms-Greenhost BV § 75",
-        "0149 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 76",
-        "🇳🇱[openproxylist.com] ss-NL § 77",
-        "0186 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 78",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 79",
-        "0876 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 80",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 81",
-        "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-4809ms-Greenhost BV § 82",
-        "0237 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 83",
-        "https://t.me/ForceRunVPN-🇩🇪-FrankfurtamMain-1253ms-ALEXANDRU VLAD trading as FREAKHOSTING § 84",
-        "🇩🇪 Germany — #250 § 85",
-        "0344 | 🇳🇱 Netherlands | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 86",
-        "0614 | 🌐 Unknown | HYSTERIA2 | TG: @YoutubeUnBlockRu § 87",
-        "0345 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 88"
+        "[tuic]GBR｜英国-伦敦/1 § 0",
+        "[tuic]DK｜荷兰-阿姆斯特丹/1 § 1",
+        "[tuic]DE｜德国-法兰克福/2 § 2",
+        "https://t.me/ForceRunVPN-🇩🇪-Nuremberg-874ms-netcup GmbH § 3",
+        "0109 | 🇺🇸 USA | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 4",
+        "0040 | 🇸🇪 Sweden | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 5",
+        "1086 | ☁️ Cloudflare | VLESS | TG: @YoutubeUnBlockRu § 6",
+        "0034 | 🇸🇪 Sweden | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 7",
+        "https://t.me/ForceRunVPN-🇿🇦-Johannesburg-573ms-Microsoft Corporation § 8",
+        "🇩🇪 Germany — #354 § 9",
+        "[OpenRay] 🇷🇺 RU-10969 § 10",
+        "[OpenRay] 🇷🇺 RU-11007 § 11",
+        "[OpenRay] Dynamic-13515 § 12",
+        "[OpenRay] Dynamic-13914 § 13",
+        "[OpenRay] Dynamic-16530 § 14",
+        "[OpenRay] Dynamic-282 § 15",
+        "[OpenRay] 🇩🇪 DE-10732 § 16",
+        "[OpenRay] Dynamic-15328 § 17",
+        "[OpenRay] 🇩🇪 DE-10585 § 18",
+        "[OpenRay] 🇷🇺 RU-10974 § 19",
+        "[OpenRay] 🇨🇦 CA-16461 § 20",
+        "[OpenRay] 🇺🇸 US-13721 § 21",
+        "[OpenRay] 🇷🇺 RU-10967 § 22",
+        "[OpenRay] Dynamic-14617 § 23",
+        "[OpenRay] 🇫🇮 FI-874 § 24",
+        "[OpenRay] Dynamic-15791 § 25",
+        "[OpenRay] 🇨🇦 CA-16513 § 26",
+        "[OpenRay] 🇨🇦 CA-16453 § 27",
+        "[OpenRay] Dynamic-14873 § 28",
+        "[OpenRay] 🇨🇦 CA-16441 § 29",
+        "[OpenRay] 🇺🇸 US-13414 § 30",
+        "[OpenRay] Dynamic-14912 § 31",
+        "[OpenRay] Dynamic-15058 § 32",
+        "[OpenRay] Dynamic-15788 § 33",
+        "[OpenRay] 🇺🇸 US-13722 § 34",
+        "[OpenRay] Dynamic-14871 § 35",
+        "[OpenRay] 🇨🇦 CA-16327 § 36",
+        "[OpenRay] Dynamic-16000 § 37",
+        "[OpenRay] Dynamic-15349 § 38",
+        "[OpenRay] Dynamic-15499 § 39",
+        "[OpenRay] 🇨🇦 CA-16440 § 40",
+        "[OpenRay] 🇨🇦 CA-16431 § 41",
+        "[OpenRay] Dynamic-15930 § 42",
+        "[OpenRay] Dynamic-15786 § 43",
+        "[OpenRay] 🇨🇦 CA-16432 § 44",
+        "[OpenRay] 🇨🇦 CA-15430 § 45",
+        "[OpenRay] Dynamic-14869 § 46",
+        "[OpenRay] Dynamic-15497 § 47",
+        "[OpenRay] Dynamic-15545 § 48",
+        "[OpenRay] 🇨🇦 CA-16018 § 49",
+        "[OpenRay] 🇨🇦 CA-16362 § 50",
+        "[OpenRay] 🇨🇦 CA-16439 § 51",
+        "[OpenRay] 🇨🇦 CA-16433 § 52",
+        "[OpenRay] Dynamic-14905 § 53",
+        "[OpenRay] 🇨🇦 CA-16428 § 54",
+        "[OpenRay] Dynamic-14875 § 55",
+        "[OpenRay] 🇭🇰 HK-871 § 56",
+        "[OpenRay] 🇨🇦 CA-16455 § 57",
+        "[OpenRay] Dynamic-15780 § 58",
+        "[OpenRay] 🇨🇦 CA-16515 § 59",
+        "[OpenRay] Dynamic-15242 § 60",
+        "[OpenRay] Dynamic-15546 § 61",
+        "[OpenRay] Dynamic-14914 § 62",
+        "[OpenRay] Dynamic-14870 § 63",
+        "[OpenRay] Dynamic-14973 § 64",
+        "[OpenRay] 🇨🇦 CA-16444 § 65",
+        "[OpenRay] 🇨🇦 CA-15429 § 66",
+        "[OpenRay] 🇨🇦 CA-16438 § 67",
+        "[OpenRay] Dynamic-14975 § 68",
+        "[OpenRay] Dynamic-16510 § 69",
+        "[OpenRay] 🇨🇦 CA-15394 § 70",
+        "[OpenRay] 🇨🇦 CA-15428 § 71",
+        "[OpenRay] 🇨🇦 CA-15389 § 72",
+        "[OpenRay] 🇨🇦 CA-16172 § 73",
+        "[OpenRay] Dynamic-14548 § 74",
+        "[OpenRay] 🇺🇸 US-13720 § 75",
+        "[OpenRay] 🇷🇺 RU-10970 § 76",
+        "[OpenRay] 🇺🇸 US-13415 § 77",
+        "[OpenRay] Dynamic-14874 § 78",
+        "[OpenRay] 🇨🇦 CA-15427 § 79",
+        "[OpenRay] 🇨🇦 CA-16391 § 80",
+        "[OpenRay] 🇨🇦 CA-16430 § 81",
+        "[OpenRay] 🇨🇦 CA-16517 § 82",
+        "[OpenRay] Dynamic-14549 § 83",
+        "[OpenRay] 🇨🇦 CA-15391 § 84",
+        "[OpenRay] 🇨🇦 CA-16315 § 85",
+        "[OpenRay] 🇰🇿 KZ-56 § 86",
+        "[OpenRay] 🇨🇦 CA-16171 § 87",
+        "[OpenRay] Dynamic-14915 § 88",
+        "[OpenRay] 🇰🇿 KZ-48 § 89",
+        "[OpenRay] 🇨🇦 CA-16479 § 90",
+        "[OpenRay] Dynamic-14872 § 91",
+        "[OpenRay] Dynamic-15782 § 92",
+        "[OpenRay] 🇨🇦 CA-15392 § 93",
+        "[OpenRay] 🇨🇦 CA-16393 § 94",
+        "[OpenRay] Dynamic-16523 § 95",
+        "[OpenRay] Dynamic-14909 § 96",
+        "[OpenRay] 🇨🇦 CA-16319 § 97",
+        "[OpenRay] 🇨🇦 CA-16221 § 98",
+        "[OpenRay] 🇨🇦 CA-16429 § 99",
+        "[OpenRay] 🇺🇸 US-12703 § 100",
+        "[OpenRay] 🇨🇦 CA-16169 § 101",
+        "[OpenRay] Dynamic-14910 § 102",
+        "[OpenRay] 🇨🇦 CA-15390 § 103",
+        "[OpenRay] 🇨🇦 CA-16318 § 104",
+        "[OpenRay] Dynamic-15773 § 105",
+        "[OpenRay] 🇷🇺 RU-11062 § 106",
+        "[OpenRay] 🇨🇦 CA-16167 § 107",
+        "[OpenRay] Dynamic-15948 § 108",
+        "[OpenRay] 🇷🇺 RU-10968 § 109",
+        "[OpenRay] 🇨🇦 CA-16170 § 110",
+        "[OpenRay] Dynamic-14552 § 111",
+        "[OpenRay] Dynamic-16527 § 112",
+        "[OpenRay] 🇩🇪 DE-10598 § 113",
+        "[OpenRay] 🇨🇦 CA-15532 § 114",
+        "[OpenRay] Dynamic-15002 § 115",
+        "[OpenRay] Dynamic-16512 § 116",
+        "[OpenRay] 🇫🇷 FR-1230 § 117",
+        "[OpenRay] 🇫🇷 FR-1233 § 118",
+        "[OpenRay] Dynamic-16531 § 119",
+        "[OpenRay] 🇨🇦 CA-16378 § 120",
+        "[OpenRay] Dynamic-16194 § 121",
+        "[OpenRay] 🇫🇷 FR-1223 § 122",
+        "🇺🇸_美国 § 123",
+        "_未知 § 124",
+        "🇨🇭_瑞士 § 125",
+        "🇺🇸_美国 § 126",
+        "🇨🇭_瑞士 § 127",
+        "🇺🇸_美国 § 128",
+        "🇺🇸_美国 § 129",
+        "🇺🇸_美国 § 130",
+        "_未知 § 131",
+        "🇺🇸_美国 § 132",
+        "_未知 § 133",
+        "🇺🇸_美国 § 134",
+        "🇺🇸_美国 § 135",
+        "_未知 § 136",
+        "🇺🇸_美国 § 137",
+        "_未知 § 138",
+        "🇺🇸_美国 § 139"
       ],
       "url": "http://cp.cloudflare.com",
       "interval": "10m0s",
@@ -330,14 +432,71 @@
       "idle_timeout": "30m0s"
     },
     {
-      "type": "trojan",
-      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁰⁵』 § 0",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "password": "humanity",
+      "type": "tuic",
+      "tag": "[tuic]GBR｜英国-伦敦/1 § 0",
+      "server": "185.85.242.177",
+      "server_port": 1443,
+      "uuid": "9947b194-85ed-4128-965c-a1007ec88bf0",
+      "password": "9947b194-85ed-4128-965c-a1007ec88bf0",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "www.creationlong.org",
+        "server_name": "gbr1.587458.xyz",
+        "alpn": [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "[tuic]DK｜荷兰-阿姆斯特丹/1 § 1",
+      "server": "87.229.95.140",
+      "server_port": 1443,
+      "uuid": "9947b194-85ed-4128-965c-a1007ec88bf0",
+      "password": "9947b194-85ed-4128-965c-a1007ec88bf0",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "server_name": "dk1.587458.xyz",
+        "alpn": [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "[tuic]DE｜德国-法兰克福/2 § 2",
+      "server": "94.159.107.136",
+      "server_port": 1443,
+      "uuid": "9947b194-85ed-4128-965c-a1007ec88bf0",
+      "password": "9947b194-85ed-4128-965c-a1007ec88bf0",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "server_name": "de2.587458.xyz",
+        "alpn": [
+          "h3",
+          "spdy/3.1"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/ForceRunVPN-🇩🇪-Nuremberg-874ms-netcup GmbH § 3",
+      "server": "173.245.59.217",
+      "server_port": 443,
+      "uuid": "94daa8ad-75ed-4dbf-a6de-d05036d98df5",
+      "tls": {
+        "enabled": true,
+        "server_name": "vangoghhh.info",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -345,265 +504,79 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/tixvuws",
         "headers": {
-          "Host": "www.creationlong.org"
+          "Host": "vangoghhh.info"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "0109 | 🇺🇸 USA | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 4",
+      "server": "144.31.63.58",
+      "server_port": 1935,
+      "password": "hysteria2_fastlane_wdl20phil:fk0mBa5pPMFf8mKGcl7z730z45ofDJoA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de4.h.fastlanehosting.ru"
       }
     },
     {
       "type": "hysteria2",
-      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁴⁰』 § 1",
-      "server": "206.71.158.37",
-      "server_port": 36600,
-      "password": "Yet-Another-Public-Config-1",
+      "tag": "0040 | 🇸🇪 Sweden | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 5",
+      "server": "150.241.79.106",
+      "server_port": 1935,
+      "password": "hysteria2_fastlane_lck8m4rz1:pvtr8CJ994AYmu6Ye1v7LDrnzKFi4mXL",
       "tls": {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀⁹⁶』 § 2",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.calmlunch.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴⁰』 § 3",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.creationlong.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.creationlong.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GB 141.98.101.179 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ 8dbeb § 4",
-      "server": "141.98.101.179",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸_美国 § 5",
-      "server": "v3.dabache.top",
-      "server_port": 8443,
-      "password": "T9BpZIVMNv",
-      "tls": {
-        "enabled": true,
-        "server_name": "sweden.vmaxpanel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/amd",
-        "headers": {
-          "Host": "sweden.vmaxpanel.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GB 141.98.101.182 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ f48b5 § 6",
-      "server": "141.98.101.182",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GB 141.98.101.178 ◈ tcp:443 ◈ M247 Europe SRL / M247 ◈ ea633 § 7",
-      "server": "141.98.101.178",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "trojan",
-      "tag": "_未知 § 8",
-      "server": "vip3.kaixincloud.top",
-      "server_port": 8443,
-      "password": "T9BpZIVMNv",
-      "tls": {
-        "enabled": true,
-        "server_name": "sweden.vmaxpanel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/amd",
-        "headers": {
-          "Host": "sweden.vmaxpanel.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "_未知 § 9",
-      "server": "vip1.kaixincloud.top",
-      "server_port": 8443,
-      "password": "T9BpZIVMNv",
-      "tls": {
-        "enabled": true,
-        "server_name": "sweden.vmaxpanel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/amd",
-        "headers": {
-          "Host": "sweden.vmaxpanel.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "_未知 § 10",
-      "server": "vip2.kaixincloud.top",
-      "server_port": 8443,
-      "password": "T9BpZIVMNv",
-      "tls": {
-        "enabled": true,
-        "server_name": "sweden.vmaxpanel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/amd",
-        "headers": {
-          "Host": "sweden.vmaxpanel.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "💎 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : @Eag1e_YT『🚀¹⁴³』 § 11",
-      "server": "172.64.152.23",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.calmlunch.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "server_name": "de2.h.fastlanehosting.ru"
       }
     },
     {
       "type": "vless",
-      "tag": "_未知 § 12",
-      "server": "vip3.kaixincloud.top",
-      "server_port": 443,
-      "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
-      "tls": {
-        "enabled": true,
-        "server_name": "apii.onlineshoppingez.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "1086 | ☁️ Cloudflare | VLESS | TG: @YoutubeUnBlockRu § 6",
+      "server": "172.65.111.43",
+      "server_port": 22,
+      "uuid": "monacoVPN",
       "transport": {
-        "type": "ws",
-        "path": "/O1w0n3vYgFKYs7EzNAvLPvOp",
-        "headers": {
-          "Host": "apii.onlineshoppingez.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "path": "/@monacoVPN@monacoVPN@monacoVPN@monacoVPN",
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     },
     {
+      "type": "hysteria2",
+      "tag": "0034 | 🇸🇪 Sweden | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 7",
+      "server": "150.241.78.128",
+      "server_port": 1935,
+      "password": "hysteria2_fastlane_y3phbb5eb:8FXcfb2dGzLFFgNvqVZdCWMApn6xfCiV",
+      "tls": {
+        "enabled": true,
+        "server_name": "de3.h.fastlanehosting.ru"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "https://t.me/ForceRunVPN-🇿🇦-Johannesburg-573ms-Microsoft Corporation § 8",
+      "server": "102.133.165.160",
+      "server_port": 16233,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+    },
+    {
       "type": "vless",
-      "tag": "🇷🇺_俄罗斯 § 13",
-      "server": "nl-90w-c.southnetworks.cloud",
+      "tag": "🇩🇪 Germany — #354 § 9",
+      "server": "104.17.145.59",
       "server_port": 80,
-      "uuid": "e08f1ad7-0c60-446d-baec-08b3b69bb3d0",
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
       "transport": {
         "type": "ws",
-        "path": "/getWorkerUpdates",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🚫🇭🇰 HK 103.149.183.10 ◈ tcp:8388 ◈ DALIAN YICHUAN INDUSTRIAL CO., LIMITED ◈ 5c1f2 § 14",
-      "server": "103.149.183.10",
-      "server_port": 8388,
-      "method": "chacha20-ietf",
-      "password": "asd123456"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺_俄罗斯 § 15",
-      "server": "nl-78w-c.southnetworks.cloud",
-      "server_port": 80,
-      "uuid": "094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa",
-      "transport": {
-        "type": "ws",
-        "path": "/getWorkerUpdates",
+        "path": "/",
         "headers": {
-          "Host": "nl-78w-c.southnetworks.cloud"
+          "Host": "vip.yaml7.ggff.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -611,13 +584,70 @@
     },
     {
       "type": "vless",
-      "tag": "🇰🇷_韩国 § 16",
-      "server": "146.56.99.22",
-      "server_port": 20443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tag": "[OpenRay] 🇷🇺 RU-10969 § 10",
+      "server": "51.250.41.69",
+      "server_port": 4368,
+      "uuid": "3c14ecf0-9f6f-49c5-b938-0e952ad4a440",
       "tls": {
         "enabled": true,
-        "server_name": "sni.jpmj.dev",
+        "server_name": "eh.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7l27aXKv2tgkIrgohE7iwiRC4bsGbTEOKkyG6K7m3wo"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇷🇺 RU-11007 § 11",
+      "server": "178.154.244.97",
+      "server_port": 19021,
+      "uuid": "89e77be3-b97a-4caf-a746-18ed53ff25a5",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "msk-2.veroid.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-13515 § 12",
+      "server": "mx2.tehrantolidi.ir",
+      "server_port": 80,
+      "uuid": "dfe13f5a-9ce4-44fc-be96-1067bbf9202d",
+      "transport": {
+        "type": "ws",
+        "path": "/site",
+        "headers": {
+          "Host": "cdn123.global.ssl.fastly.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-13914 § 13",
+      "server": "sweden.vmaxpanel.com",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
+      "tls": {
+        "enabled": true,
+        "server_name": "sweden.vmaxpanel.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -625,32 +655,66 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=",
+        "path": "/amd",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-16530 § 14",
+      "server": "russia.com",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "cmd.coooai.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr",
         "headers": {
-          "Host": "sni.jpmj.dev"
+          "Host": "cmd.coooai.com"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🚫🇭🇰 HK 103.141.221.200 ◈ tcp:8388 ◈ Strong Worth Holdings Limited ◈ 45c41 § 17",
-      "server": "103.141.221.200",
-      "server_port": 8388,
-      "method": "chacha20-ietf",
-      "password": "asd123456"
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-282 § 15",
+      "server": "v2.dabache.top",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
+      "tls": {
+        "enabled": true,
+        "server_name": "sweden.vmaxpanel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/amd",
+        "headers": {
+          "Host": "sweden.vmaxpanel.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "vless",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪²⁰』 § 18",
-      "server": "nodejs.org",
-      "server_port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
+      "tag": "[OpenRay] 🇩🇪 DE-10732 § 16",
+      "server": "f1.hamrahconf.ir",
+      "server_port": 8443,
+      "uuid": "c5b1bc1a-28b3-46d4-94bc-9b9686f0a108",
       "tls": {
         "enabled": true,
-        "server_name": "dev.nestandneighbours.com",
+        "server_name": "sp.secoxi.site",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -660,55 +724,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "dev.nestandneighbours.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪³』 § 19",
-      "server": "nodejs.org",
-      "server_port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
-      "tls": {
-        "enabled": true,
-        "server_name": "dev.nestandneighbours.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "dev.nestandneighbours.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁹⁴』 § 20",
-      "server": "delilah.ns.cloudflare.com",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
-      "tls": {
-        "enabled": true,
-        "server_name": "hetz.x-smm.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers": {
-          "Host": "hetz.x-smm.com"
+          "Host": "p3-sync-02.secoxi.site"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -716,13 +732,13 @@
     },
     {
       "type": "trojan",
-      "tag": "🆔️ | @Eag1e_YT『🇨🇦¹⁰⁷』 § 21",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "password": "humanity",
+      "tag": "[OpenRay] Dynamic-15328 § 17",
+      "server": "chatgpt.com",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
+        "server_name": "sweden.vmaxpanel.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -730,32 +746,28 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/amd",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "sweden.vmaxpanel.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "vless",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁷⁵』 § 22",
-      "server": "clyde.ns.cloudflare.com",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "tag": "[OpenRay] 🇩🇪 DE-10585 § 18",
+      "server": "itsmohidomainvps.online",
+      "server_port": 443,
+      "uuid": "d1d01ea7-9797-4f60-9436-8a616b0497f4",
       "tls": {
         "enabled": true,
-        "server_name": "hetz.x-smm.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "disable_sni": true
       },
       "transport": {
         "type": "ws",
-        "path": "/45.76.183.217=49292",
+        "path": "/v2ray",
         "headers": {
-          "Host": "hetz.x-smm.com"
+          "Host": "itsmohidomainvps.online"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -763,37 +775,101 @@
     },
     {
       "type": "vless",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪¹⁰⁰』 § 23",
-      "server": "norman.ns.cloudflare.com",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "tag": "[OpenRay] 🇷🇺 RU-10974 § 19",
+      "server": "51.250.30.149",
+      "server_port": 4372,
+      "uuid": "3c14ecf0-9f6f-49c5-b938-0e952ad4a440",
       "tls": {
         "enabled": true,
-        "server_name": "hetz.x-smm.com",
+        "server_name": "eh.vk.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SZAVCKPrwOm0de0Y095w0tzkl3M-I6_I8KEgMGM9ngQ"
         }
       },
       "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16461 § 20",
+      "server": "172.67.171.198",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
         "type": "ws",
-        "path": "/45.76.183.217=49292",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
         "headers": {
-          "Host": "hetz.x-smm.com"
+          "Host": "fbg.1x3.indevs.in"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇺🇸 US-13721 § 21",
+      "server": "s843.ccgfw.top",
+      "server_port": 443,
+      "uuid": "ccd85f23-9105-37fd-96b9-9dcbc89ff3eb",
+      "tls": {
+        "enabled": true,
+        "server_name": "u710948u2076s843.ccgfw.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ssp",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇷🇺 RU-10967 § 22",
+      "server": "51.250.30.149",
+      "server_port": 4365,
+      "uuid": "3c14ecf0-9f6f-49c5-b938-0e952ad4a440",
+      "tls": {
+        "enabled": true,
+        "server_name": "eh.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7l27aXKv2tgkIrgohE7iwiRC4bsGbTEOKkyG6K7m3wo"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁴⁸』 § 24",
-      "server": "104.18.32.47",
+      "tag": "[OpenRay] Dynamic-14617 § 23",
+      "server": "rft5.xx9.ccwu.cc",
       "server_port": 443,
-      "password": "humanity",
+      "password": "c558328b-eb46-424c-b9e0-574770f0b072",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
+        "server_name": "rft5.xx9.ccwu.cc",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -801,148 +877,82 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/ks4McWjhV7bXNC0BXGtJ",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "rft5.xx9.ccwu.cc"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁹⁶』 § 25",
-      "server": "betty.ns.cloudflare.com",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
-      "tls": {
-        "enabled": true,
-        "server_name": "hetz.x-smm.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers": {
-          "Host": "hetz.x-smm.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁹⁹』 § 26",
-      "server": "clyde.ns.cloudflare.com",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
-      "tls": {
-        "enabled": true,
-        "server_name": "hetz.x-smm.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers": {
-          "Host": "hetz.x-smm.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁷⁶』 § 27",
-      "server": "norman.ns.cloudflare.com",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
-      "tls": {
-        "enabled": true,
-        "server_name": "hetz.x-smm.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers": {
-          "Host": "hetz.x-smm.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪³¹』 § 28",
-      "server": "82.38.31.89",
-      "server_port": 8080,
+      "tag": "[OpenRay] 🇫🇮 FI-874 § 24",
+      "server": "185.5.38.111",
+      "server_port": 55988,
       "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "password": "FjgGNNHQiELzxXmaHRxxtQbxDDvGXFxYdTbYe91JKZsjvKLHoY9rn9ruYE45377WjtU3m4kmXQZDXiHBJsgVfhmpawEoGvq9"
     },
     {
-      "type": "trojan",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁷』 § 29",
-      "server": "172.64.152.23",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.creationlong.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-15791 § 25",
+      "server": "bnju8y7.12i.ccwu.cc",
+      "server_port": 80,
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
         "headers": {
-          "Host": "www.creationlong.org"
+          "Host": "bnju8y7.12i.ccwu.cc"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
-      "tag": "🆔️ | @Eag1e_YT『🇩🇪⁵⁷』 § 30",
-      "server": "v1.dabache.top",
-      "server_port": 8443,
-      "password": "T9BpZIVMNv",
+      "tag": "[OpenRay] 🇨🇦 CA-16513 § 26",
+      "server": "209.200.246.105",
+      "server_port": 17837,
+      "password": "YRw2bzmWwl",
       "tls": {
         "enabled": true,
-        "server_name": "sweden.vmaxpanel.com",
+        "server_name": "aws.amazon.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
       "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16453 § 27",
+      "server": "104.21.60.175",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "transport": {
         "type": "ws",
-        "path": "/amd",
+        "path": "/Iq3945ZsqJBAQ5Ah",
         "headers": {
-          "Host": "sweden.vmaxpanel.com"
+          "Host": "bbbn66y.1sm.ccwu.cc"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
-      "tag": "_未知 § 31",
-      "server": "www.creationlong.org",
+      "tag": "[OpenRay] Dynamic-14873 § 28",
+      "server": "nhj.1jj.ccwu.cc",
       "server_port": 443,
-      "password": "humanity",
+      "password": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
       "tls": {
         "enabled": true,
-        "server_name": "www.creationlong.org",
+        "server_name": "nhj.1jj.ccwu.cc",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -950,67 +960,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "_未知 § 32",
-      "server": "162.159.36.5",
-      "server_port": 8443,
-      "password": "T9BpZIVMNv",
-      "tls": {
-        "enabled": true,
-        "server_name": "sweden.vmaxpanel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/amd",
+        "path": "/y1moM5CyNvYMZlzsYHmsMrnO",
         "headers": {
-          "Host": "sweden.vmaxpanel.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "_未知 § 33",
-      "server": "www.calmlunch.com",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "nhj.1jj.ccwu.cc"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇬_新加坡 § 34",
-      "server": "151.101.9.80",
+      "tag": "[OpenRay] 🇨🇦 CA-16441 § 29",
+      "server": "172.67.164.139",
       "server_port": 80,
-      "uuid": "5a1d2c0c-abfa-4050-918f-bfab3eaee62a",
+      "uuid": "60c4d55d-bee3-4719-9568-aabf45153f9f",
+      "transport": {
+        "type": "ws",
+        "path": "/gPvZ4oCcNDyuc3szX7xhuvpEm",
+        "headers": {
+          "Host": "nj89.0f0.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇺🇸 US-13414 § 30",
+      "server": "162.159.38.62",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "adspeedx23.global.ssl.fastly.net"
+          "Host": "vip.yaml7.ggff.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1018,30 +1001,13 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺_俄罗斯 § 35",
-      "server": "193.163.203.36",
-      "server_port": 18570,
-      "uuid": "88e148ba-1e39-45e9-8aef-6b207411435a",
+      "tag": "[OpenRay] Dynamic-14912 § 31",
+      "server": "nhj.1jj.ccwu.cc",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
       "tls": {
         "enabled": true,
-        "disable_sni": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸_美国 § 36",
-      "server": "192.200.160.228",
-      "server_port": 2083,
-      "uuid": "9f846e5c-56f9-4670-8be2-5b00d2a107c0",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.elterido.ir",
+        "server_name": "nhj.1jj.ccwu.cc",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1049,140 +1015,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/api03",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
         "headers": {
-          "Host": "de.elterido.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "_未知 § 37",
-      "server": "mkouy.99890604.xyz",
-      "server_port": 443,
-      "password": "5196aae7-1479-4f3c-978b-68e74977b509",
-      "tls": {
-        "enabled": true,
-        "server_name": "mkouy.99890604.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/mSZVb4DmOGWZIKMBivnR3",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "_未知 § 38",
-      "server": "jjjiu.99890604.xyz",
-      "server_port": 443,
-      "uuid": "5196aae7-1479-4f3c-978b-68e74977b509",
-      "tls": {
-        "enabled": true,
-        "server_name": "jjjiu.99890604.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vzwyBIUYH4vYIKMBivnR3",
-        "headers": {
-          "Host": "jjjiu.99890604.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "_未知 § 39",
-      "server": "mkouy.99890604.xyz",
-      "server_port": 443,
-      "password": "5196aae7-1479-4f3c-978b-68e74977b509",
-      "tls": {
-        "enabled": true,
-        "server_name": "mkouy.99890604.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/mSZVb4DmOGWZIKMBivnR3",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸_美国 § 40",
-      "server": "vvvbbbnhj.taipei102.indevs.in",
-      "server_port": 443,
-      "password": "2bfe58f7-da1d-45df-ab43-7c665b20ee29",
-      "tls": {
-        "enabled": true,
-        "server_name": "vvvbbbnhj.taipei102.indevs.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/2cO5FH0xUmT9oqnbBhmKb8nOkg",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "_未知 § 41",
-      "server": "gggbnh.www890604.dpdns.org",
-      "server_port": 443,
-      "password": "2bfe58f7-da1d-45df-ab43-7c665b20ee29",
-      "tls": {
-        "enabled": true,
-        "server_name": "gggbnh.www890604.dpdns.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/2cO5FH0xUmT9oqnbBhmKb8nOkg",
-        "headers": {
-          "Host": "gggbnh.www890604.dpdns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸_美国 § 42",
-      "server": "69.84.182.13",
-      "server_port": 443,
-      "uuid": "da793913-33ef-45c0-806d-f23644c555f2",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp1-jp1.aiopen.sbs",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/kbjc/jp1",
-        "headers": {
-          "Host": "jp1-jp1.aiopen.sbs"
+          "Host": "nhj.1jj.ccwu.cc"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1190,26 +1025,67 @@
     },
     {
       "type": "vless",
-      "tag": "[OpenRay] 🇧🇦 BA-2 § 43",
-      "server": "45.15.178.124",
+      "tag": "[OpenRay] Dynamic-15058 § 32",
+      "server": "bgn.1dd.ccwu.cc",
       "server_port": 80,
-      "uuid": "75e1fde7-6bf6-48ef-ba43-400e960e185b",
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
       "transport": {
         "type": "ws",
-        "path": "/vless/",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "bgn.1dd.ccwu.cc"
+        },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "[OpenRay] 🇨🇦 CA-12045 § 44",
-      "server": "188.114.98.0",
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-15788 § 33",
+      "server": "dcvbghy7.12i.ccwu.cc",
+      "server_port": 80,
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
+      "transport": {
+        "type": "ws",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
+        "headers": {
+          "Host": "dcvbghy7.12i.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇺🇸 US-13722 § 34",
+      "server": "s842.ccgfw.top",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "ccd85f23-9105-37fd-96b9-9dcbc89ff3eb",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
+        "server_name": "u710948u0378s842.ccgfw.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ssp",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-14871 § 35",
+      "server": "m9o0.1xq.indevs.in",
+      "server_port": 443,
+      "password": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "m9o0.1xq.indevs.in",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1217,421 +1093,413 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/y1moM5CyNvYMZlzsYHmsMrnO",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "m9o0.1xq.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16327 § 36",
+      "server": "172.67.155.243",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "mkii.1x4.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-16000 § 37",
+      "server": "mki.1nn.ccwu.cc",
+      "server_port": 80,
+      "uuid": "d5604db8-1f31-403d-a315-d8bafc70f7d2",
+      "transport": {
+        "type": "ws",
+        "path": "/1Aeip9N4V6m20grcpQ8L96b",
+        "headers": {
+          "Host": "mki.1nn.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-15349 § 38",
+      "server": "nnmkl.2nn.ccwu.cc",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "nnmkl.2nn.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-15499 § 39",
+      "server": "mkl.2oo.ccwu.cc",
+      "server_port": 443,
+      "password": "d5604db8-1f31-403d-a315-d8bafc70f7d2",
+      "tls": {
+        "enabled": true,
+        "server_name": "mkl.2oo.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/mRjWgF9aMWcpQ8L96b",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16440 § 40",
+      "server": "172.67.152.88",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "transport": {
+        "type": "ws",
+        "path": "/Iq3945ZsqJBAQ5Ah",
+        "headers": {
+          "Host": "rggbnhju7.0gg.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16431 § 41",
+      "server": "104.21.65.159",
+      "server_port": 80,
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
+      "transport": {
+        "type": "ws",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
+        "headers": {
+          "Host": "2wsde.12i.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-15930 § 42",
+      "server": "dcvbghy7.12i.ccwu.cc",
+      "server_port": 443,
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
+      "tls": {
+        "enabled": true,
+        "server_name": "dcvbghy7.12i.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
+        "headers": {
+          "Host": "dcvbghy7.12i.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-15786 § 43",
+      "server": "2wsde.12i.ccwu.cc",
+      "server_port": 80,
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
+      "transport": {
+        "type": "ws",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
+        "headers": {
+          "Host": "2wsde.12i.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16432 § 44",
+      "server": "104.21.10.224",
+      "server_port": 80,
+      "uuid": "60c4d55d-bee3-4719-9568-aabf45153f9f",
+      "transport": {
+        "type": "ws",
+        "path": "/gPvZ4oCcNDyuc3szX7xhuvpEm",
+        "headers": {
+          "Host": "jjk.0f0.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-15430 § 45",
+      "server": "172.67.200.61",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "nmjk.1hh.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-14869 § 46",
+      "server": "bgt.1x2.indevs.in",
+      "server_port": 443,
+      "password": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "bgt.1x2.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/y1moM5CyNvYMZlzsYHmsMrnO",
+        "headers": {
+          "Host": "bgt.1x2.indevs.in"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "trojan",
-      "tag": "[OpenRay] Dynamic-13305 § 45",
-      "server": "www.calmlunch.com",
+      "tag": "[OpenRay] Dynamic-15497 § 47",
+      "server": "mhju.h2e.indevs.in",
       "server_port": 443,
-      "password": "humanity",
+      "password": "d5604db8-1f31-403d-a315-d8bafc70f7d2",
       "tls": {
         "enabled": true,
-        "disable_sni": true
+        "server_name": "mhju.h2e.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/mRjWgF9aMWcpQ8L96b",
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "trojan",
-      "tag": "[OpenRay] Dynamic-11959 § 46",
-      "server": "www.calmlunch.com",
+      "tag": "[OpenRay] Dynamic-15545 § 48",
+      "server": "nju.taipei104.indevs.in",
       "server_port": 443,
-      "password": "humanity",
+      "password": "d5604db8-1f31-403d-a315-d8bafc70f7d2",
       "tls": {
         "enabled": true,
-        "disable_sni": true
+        "server_name": "nju.taipei104.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/mRjWgF9aMWcpQ8L96b",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "nju.taipei104.indevs.in"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16018 § 49",
+      "server": "172.67.151.222",
+      "server_port": 80,
+      "uuid": "60c4d55d-bee3-4719-9568-aabf45153f9f",
+      "transport": {
+        "type": "ws",
+        "path": "/gPvZ4oCcNDyuc3szX7xhuvpEm",
+        "headers": {
+          "Host": "y670.0h0.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16362 § 50",
+      "server": "188.114.97.3",
+      "server_port": 80,
+      "uuid": "60c4d55d-bee3-4719-9568-aabf45153f9f",
+      "transport": {
+        "type": "ws",
+        "path": "/gPvZ4oCcNDyuc3szX7xhuvpEm",
+        "headers": {
+          "Host": "y670.0h0.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16439 § 51",
+      "server": "172.67.191.42",
+      "server_port": 80,
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
+      "transport": {
+        "type": "ws",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
+        "headers": {
+          "Host": "dcvbnju8.12i.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16433 § 52",
+      "server": "104.21.1.213",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "transport": {
+        "type": "ws",
+        "path": "/Iq3945ZsqJBAQ5Ah",
+        "headers": {
+          "Host": "rggbnhju7.0gg.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14905 § 53",
+      "server": "bghy.1xq.indevs.in",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "bghy.1xq.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "bghy.1xq.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16428 § 54",
+      "server": "172.67.198.237",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "transport": {
+        "type": "ws",
+        "path": "/Iq3945ZsqJBAQ5Ah",
+        "headers": {
+          "Host": "bbbn66y.1sm.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "trojan",
-      "tag": "[OpenRay] 🇨🇦 CA-12178 § 47",
+      "tag": "[OpenRay] Dynamic-14875 § 55",
+      "server": "nmki.1qq.ccwu.cc",
+      "server_port": 443,
+      "password": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "nmki.1qq.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/y1moM5CyNvYMZlzsYHmsMrnO",
+        "headers": {
+          "Host": "nmki.1qq.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇭🇰 HK-871 § 56",
+      "server": "n1761184278.74qxv.top",
+      "server_port": 443,
+      "uuid": "1b451930-1211-4ffe-90a8-80ca5bb801b4",
+      "tls": {
+        "enabled": true,
+        "server_name": "n1761184278.74qxv.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/1b451930-1211-4ffe-90a8-80ca5bb801b4",
+        "headers": {
+          "Host": "n1761184278.74qxv.top"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16455 § 57",
       "server": "188.114.96.3",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.calmlunch.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇨🇦 CA-12634 § 48",
-      "server": "z1.n1server.org",
-      "server_port": 443,
-      "uuid": "071435dc-6ab9-4502-8441-ed4a4b609092",
-      "tls": {
-        "enabled": true,
-        "server_name": "n1.n1server.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇫🇷 FR-429 § 49",
-      "server": "sktr.berkeart.ir",
-      "server_port": 19702,
-      "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
-      "tls": {
-        "enabled": true,
-        "server_name": "check-host.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "xyz",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇧🇦 BA-1 § 50",
-      "server": "pq-bosniaandherzegovina1.09vpn.com",
       "server_port": 80,
-      "uuid": "75e1fde7-6bf6-48ef-ba43-400e960e185b",
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
       "transport": {
         "type": "ws",
-        "path": "/vless/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇫🇷 FR-463 § 51",
-      "server": "194.35.120.116",
-      "server_port": 19702,
-      "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
-      "tls": {
-        "enabled": true,
-        "server_name": "check-host.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "xyz",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] Dynamic-12271 § 52",
-      "server": "v1.dabache.top",
-      "server_port": 2096,
-      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca.adobe-connect.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
+        "path": "/Iq3945ZsqJBAQ5Ah",
         "headers": {
-          "Host": "ca.adobe-connect.top"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[OpenRay] 🇫🇮 FI-310 § 53",
-      "server": "185.5.38.111",
-      "server_port": 55988,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k7xW6N5SAVpgeqi1wd7s7yxD7S8PxaehUM5W8apHrQi3pSoDRXScoAPk8SVa4mKbvRjrgENU3dUgzTgp9T3rrXinaDe4CXYk"
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇷🇺 RU-2376 § 54",
-      "server": "ru87.lowlatency.cloud",
-      "server_port": 443,
-      "uuid": "895f94cb-5567-4731-bc2c-2f89a54bafe4",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "BFu6ZFV1Ej0ekaxceff7o1vHZmAYaJSqA4lIuiEQwUE",
-          "short_id": "98c397de"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[OpenRay] 🇫🇮 FI-251 § 55",
-      "server": "185.5.38.111",
-      "server_port": 55988,
-      "method": "chacha20-ietf-poly1305",
-      "password": "iZDJs2CDckHKqJ5W7cpvCq2veqsqWn95iqs6Kr6F3YNnyMsk2uPdRrChQfShvH1v56Br1qWEW44qJna5QcMcZF7RCJmdvwuq"
-    },
-    {
-      "type": "trojan",
-      "tag": "[OpenRay] Dynamic-11672 § 56",
-      "server": "www.calmlunch.com",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.calmlunch.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇨🇦 CA-12297 § 57",
-      "server": "188.114.97.185",
-      "server_port": 2053,
-      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir6.hnbyme.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ir6.hnbyme.online"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "[OpenRay] Dynamic-13237 § 58",
-      "server": "www.creationlong.org",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.creationlong.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[OpenRay] 🇫🇮 FI-279 § 59",
-      "server": "185.5.38.111",
-      "server_port": 55988,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4ju873evpjeaAi8Zq12YoRHWp63o5exdnZ71aUg1YEChiPTc2HkasYhUBxRz7UGi4K6cLrsGaU6b44H4Qa6f4cJn3zBp2cnX"
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇷🇺 RU-2412 § 60",
-      "server": "ru61.tcpnet.fun",
-      "server_port": 443,
-      "uuid": "895f94cb-5567-4731-bc2c-2f89a54bafe4",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4NjqiB_FliKff9bP2ASI3WWuhfuyviPeKoz1DyZJQDE",
-          "short_id": "574aa52c"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇺🇸 US-11240 § 61",
-      "server": "3.143.235.221",
-      "server_port": 32252,
-      "uuid": "f0a44f8f-c01f-490c-a6eb-29106a2509a4",
-      "tls": {
-        "enabled": true,
-        "server_name": "3.143.235.221",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "www.bing.com",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[OpenRay] 🇰🇿 KZ-125 § 62",
-      "server": "kazakhstan21.clearorbitllc.com",
-      "server_port": 46551,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Inv114dp2zk9ZbYFPpdQf4"
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇺🇸 US-11263 § 63",
-      "server": "8.6.112.0",
-      "server_port": 2053,
-      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir6.hnbyme.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ir6.hnbyme.online"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "[OpenRay] 🇺🇸 US-11415 § 64",
-      "server": "205.185.115.223",
-      "server_port": 19258,
-      "password": "iWnFtzMiac",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] Dynamic-11554 § 65",
-      "server": "chatgpt.com",
-      "server_port": 2096,
-      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca.adobe-connect.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ca.adobe-connect.top"
+          "Host": "dcvfgt.0z0.ccwu.cc"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1639,257 +1507,249 @@
     },
     {
       "type": "vless",
-      "tag": "[OpenRay] Dynamic-13239 § 66",
-      "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
-      "server_port": 443,
-      "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
-      "tls": {
-        "enabled": true,
-        "server_name": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/QMV9N8sI6UlesbbZ1wwDhJ3",
-        "headers": {
-          "Host": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇨🇦 CA-12383 § 67",
-      "server": "104.18.185.26",
-      "server_port": 2096,
-      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca.adobe-connect.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ca.adobe-connect.top"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "[OpenRay] 🇨🇦 CA-11997 § 68",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.creationlong.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.creationlong.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[OpenRay] 🇮🇳 IN-14 § 69",
-      "server": "pq-india1.09vpn.com",
+      "tag": "[OpenRay] Dynamic-15780 § 58",
+      "server": "dcvbnju8.12i.ccwu.cc",
       "server_port": 80,
-      "uuid": "05b544a4-d479-4ba4-8208-950bd4411453",
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
       "transport": {
         "type": "ws",
-        "path": "/vless/",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
+        "headers": {
+          "Host": "dcvbnju8.12i.ccwu.cc"
+        },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "[OpenRay] 🇮🇳 IN-15 § 70",
-      "server": "pq-india1.09vpn.com",
-      "server_port": 8443,
-      "uuid": "05b544a4-d479-4ba4-8208-950bd4411453",
+      "tag": "[OpenRay] 🇨🇦 CA-16515 § 59",
+      "server": "104.21.80.253",
+      "server_port": 80,
+      "uuid": "2bfded8d-6a7c-4c18-aaa5-fc65b955d50c",
+      "transport": {
+        "type": "ws",
+        "path": "/HoBSIvRY1m5xOEJ3dX414bl",
+        "headers": {
+          "Host": "nnmki.0og.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-15242 § 60",
+      "server": "nmju.1jj.ccwu.cc",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "nmju.1jj.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-15546 § 61",
+      "server": "mhju.h2e.indevs.in",
+      "server_port": 443,
+      "password": "d5604db8-1f31-403d-a315-d8bafc70f7d2",
+      "tls": {
+        "enabled": true,
+        "server_name": "mhju.h2e.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/mRjWgF9aMWcpQ8L96b",
+        "headers": {
+          "Host": "mhju.h2e.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14914 § 62",
+      "server": "nnh.1x0.indevs.in",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "nnh.1x0.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "nnh.1x0.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-14870 § 63",
+      "server": "kklo.1xq.indevs.in",
+      "server_port": 443,
+      "password": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "kklo.1xq.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/y1moM5CyNvYMZlzsYHmsMrnO",
+        "headers": {
+          "Host": "kklo.1xq.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14973 § 64",
+      "server": "bmk.1xq.indevs.in",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "bmk.1xq.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "bmk.1xq.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16444 § 65",
+      "server": "104.21.15.157",
+      "server_port": 80,
+      "uuid": "2bfded8d-6a7c-4c18-aaa5-fc65b955d50c",
+      "transport": {
+        "type": "ws",
+        "path": "/HoBSIvRY1m5xOEJ3dX414bl",
+        "headers": {
+          "Host": "gggbnhj.10o.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-15429 § 66",
+      "server": "104.21.91.128",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "nmk9o.1yy.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16438 § 67",
+      "server": "172.67.130.183",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "transport": {
+        "type": "ws",
+        "path": "/Iq3945ZsqJBAQ5Ah",
+        "headers": {
+          "Host": "scvfg.1gg.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14975 § 68",
+      "server": "ki90.1yy.ccwu.cc",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "ki90.1yy.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "ki90.1yy.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-16510 § 69",
+      "server": "1-p-6-h-p.1no.ccwu.cc",
+      "server_port": 443,
+      "uuid": "ee8bc706-b0be-4053-944e-710f2697b022",
       "tls": {
         "enabled": true,
         "disable_sni": true
       },
       "transport": {
         "type": "ws",
-        "path": "/vless/",
+        "path": "/7QbB9t8n6kQaEnWsy5Crj",
+        "headers": {
+          "Host": "1-p-6-h-p.1no.ccwu.cc"
+        },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "[OpenRay] 🇮🇳 IN-17 § 71",
-      "server": "pq-india1.09vpn.com",
+      "tag": "[OpenRay] 🇨🇦 CA-15394 § 70",
+      "server": "104.21.60.191",
       "server_port": 80,
-      "uuid": "5a54a377-a9d3-4ea5-b7b0-17bd899e202d",
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
       "transport": {
         "type": "ws",
-        "path": "/vless/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "0607 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 72",
-      "server": "m.galangedan.com",
-      "server_port": 1005,
-      "uuid": "ef17644a-cfba-4a64-a8db-8535b2d113ac",
-      "transport": {
-        "type": "http",
-        "host": "fast.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "0567 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 73",
-      "server": "193.233.230.95",
-      "server_port": 1005,
-      "uuid": "ef17644a-cfba-4a64-a8db-8535b2d113ac",
-      "transport": {
-        "type": "http",
-        "host": "fast.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-2605ms-Greenhost BV § 74",
-      "server": "82.38.31.82",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-331ms-Greenhost BV § 75",
-      "server": "82.38.31.217",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "vless",
-      "tag": "0149 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 76",
-      "server": "m.galangedan.com",
-      "server_port": 1005,
-      "uuid": "ef17644a-cfba-4a64-a8db-8535b2d113ac",
-      "transport": {
-        "type": "http",
-        "host": "fast.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱[openproxylist.com] ss-NL § 77",
-      "server": "82.38.31.69",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "0186 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 78",
-      "server": "82.38.31.186",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 79",
-      "server": "82.38.31.82",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "0876 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 80",
-      "server": "82.38.31.99",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-325ms-Greenhost BV § 81",
-      "server": "82.38.31.214",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "https://t.me/ForceRunVPN-🇳🇱-Amsterdam-4809ms-Greenhost BV § 82",
-      "server": "82.38.31.190",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "vless",
-      "tag": "0237 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu § 83",
-      "server": "nl.iccgame.site",
-      "server_port": 3000,
-      "uuid": "1e1b9a1f-47cd-4cb2-a0dc-103a09e253ba",
-      "transport": {
-        "type": "http",
-        "host": "chess.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "https://t.me/ForceRunVPN-🇩🇪-FrankfurtamMain-1253ms-ALEXANDRU VLAD trading as FREAKHOSTING § 84",
-      "server": "chatgpt.com",
-      "server_port": 2096,
-      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca.adobe-connect.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
         "headers": {
-          "Host": "ca.adobe-connect.top"
+          "Host": "nmjk.1hh.ccwu.cc"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1897,13 +1757,140 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Germany — #250 § 85",
-      "server": "198.62.62.127",
+      "tag": "[OpenRay] 🇨🇦 CA-15428 § 71",
+      "server": "104.21.26.122",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "nmju.1jj.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-15389 § 72",
+      "server": "172.67.219.203",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "nmk9o.1yy.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16172 § 73",
+      "server": "104.20.63.52",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14548 § 74",
+      "server": "1qw.ae1autumn.cc.cd",
+      "server_port": 80,
+      "uuid": "13ad36e6-c091-43f2-8505-47d868dd544c",
+      "transport": {
+        "type": "ws",
+        "path": "/XR8So0uqFVa3vY9ZbxgW4",
+        "headers": {
+          "Host": "1qw.ae1autumn.cc.cd"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇺🇸 US-13720 § 75",
+      "server": "s844.ccgfw.top",
       "server_port": 443,
-      "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
+      "uuid": "ccd85f23-9105-37fd-96b9-9dcbc89ff3eb",
       "tls": {
         "enabled": true,
-        "server_name": "apii.onlineshoppingez.ir",
+        "server_name": "u710948ub869s844.ccgfw.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ssp",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇷🇺 RU-10970 § 76",
+      "server": "51.250.41.69",
+      "server_port": 4387,
+      "uuid": "3c14ecf0-9f6f-49c5-b938-0e952ad4a440",
+      "tls": {
+        "enabled": true,
+        "server_name": "eh.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FjaEWefji7Q_H_gpepJUZBY1eNiEfi5GWvVU9XQyrDE"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇺🇸 US-13415 § 77",
+      "server": "162.159.45.207",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-14874 § 78",
+      "server": "nmk9o.1yy.ccwu.cc",
+      "server_port": 443,
+      "password": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "nmk9o.1yy.ccwu.cc",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1911,43 +1898,1199 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/O1w0n3vYgFKYs7EzNAvLPvOp",
+        "path": "/y1moM5CyNvYMZlzsYHmsMrnO",
         "headers": {
-          "Host": "apii.onlineshoppingez.ir"
+          "Host": "nmk9o.1yy.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-15427 § 79",
+      "server": "104.21.41.29",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "bgn.1dd.ccwu.cc"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
-      "tag": "0344 | 🇳🇱 Netherlands | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu § 86",
-      "server": "206.71.158.37",
-      "server_port": 35200,
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16391 § 80",
+      "server": "104.21.72.77",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "transport": {
+        "type": "ws",
+        "path": "/Iq3945ZsqJBAQ5Ah",
+        "headers": {
+          "Host": "sxcvf54.0wu.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16430 § 81",
+      "server": "172.67.158.133",
+      "server_port": 80,
+      "uuid": "9e308743-bc58-4109-b8a8-c2c686959c65",
+      "transport": {
+        "type": "ws",
+        "path": "/I4W63AAjPkpe1D3pAvPtZpEoeO",
+        "headers": {
+          "Host": "ddvfgt.0ob.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16517 § 82",
+      "server": "172.67.136.92",
+      "server_port": 80,
+      "uuid": "2bfded8d-6a7c-4c18-aaa5-fc65b955d50c",
+      "transport": {
+        "type": "ws",
+        "path": "/HoBSIvRY1m5xOEJ3dX414bl",
+        "headers": {
+          "Host": "nnmki.0og.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14549 § 83",
+      "server": "cdfr.ae1autumn.dpdns.org",
+      "server_port": 80,
+      "uuid": "13ad36e6-c091-43f2-8505-47d868dd544c",
+      "transport": {
+        "type": "ws",
+        "path": "/XR8So0uqFVa3vY9ZbxgW4",
+        "headers": {
+          "Host": "cdfr.ae1autumn.dpdns.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-15391 § 84",
+      "server": "172.67.159.58",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "bgn.1dd.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16315 § 85",
+      "server": "104.21.56.212",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "mkii.1x4.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] 🇰🇿 KZ-56 § 86",
+      "server": "45.82.14.144",
+      "server_port": 2025,
+      "password": "vpn",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "dns.google.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "0614 | 🌐 Unknown | HYSTERIA2 | TG: @YoutubeUnBlockRu § 87",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36300,
-      "password": "Yet-Another-Public-Config-1",
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16171 § 87",
+      "server": "104.17.156.229",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14915 § 88",
+      "server": "vnjki.1xq.indevs.in",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
       "tls": {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
+        "server_name": "vnjki.1xq.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "vnjki.1xq.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] 🇰🇿 KZ-48 § 89",
+      "server": "45.82.14.144",
+      "server_port": 2025,
+      "password": "vpn",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "dns.google.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16479 § 90",
+      "server": "188.114.96.3",
+      "server_port": 80,
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
+      "transport": {
+        "type": "ws",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
+        "headers": {
+          "Host": "2wsde.12i.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-14872 § 91",
+      "server": "mjki.1nn.ccwu.cc",
+      "server_port": 443,
+      "password": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "mjki.1nn.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/y1moM5CyNvYMZlzsYHmsMrnO",
+        "headers": {
+          "Host": "mjki.1nn.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-15782 § 92",
+      "server": "bnju8.12i.ccwu.cc",
+      "server_port": 80,
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
+      "transport": {
+        "type": "ws",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
+        "headers": {
+          "Host": "bnju8.12i.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-15392 § 93",
+      "server": "172.67.136.63",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "nmju.1jj.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16393 § 94",
+      "server": "172.67.176.102",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "transport": {
+        "type": "ws",
+        "path": "/Iq3945ZsqJBAQ5Ah",
+        "headers": {
+          "Host": "sxcvf54.0wu.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-16523 § 95",
+      "server": "nnggf.66x.ccwu.cc",
+      "server_port": 443,
+      "password": "d5604db8-1f31-403d-a315-d8bafc70f7d2",
+      "tls": {
+        "enabled": true,
+        "server_name": "nnggf.66x.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/mRjWgF9aMWcpQ8L96b",
+        "headers": {
+          "Host": "nnggf.66x.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14909 § 96",
+      "server": "mki.1ee.ccwu.cc",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "mki.1ee.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "mki.1ee.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16319 § 97",
+      "server": "188.114.97.3",
+      "server_port": 80,
+      "uuid": "2bfded8d-6a7c-4c18-aaa5-fc65b955d50c",
+      "transport": {
+        "type": "ws",
+        "path": "/HoBSIvRY1m5xOEJ3dX414bl",
+        "headers": {
+          "Host": "nnhhhjuuu.1xa.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16221 § 98",
+      "server": "104.17.138.160",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16429 § 99",
+      "server": "104.21.3.129",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "transport": {
+        "type": "ws",
+        "path": "/Iq3945ZsqJBAQ5Ah",
+        "headers": {
+          "Host": "scvfg.1gg.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "[OpenRay] 🇺🇸 US-12703 § 100",
+      "server": "154.53.60.212",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "ZfbPFDdeBj0B1Txs"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16169 § 101",
+      "server": "104.17.150.99",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14910 § 102",
+      "server": "mki.1x3.indevs.in",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "mki.1x3.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "mki.1x3.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-15390 § 103",
+      "server": "172.64.80.1",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "nnmkl.2nn.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16318 § 104",
+      "server": "188.114.96.3",
+      "server_port": 80,
+      "uuid": "60c4d55d-bee3-4719-9568-aabf45153f9f",
+      "transport": {
+        "type": "ws",
+        "path": "/gPvZ4oCcNDyuc3szX7xhuvpEm",
+        "headers": {
+          "Host": "y670.0h0.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-15773 § 105",
+      "server": "dcvbgt6.12i.ccwu.cc",
+      "server_port": 443,
+      "uuid": "ae72f958-c1f6-4fc2-a310-1f007af3d11f",
+      "tls": {
+        "enabled": true,
+        "server_name": "dcvbgt6.12i.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/C6VXG81UQc4XWS6Csfk0uFDF",
+        "headers": {
+          "Host": "dcvbgt6.12i.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇷🇺 RU-11062 § 106",
+      "server": "5.188.140.3",
+      "server_port": 8779,
+      "uuid": "b52989b9-09dc-4ca0-b722-e6fe3e8a0313",
+      "tls": {
+        "enabled": true,
+        "server_name": "ozon.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Hc4aTC6Ml7XLIhdKgizmFw6dcHRv2bl2JP3Ng6K2YVM",
+          "short_id": "aabbccdd"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ozon",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16167 § 107",
+      "server": "104.17.138.164",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-15948 § 108",
+      "server": "spring-tooth-7fa3.ahmadrj.workers.dev",
+      "server_port": 443,
+      "password": "Nova-Proxy",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-tooth-7fa3.ahmadrj.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇷🇺 RU-10968 § 109",
+      "server": "51.250.30.149",
+      "server_port": 4385,
+      "uuid": "3c14ecf0-9f6f-49c5-b938-0e952ad4a440",
+      "tls": {
+        "enabled": true,
+        "server_name": "eh.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IyEuX6Gf3uaWU2BeVlhPsTADZrFZmUsot_YdKZGZSWs"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16170 § 110",
+      "server": "104.17.152.254",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-14552 § 111",
+      "server": "cvfg.ae1autumn.cc.cd",
+      "server_port": 80,
+      "uuid": "13ad36e6-c091-43f2-8505-47d868dd544c",
+      "transport": {
+        "type": "ws",
+        "path": "/XR8So0uqFVa3vY9ZbxgW4",
+        "headers": {
+          "Host": "cvfg.ae1autumn.cc.cd"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-16527 § 112",
+      "server": "mfa.gov.ua",
+      "server_port": 2096,
+      "password": "22367c45-f6c4-4ca8-8d52-d9787d7bbe91",
+      "tls": {
+        "enabled": true,
+        "server_name": "cm22-bgphhh.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cm22-bgphhh.pages.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇩🇪 DE-10598 § 113",
+      "server": "91.107.250.117",
+      "server_port": 2022,
+      "uuid": "00000000-0000-4000-8000-000000000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.mot.ip-ddns.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sub.mot.ip-ddns.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "[OpenRay] 🇨🇦 CA-15532 § 114",
+      "server": "144.217.7.33",
+      "server_port": 12000,
+      "method": "aes-256-gcm",
+      "password": "8JCsPssfgS8tiRwiMlhARg=="
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-15002 § 115",
+      "server": "m9o0.1xq.indevs.in",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "tls": {
+        "enabled": true,
+        "server_name": "m9o0.1xq.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hBasD7EdpBQ0zGAzsYHmsMrnO",
+        "headers": {
+          "Host": "m9o0.1xq.indevs.in"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] Dynamic-16512 § 116",
+      "server": "cloudflare.182682.xyz",
+      "server_port": 8080,
+      "uuid": "2c979473-1e8b-4200-aeac-5aaa0291c6a7",
+      "transport": {
+        "type": "ws",
+        "path": "/2c979473",
+        "headers": {
+          "Host": "telephony-planet-packages-soon.trycloudflare.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "[OpenRay] 🇫🇷 FR-1230 § 117",
+      "server": "45.95.233.133",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "KEN_L6msL8rmuSPywR4M0qM_1_txZ8D5"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "[OpenRay] 🇫🇷 FR-1233 § 118",
+      "server": "45.95.233.133",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "vqyEdGysKQ9FkWHkPnow_fBNANcMRsNH"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-16531 § 119",
+      "server": "russia.com",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless4.vlessvless.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr",
+        "headers": {
+          "Host": "vless4.vlessvless.top"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇨🇦 CA-16378 § 120",
+      "server": "104.17.152.254",
+      "server_port": 80,
+      "uuid": "5aa7d17e-7dc2-46dd-9acf-c3c97440259b",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sss.yaml7.ggff.net"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "[OpenRay] Dynamic-16194 § 121",
+      "server": "dcvwsde.1gg.ccwu.cc",
+      "server_port": 443,
+      "password": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "tls": {
+        "enabled": true,
+        "server_name": "dcvwsde.1gg.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/QXP9D5w7xb1TX3RJBAQ5Ah",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "0345 | 🇳🇱 Netherlands | SS | 📺 YT | TG: @YoutubeUnBlockRu § 88",
-      "server": "82.38.31.199",
-      "server_port": 8080,
+      "tag": "[OpenRay] 🇫🇷 FR-1223 § 122",
+      "server": "45.95.233.133",
+      "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+      "password": "Wy9VmcWHo9QzTxuYMx-X014nQFSah3WT"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 123",
+      "server": "mx2.tehrantolidi.ir",
+      "server_port": 80,
+      "uuid": "dfe13f5a-9ce4-44fc-be96-1067bbf9202d",
+      "transport": {
+        "type": "ws",
+        "path": "/site",
+        "headers": {
+          "Host": "cdn123.global.ssl.fastly.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "_未知 § 124",
+      "server": "www.gossipglove.com",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.gossipglove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇭_瑞士 § 125",
+      "server": "185.18.250.252",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.gossipglove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.gossipglove.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸_美国 § 126",
+      "server": "v1.dabache.top",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
+      "tls": {
+        "enabled": true,
+        "server_name": "sweden.vmaxpanel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/amd",
+        "headers": {
+          "Host": "sweden.vmaxpanel.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇭_瑞士 § 127",
+      "server": "185.18.250.245",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 128",
+      "server": "172.67.136.51",
+      "server_port": 443,
+      "uuid": "0ccdda34-06d9-493f-88e3-25c2809384e8",
+      "tls": {
+        "enabled": true,
+        "server_name": "f-o-0e4--.0vm.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/JTuLZWRAX5vxE2jMjMLwuD",
+        "headers": {
+          "Host": "f-o-0e4--.0vm.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 129",
+      "server": "172.67.152.170",
+      "server_port": 443,
+      "uuid": "b7f11d77-1ee6-4739-ab4c-75a53276db0c",
+      "tls": {
+        "enabled": true,
+        "server_name": "w-r-t-y-y.191288.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/25iUAMTymIiKNdQ5i2A2QTaNH9H",
+        "headers": {
+          "Host": "w-r-t-y-y.191288.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 130",
+      "server": "172.67.156.127",
+      "server_port": 443,
+      "uuid": "0ccdda34-06d9-493f-88e3-25c2809384e8",
+      "tls": {
+        "enabled": true,
+        "server_name": "1-o-0-p-0.0we.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/JTuLZWRAX5vxE2jMjMLwuD",
+        "headers": {
+          "Host": "1-o-0-p-0.0we.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "_未知 § 131",
+      "server": "104.21.32.9",
+      "server_port": 443,
+      "uuid": "0ccdda34-06d9-493f-88e3-25c2809384e8",
+      "tls": {
+        "enabled": true,
+        "server_name": "yhnmjki.0vf.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/JTuLZWRAX5vxE2jMjMLwuD",
+        "headers": {
+          "Host": "yhnmjki.0vf.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 132",
+      "server": "172.67.136.51",
+      "server_port": 443,
+      "uuid": "0ccdda34-06d9-493f-88e3-25c2809384e8",
+      "tls": {
+        "enabled": true,
+        "server_name": "axc-ppp-p.0vm.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/JTuLZWRAX5vxE2jMjMLwuD",
+        "headers": {
+          "Host": "axc-ppp-p.0vm.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "_未知 § 133",
+      "server": "104.21.32.9",
+      "server_port": 443,
+      "uuid": "0ccdda34-06d9-493f-88e3-25c2809384e8",
+      "tls": {
+        "enabled": true,
+        "server_name": "r-p-l.0vf.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/JTuLZWRAX5vxE2jMjMLwuD",
+        "headers": {
+          "Host": "r-p-l.0vf.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 134",
+      "server": "172.67.204.137",
+      "server_port": 443,
+      "uuid": "395539b3-3970-498a-8268-8fab1a0d7309",
+      "tls": {
+        "enabled": true,
+        "server_name": "7-f-r-f-fr-55-thy.0zx.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ck4MBeCVkM6TDoVtZw",
+        "headers": {
+          "Host": "7-f-r-f-fr-55-thy.0zx.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 135",
+      "server": "172.67.183.25",
+      "server_port": 443,
+      "uuid": "5f659525-b180-490d-bf08-8924b04db036",
+      "tls": {
+        "enabled": true,
+        "server_name": "eeefgt.0aj.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/CzpO2B1EaXdW1P81nzWcdo",
+        "headers": {
+          "Host": "eeefgt.0aj.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "_未知 § 136",
+      "server": "1-p-6-h-p.1no.ccwu.cc",
+      "server_port": 443,
+      "uuid": "ee8bc706-b0be-4053-944e-710f2697b022",
+      "tls": {
+        "enabled": true,
+        "server_name": "1-p-6-h-p.1no.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/7QbB9t8n6kQaEnWsy5Crj",
+        "headers": {
+          "Host": "1-p-6-h-p.1no.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 137",
+      "server": "172.67.183.25",
+      "server_port": 443,
+      "uuid": "5f659525-b180-490d-bf08-8924b04db036",
+      "tls": {
+        "enabled": true,
+        "server_name": "tt5.0aj.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/CzpO2B1EaXdW1P81nzWcdo",
+        "headers": {
+          "Host": "tt5.0aj.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "_未知 § 138",
+      "server": "104.21.18.180",
+      "server_port": 443,
+      "uuid": "5f659525-b180-490d-bf08-8924b04db036",
+      "tls": {
+        "enabled": true,
+        "server_name": "eeeghyu.0aj.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/CzpO2B1EaXdW1P81nzWcdo",
+        "headers": {
+          "Host": "eeeghyu.0aj.ccwu.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_美国 § 139",
+      "server": "172.67.185.107",
+      "server_port": 443,
+      "uuid": "b7f11d77-1ee6-4739-ab4c-75a53276db0c",
+      "tls": {
+        "enabled": true,
+        "server_name": "x-e-f-g-h-j-u.00890604.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/25iUAMTymIiKNdQ5i2A2QTaNH9H",
+        "headers": {
+          "Host": "x-e-f-g-h-j-u.00890604.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "10-30",
+        "sleep": "2-8"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
     }
-  ]
-  }
+  ],
+}
