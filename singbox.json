@@ -3815,10 +3815,7 @@
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
        },
-	{
-      "type": "dns",
-      "tag": "dns-out"
-    },
+	
     {
       "type": "direct",
       "tag": "direct"
