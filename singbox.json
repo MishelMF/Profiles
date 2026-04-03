@@ -3820,19 +3820,7 @@
       "type": "direct",
       "tag": "direct"
     },
-    {
-      "type": "direct",
-      "tag": "direct-fragment",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "10-30",
-        "sleep": "2-8"
-      }
-    },
-    {
-      "type": "direct",
-      "tag": "bypass"
-    },
+  
     {
       "type": "block",
       "tag": "block"
