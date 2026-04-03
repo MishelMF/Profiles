@@ -105,7 +105,11 @@
   "inbounds": [
     {
       "type": "tun",
-      "tag": "tun-in"
+      "tag": "tun-in",
+      "address": 192.168.7.1/28,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "gvisor"
     }
   ],
   "experimental": {
