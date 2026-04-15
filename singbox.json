@@ -60,6 +60,12 @@
     },
     "inbounds": [
         {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "listen": "0.0.0.0",
+            "listen_port": 22334
+        },
+        {
             "type": "tun",
             "tag": "tun-in",
             "address": "192.168.7.1/28",
@@ -119,6 +125,10 @@
         "cache_file": {
             "enabled": true,
             "path": "clash.db"
+        },
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "default_mode": "Rule"
         }
     },
     "outbounds": [
