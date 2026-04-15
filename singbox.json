@@ -1,157 +1,1729 @@
-vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.48.237:22955?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&amp;fp=chrome&amp;type=grpc&amp;serviceName=grpc&amp;sni=one-piece.com&amp;sid=6ba85179e30d4fc2#🇦🇹 Austria (netcup)
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@212.183.88.24:443?security=tls&sni=ca.ylks.xyz&type=ws&host=ca.ylks.xyz&path=%2Fblue#🇦🇹 Austria (Porsche)
-vless://caa3af29-3b04-4099-9772-c64a1b7cca34@93.123.39.220:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=chat.deepseek.com&fp=qq&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&sid=be0ce047&type=tcp&headerType=none#🇪🇪 Estonia (QWINS)
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@109.235.242.101:443?security=tls&type=ws&path=%2Fproxyip%3DProxyIP.DE.owg.dpdns.org&host=2-7fc.pages.dev&sni=2-7fc.pages.dev&fp=chrome#🇪🇪 Estonia (AS)
-vless://3921ced2-19c6-476b-840f-988bfee49a30@65.109.8.76:35000?type=ws&encryption=none&path=%2F&host=&security=none#🇫🇮 Finland (Hetzner)
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@57.128.183.138:8443?encryption=none&host=sni.111000.v6.navy&security=tls&sni=sni.111000.v6.navy&type=ws#🇫🇷 France (OVH)
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDkxOGJjODAxZDUzYTRi@57.130.28.148:11201#🇫🇷 France (OVH)
-vless://600eb54d-d31a-4c57-b438-d1e486e8fcd7@146.70.88.7:48736?security=none&type=tcp#🇫🇷 France (M247)
-vless://d6b1327d-2bec-4366-a3a1-9b1284f95841@77.239.125.99:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sun6-21.userapi.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=tcp&headerType=none#🇩🇪 Germany (Play2go)
-vless://5c0c61ab-5670-4644-823a-02c7bcf047ef@78.47.23.231:443?security=reality&sni=iranbax.spacex.com&fp=chrome&pbk=skowtu_zROaa0Y7h0Gss2-4mPXvEAngSPxQVukyWO1U&sid=9ff0c049e20b&type=grpc&serviceName=@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn&encryption=none#🇩🇪 Germany (Hetzner)
-vless://bf1fea71-5665-4f8f-9a58-ea8ba1f26bc0@89.208.96.2:433?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇩🇪 Germany (Aeza)
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@116.203.94.129:2083?path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2&security=tls&encryption=none&insecure=0&host=sni.111000.v6.navy&type=ws&allowInsecure=0&sni=sni.111000.v6.navy#🇩🇪 Germany (Hetzner)
-vless://40842354-ecd2-47ce-9ac0-dd3fc4e0a614@147.45.210.81:8203?security=reality&encryption=none&pbk=8Qmcew0nvdRJ1zida6oLjMJk3jShr7nzaB8u7-kEPCs&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=varzesh3.com&sid=d7edd0fbe87bb4#🇩🇪 Germany (Nekobyte)
-vless://3b88b30b-6586-412b-a4a5-a8c2aa53f66f@[2a01:4f8:1c1b:1891::1]:443?encryption=none&security=reality&sni=148.251.96.211&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&fp=chrome&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&sid=32d7a82d&spx=%2F&type=grpc#🇩🇪 Germany (Hetzner)
-vless://764a13da-76a5-4bc0-a2c9-e2a02f62408f@[2a01:4f8:1c1b:7df::1]:443?encryption=none&security=reality&sni=148.251.96.211&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&fp=chrome&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&sid=32d7a82d&spx=%2F&type=grpc#🇩🇪 Germany (Hetzner)
-vless://1b5648b6-da73-4ffb-b964-46c6d3d52136@159.69.23.6:22531/?type=grpc&encryption=none&sni=zula.ir&fp=chrome&security=reality&pbk=jb36M2GejuMVpv36Tx0zEAq5qPgF7Ux1pHoWre7moHE&sid=4638b111#🇩🇪 Germany (Hetzner)
-vless://c583e7f8-9807-43b6-dac7-ca7ae5623546@195.201.222.173:9090/?type=tcp&encryption=none&flow=&sni=tgju.org&fp=chrome&security=reality&pbk=tQwZ96ULPZim00dZUVBxCl1wRkVjULRVbho7_Z2FQFw&sid=57d56055#🇩🇪 Germany (Hetzner)
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.218.126.21:443?encryption=none&security=tls&sni=app.usercentrics.eu&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇭🇰 Hong Kong (Alibaba)
-vmess://dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3@154.92.9.231:80?type=ws&path=%252Fblue#🇭🇰 Hong Kong (Cloudflare)
-trojan://da6f49ae-b0dd-4527-b993-ae6ec688000c@209.209.48.20:55011?sni=www.h3yun.com&allowInsecure=1#🇭🇰 Hong Kong (ASYMPTOTE)
-trojan://da6f49ae-b0dd-4527-b993-ae6ec688000c@209.209.48.20:55012?sni=www.h3yun.com&allowInsecure=1#🇭🇰 Hong Kong (ASYMPTOTE)
-vless://06ef598c-1555-4887-b3f9-08214a2f6792@222.167.202.15:7443?allowInsecure=0&sni=2026.hhhhh.eu.org&type=ws&host=2026.hhhhh.eu.org&path=/222.167.202.15:7443security=tls#🇭🇰 Hong Kong (PEG)
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@223.16.138.113:12457?encryption=none&security=tls&sni=sni.jpmj.dev&insecure=0&allowInsecure=0&type=ws&host=sni.jpmj.dev&path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2#🇭🇰 Hong Kong (HGC)
-vless://42961e67-c3e0-4b84-8d71-1ff20bdcedae@65.20.71.254:42537?security=none&encryption=none&host=excoino.com&headerType=http&type=tcp#🇮🇳 India (Constant)
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@13.113.26.46:443?type=ws&security=tls&sni=3-a2s.pages.dev&fp=chrome&path=%252F&host=3-a2s.pages.dev#🇯🇵 Japan (Amazon.com)
-vmess://1a17b19d-4896-4531-af79-6e91d8ef8228@13.114.103.238:8686?type=ws&host=end-gfw.com&path=%252F&sni=baidu.com#🇯🇵 Japan (Amazon.com)
-vmess://ec736482-173e-3eff-9114-b49df8056e7d@161.129.34.102:443?type=ws&path=%252F&security=tls#🇯🇵 Japan (Ju)
-vmess://a0b1fb66-ed41-4077-86a9-a61c143d3777@161.129.34.126:443?type=ws&path=%252Fa0b1fb66-ed41-4077-86a9-a61c143d3777&sni=pics.quicklyfast.xyz&security=tls#🇯🇵 Japan (Ju)
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@168.138.192.16:54584?encryption=none&security=tls&sni=sni.111000.indevs.in&insecure=0&allowInsecure=0&type=ws&host=sni.111000.indevs.in&path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2#🇯🇵 Japan (Oracle)
-vless://eb162ab1-a006-4931-b1b3-8fc88a22b10e@38.107.234.38:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=maxru.outlinekeys.net&security=reality&pbk=zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0&sid=#🇰🇿 Kazakhstan (Newserverlife)
-vless://d0f9437f-3c49-45c6-976b-ebea24158b39@194.76.18.237:2082?security=none&type=httpupgrade&host=finhztco.nipytee.info&path=%2F#🇰🇿 Kazakhstan (Mikrofinansovaya)
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphODIwMWJiZDc0MDQyMGJi@213.156.137.142:43659?#🇰🇿 Kazakhstan (G-Core)
-vless://6d916d55-fead-4ff3-a3a9-83e175ea8ad7@92.118.170.89:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=chrome&alpn=h3%2Ch2%2Chttp/1.1#🇱🇻 Latvia (Baykov)
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.250.138:2096?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&path=%2F&security=tls&sni=sni.111000.indevs.in&type=ws#🇱🇹 Lithuania (Cloudflare)
-vless://7c3f08c8-7b3b-4028-91d8-378a18c2b62a@93.115.25.177:443?type=tcp&security=reality&sni=mycatcollection.com&fp=chrome&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#🇱🇹 Lithuania (UAB)
-vmess://05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d@45.67.215.119:443?type=ws&host=e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com&path=%252F&sni=e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com&security=tls#🇷🇺 Russia (Microcredit)
-vless://48198295-b7ba-4b5c-8d85-085d55a6c869@45.67.215.154:443?encryption=none&security=tls&sni=ap.ylks.xyz&type=ws&host=ap.ylks.xyz&path=%2Fblue#🇷🇺 Russia (Microcredit)
-vless://55210ecf-deb4-4226-abfa-838dd1941bff@51.250.81.183:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tunnel.vk-apps.com&pbk=Z6kV2lFb6o5gFg4ioFxqkYfz1O5ii25wZrAvX81SSHc&sid=910c6fb1#🇷🇺 Russia (Yandex.Cloud)
-vless://270c645a-b1cd-4f02-8a54-8ef7f2d357a6@78.159.247.192:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=rutube.ru&fp=chrome&security=reality&pbk=qNN5FLxKWQDraPW7whEPfKohzR4P_s98aDbg2A6lRWM&sid=76995499b21c0f&packetEncoding=xudp#🇷🇺 Russia (Global)
-vless://6e2a5fe6-bb51-40e0-8c1d-fce978815d71@85.239.55.48:4453?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#🇷🇺 Russia (Jsc)
-vless://90c9c25c-df6c-4438-83d3-ef97166a9184@92.51.47.215:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&packetEncoding=xudp&pbk=A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw&security=reality&sid=6ba85179e30d4fc2&sni=www.cloudflare.com&type=tcp#🇷🇺 Russia (Timeweb)
-vless://f28e6dc2-3d8b-000a-9de1-b7d32ee653c7@95.174.93.121:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=pimg.mycdn.me&fp=chrome&security=reality&pbk=73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU&sid=d3d691bb9668#🇷🇺 Russia (Cloud.ru)
-vless://c6554ad3-c708-41cf-b72f-448a6b66763f@109.120.188.2:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=chrome&security=reality&pbk=N7bJndsaDbXVhL0W9NBZuexD30QATqaP5F5IdUSW0WU&sid=&packetEncoding=xudp#🇷🇺 Russia (LLC)
-vless://95557ad5-5d90-4f80-a1e2-a72fda60ca4b@144.31.48.185:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ya.ru&pbk=F1RQOkjsJd0zgk8LfCa-4FOzc84ssQIhFjzMr90juTk&sid=b478456fec48c004&packetEncoding=xudp#🇷🇺 Russia (Citytelecom)
-vless://362164d7-2d3c-439c-886c-a18e4de76e2b@151.236.114.192:8443?encryption=none&type=grpc&security=reality&mode=gun&fp=chrome&sni=max.ru&pbk=UsIT-zjeviusx9Av1bItm6yZiZCW56J1P1zvoQAOpU0&sid=0123456789abcdef#🇷🇺 Russia (Global)
-vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@155.212.166.116:2096?encryption=none&security=reality&sni=id.vk.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid&type=grpc&serviceName=vless-grpc-reality&packetEncoding=xudp#🇷🇺 Russia (JSC)
-vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@155.212.166.195:2096?encryption=none&security=reality&sni=id.vk.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid&type=grpc&serviceName=vless-grpc-reality&packetEncoding=xudp#🇷🇺 Russia (JSC)
-vless://2818b4d1-86f2-4cb5-a522-672d1cea7f08@158.160.89.209:8443?type=tcp&security=reality&sni=ads.x5.ru&fp=edge&pbk=iu72fUewSgHq_9kK13zuUulSIPqB0_TAiERA-R1XLzE&sid=372c05b48fe83e5b&flow=xtls-rprx-vision#🇷🇺 Russia (Yandex.Cloud)
-vless://b85f6014-bacd-4fbf-bede-96e89100d71d@158.160.146.121:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=6r6uq4tZym5wRhJ5uti-h-UvN6uatQodMcG8rBU79Q4&spx=%2F#🇷🇺 Russia (Yandex.Cloud)
-vless://4d2e3031-4f3b-4de3-92e3-57088b4f32a3@158.160.146.186:4243?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=Sdha2ntY-aLVBuCrMwTn4xE6W8HNbEVhai2gzBFKgFc&sid=abcd1234&sni=id.x5.ru#🇷🇺 Russia (Yandex.Cloud)
-vless://30d9e37f-146f-45db-b3ae-264fb13eec30@176.108.242.97:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=pimg.mycdn.me&pbk=pxe7Jjr_nB151F5DhD2AtujQoW3xJsQCxlQcSa1q-E4&sid=a81d50f490a228bb#🇷🇺 Russia (Cloud.ru)
-vless://bc32639e-100a-40ad-b064-b0829a0bd197@176.109.109.58:8443?security=reality&encryption=none&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&host=---%40External_Net---%40External_Net---%40External_Net---%40External_Net---%40External_Net&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=6419bed7fd0a2cff#🇷🇺 Russia (Cloud.ru)
-vless://2f54d358-bc38-4cbc-a1b3-336e52895f6f@178.250.246.103:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&pbk=D5ttWzeUeEo0oKchjhHGY7Z8jFrAB-BOz6kdQpCrZg0#🇷🇺 Russia (Hosting)
-vless://f775978b-6e22-41a8-ae5e-5f9779e6745f@185.148.105.225:8443?encryption=none&security=tls&type=ws&sni=juzibaipiao.5112233.xyz&host=juzibaipiao.5112233.xyz&path=%2f%3fed%3d2048#🇷🇺 Russia (Cloudflare)
-vless://a6bdce65-2ec9-47e3-9814-bc281cffadcd@185.221.199.49:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=steamcommunity.com&fp=chrome&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#🇷🇺 Russia (Aeza)
-vless://168dd48c-7195-4465-b2a4-ab91c7dcf283@185.221.199.199:4433?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=E0-zQJFOxoOKg0L17Q2dWf5HftWOTpuRFJuDrFoxW1I&sid=95&sni=max.ru&spx=/#🇷🇺 Russia (Aeza)
-vless://4c8c1a3e-a2c2-4659-b0b3-5338066f00bc@185.221.199.204:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=P-3bYKbPp5YeCefayC3S3PvLanBv_lp0p_5qfrjbM34&sid=39a1eb3ec417cd66&type=tcp&headerType=none#🇷🇺 Russia (Aeza)
-vless://d5b7d347-6488-4091-bb61-384bbe57078a@217.16.21.156:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=samsung.com&fp=chrome&pbk=d-3qQJu3Urv7m-h-W0Hitpv5tks90XTcmEJjbsMNflA&sid=d5&type=tcp&headerType=none#🇷🇺 Russia (LLC)
-vless://42be7c39-60b4-4c0d-94b5-f108348b3abe@217.149.30.56:4355?encryption=none&flow=xtls-rprx-vision&security=reality&sni=files.moscownews24.ru&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&type=tcp&headerType=none#🇷🇺 Russia (OJSC)
-vless://e927758e-3149-450b-b9a0-45321c946315@45.130.125.160:2095?path=%2F%3Fed%3D2095&security=none&encryption=none&host=hiifof.parsvpskm.fun&type=httpupgrade#🇸🇨 Seychelles (Cloudflare)
-vless://d4f44cf4-cbca-4313-9156-5a8498b20387@45.130.125.198:2053?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=godplease11.thisiswe.uno&fp=chrome&type=ws&allowInsecure=0&sni=godplease11.thisiswe.uno#🇸🇨 Seychelles (Cloudflare)
-vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@45.130.125.198:2053?path=%2F&security=tls&encryption=none&insecure=1&host=kaja.thisiswe.uno&fp=chrome&type=ws&allowInsecure=1&sni=kaja.thisiswe.uno#🇸🇨 Seychelles (Cloudflare)
-vless://d60fc3c5-9f07-4cdb-b81f-70af27936bdc@27.50.49.247:8880?encryption=none&security=none&sni=ex.sue.x10.mx&type=ws&host=ex.sue.x10.mx&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#🇸🇬 Singapore (Cloudflare)
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.71.244.150:989#🇸🇮 Slovenia (Optimus)
-vmess://1a17b19d-4896-4531-af79-6e91d8ef8228@3.36.131.35:8686?type=ws&host=end-gfw.com&path=%252F&sni=baidu.com#🇰🇷 South Korea (Amazon.com)
-vless://26524cce-d514-4014-a426-365fb266a14d@119.205.235.58:443?encryption=none&security=tls&sni=snippet.fgfw.loc.cc&insecure=0&allowInsecure=0&type=ws&host=snippet.fgfw.loc.cc&path=%2Fdanfeng%3Fed%3D2560#🇰🇷 South Korea (Korea)
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@199.232.32.247:443?security=tls&sni=Sanjeshp.Ir&type=ws&host=Sanjeshp.Ir&path=%2FH%3Fed%3D2560&fp=randomized&alpn=h2%2Chttp%2F1.1&allowInsecure=1#🇪🇸 Spain (Fastly)
-vless://7e0a9f75-b424-493b-b7e6-cebd7ea8642d@144.31.130.37:443/?type=tcp&encryption=none&flow=&security=tls&allowInsecure=1#🇸🇪 Sweden (H2nexus)
-vless://29621ca8-099f-4109-821e-a8c8aee894b6@46.249.109.128:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc&sid=960e1c59701f&sni=www.techradar.com#🇹🇼 Taiwan (Hostkey)
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@111.249.144.63:50099#🇹🇼 Taiwan (Data)
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@114.25.12.81:50099#🇹🇼 Taiwan (Data)
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@118.167.17.207:50099#🇹🇼 Taiwan (Data)
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@5.35.34.240:443/?type=ws&encryption=none&flow=&host=sni.111000.dynv6.net&path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2&security=tls&sni=sni.111000.dynv6.net#🇳🇱 The Netherlands (Servers)
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@37.1.207.228:443?security=tls&sni=lx.ylks.us.kg&type=ws&host=lx.ylks.us.kg&path=%2F%3Fed%3D2560#🇳🇱 The Netherlands (Scalaxy)
-vless://248d1886-8ae0-4079-a281-4d21bdb74ba4@45.43.92.62:7443?flow=xtls-rprx-vision&fp=qq&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&security=reality&sid=be0ce047&sni=chat.deepseek.com&type=tcp#🇳🇱 The Netherlands (YottaSrc)
-vless://1955433c-a18a-4f0c-8837-390226193372@45.66.163.95:5443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=google.com&fp=chrome&pbk=yvkNZISxbowAMxh-4NDS6GNcOeL0ziCmfkJ8PgZSTUY&sid=30f8&spx=%2F&type=tcp&headerType=none#🇳🇱 The Netherlands (Fast)
-vless://2262d82d-f203-41f4-920d-dacb8370ae73@45.66.163.198:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=spliceflowtech.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇳🇱 The Netherlands (Fast)
-vless://43488128-319e-f480-64ea-0acdc712e2a8@45.77.139.2:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=K1p8iHF_pzt-Y07A-xqyEMvgFPdhWgJ0k6mLmRv42yg&security=reality&sid=d4356669ea880400&sni=www.ing.nl&type=tcp#🇳🇱 The Netherlands (Constant)
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.5.238:2096?allowInsecure=1&encryption=none&host=sni.jpmj.dev&security=tls&sni=sni.jpmj.dev&type=ws#🇳🇱 The Netherlands (Cloudflare)
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.211.128:2083?security=tls&sni=PPal03.YoSIf-jAhriEl.wOrkERS.dev&type=ws&host=PPAl03.yosIf-jaHriel.WORKerS.DeV&path=%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2560#🇳🇱 The Netherlands (Cloudflare)
-vless://f7bae22e-20ab-11f1-835c-0242ac110002@89.124.89.24:443?encryption=none&type=tcp&security=reality&fp=firefox&sni=nl1.cyphervpn.pro&pbk=YW-C1ihJAmuzFtvNLUggNlEh86DQm8jvfrJ-wMj7XQY&sid=5bfa0c&spx=%2F#🇳🇱 The Netherlands (Servers)
-vless://b1f45225-4f7c-4b13-a7ee-1a9afa48216e@91.84.103.69:8443?security=reality&encryption=none&pbk=UmU6PJtGCvWWIgkKpr6P1Idm2ve4nsPhN7Gh3OPDYAE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=fecda331e7cb5731#🇳🇱 The Netherlands (Servers)
-vless://a44e0875-210f-4941-9062-89b6361a14c6@185.21.14.199:443?security=reality&encryption=none&pbk=i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=apple.com&sid=8bcfe256cf216fd8#🇳🇱 The Netherlands (Servers)
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYOEZlM2Vlb2ZwYW9PYTQ3emREMmkx@185.39.18.101:5061#🇳🇱 The Netherlands (BlueVPS)
-vless://872624ac-aa40-39b1-8232-f7270812c234@185.46.68.36:443?encryption=none&type=tcp&headerType=none&fp=random&host=185.46.68.36&path=&flow=xtls-rprx-vision&security=tls&sni=u711541uf8d6s722.okgfw.top&serviceName=&mode=&alpn=#🇳🇱 The Netherlands (Hizakura)
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@185.176.24.64:443?security=tls&type=ws&sni=jp033.ylks01.eu.org&path=/blue&encryption=none&headerType=none#🇳🇱 The Netherlands (Cloudflare)
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@185.176.24.64:443?security=tls&type=ws&sni=kk033.ylks.link&path=/blue&encryption=none&headerType=none#🇳🇱 The Netherlands (Cloudflare)
-vless://d60fc3c5-9f07-4cdb-b81f-70af27936bdc@188.164.248.247:8880?encryption=none&security=none&sni=ex.sue.x10.mx&type=ws&host=ex.sue.x10.mx&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#🇳🇱 The Netherlands (Cloudflare)
-vless://77ea8d6c-1a96-11f1-be1f-1744d2a6f511@185.39.204.117:10002?path=/vpnjantit&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0#🇹🇷 Türkiye (Global)
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@185.226.92.168:999?security=tls&sni=vless.ifx.us.kg&type=ws&host=vless.ifx.us.kg&path=%2F%3Fed#🇹🇷 Türkiye (Big)
-vless://ad069756-c14b-4443-87af-4a503c5c08f5@51.89.116.123:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#🇬🇧 United Kingdom (OVH)
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@199.232.5.112:443?security=tls&sni=behdasht.hrtc.ir&encryption=none@ShadowsocksM76&type=ws&host=behdasht.hrtc.ir&path=/H?ed%3D2560&fp=randomized&alpn=h2,http/1.1#🇬🇧 United Kingdom (Fastly)
-vless://93867bc3-273b-4fd0-bbb1-2bed051ad215@89.187.187.18:443?security=tls&sni=www.spcdn.org&type=splithttp&path=%2F%3Fed%3D2560&fp=chrome&alpn=h2%2Chttp%2F1.1#🇺🇸 United States (Datacamp)
-trojan://CH.bhf8hDm2xBeGwpKkZydLWz86K3OFH8q@91.149.239.153:10413?security=tls&fp=chrome&type=tcp&sni=lax8.ws-listener.click#🇺🇸 United States (Baxet)
-vless://e4b8df56-b680-4a34-ab47-5bf5738ed718@92.118.112.249:443?security=reality&encryption=none&pbk=eEEraNK24HvLNi7BMiwukELj8zSIPfUCEgXL2C4fbHw&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=85225c27630d023f#🇺🇸 United States (Global)
-hysteria2://38428a74-c651-47a5-b2c9-4bec5a1809cf@134.195.101.199:443?insecure=1&sni=www.apple.com#🇺🇸 United States (Black)
-vless://ab958ab0-2b47-11f1-92cb-12ba70109d32@144.172.112.211:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=www.apple.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇺🇸 United States (RouterHosting)
-vless://b1f58d90-e65f-4566-91f3-1b96e9a68619@151.101.2.219:80?security=none&type=ws&host=JoiIInNn--DIgiv2Ray.Ir.&encryption=none&type=ws&path=%2F%40Digiv2ray--%40Digiv2ray--%40Digiv2ray--%40Digiv2ray--%40Digiv2ray--%40Digiv2ray--%40Digiv2ray--%40Digiv2ray--%40Digiv2ray--%3Fed%3D2048&sni=JoiIInNn--DIgiv2Ray.Ir.&headerType=none#🇺🇸 United States (Fastly)
-tuic://c30cd67b-2d31-48a6-a1fa-1ca41814fd0f:c30cd67b-2d31-48a6-a1fa-1ca41814fd0f@209.141.58.4:51364?sni=www.python.org&allowInsecure=1&congestion_control=bbr#🇺🇸 United States (FranTech)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.43:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.73:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.77:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.140:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.143:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.148:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.149:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.150:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.151:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.152:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.153:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.154:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.155:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.156:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.157:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.158:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.159:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.160:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.161:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.162:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.163:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.219:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.220:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.221:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.222:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.225:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.232:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.239:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.249:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.253:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.2:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.26:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.50:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.113:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.116:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.123:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.140:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.142:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.154:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.202:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.203:38388#🇻🇳 Vietnam (VIETPN)
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.227:38388#🇻🇳 Vietnam (VIETPN)
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45310#🇻🇳 Vietnam (SaiGon)
-trojan://humanity@8.6.112.0:443?allowInsecure=1&host=8.6.112.0&path=%2Fassignment&type=ws#❓ Undefined (geoip miss)
-vless://96d9bcb0-9ad2-48be-85a2-a9ab3a005261@8.6.112.0:2083/?type=ws&encryption=none&flow=&host=ds1-mx-fn154-protection.iranlease.com&path=/?ed=2560&security=tls&sni=ds1-mx-fn154-protection.iranlease.com&allowInsecure=1#❓ Undefined (geoip miss)
-vless://6461860a-d367-4d47-8e82-7d8e1047a152@8.39.125.71:2083?allowInsecure=1&encryption=none&host=aier.eu.cc&security=tls&sni=aier.eu.cc&type=ws#❓ Undefined (geoip miss)
-vless://f8ae018b-b84d-4c9b-b03b-4642c3a25977@104.16.212.131:2052?path=%2F%3Fed&security=&encryption=none&host=ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.&type=ws#❓ Undefined (geoip miss)
-vless://69d38faa-21a1-4d18-82cb-796a942c181b@104.16.255.215:443?&security=tls&fp=chrome&sni=sfsl.ardomains1.dpdns.org&type=ws&headerType=none&host=sfsl.ardomains1.dpdns.org&path=%2F%3Fed%3D2048#❓ Undefined (geoip miss)
-vless://f929cc78-e2a1-4ce3-8051-3e9538405144@104.17.15.87:80/?type=ws&encryption=none&flow=&host=germany.xydcqd.workers.dev#❓ Undefined (geoip miss)
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.18.2.150:2053?security=tls&sni=wd.vovo.pp.ua&type=ws&host=wd.vovo.pp.ua&path=%2F%3Fed%3D2560&fp=random&allowInsecure=1#❓ Undefined (geoip miss)
-vless://0792bb58-36ac-451e-a629-e363e53da93b@172.67.180.67:443?security=tls&sni=kafka.eula.cloudns.org&type=ws&host=kafka.eula.cloudns.org&path=%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2048&fp=random&alpn=http%2F1.1#❓ Undefined (geoip miss)
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@188.114.96.101:443?security=tls&sni=lg.ylks01.eu.org&type=ws&host=lg.ylks01.eu.org&path=%2Fblue#❓ Undefined (geoip miss)
-vless://077dca1a-97ba-4ad8-a9ca-aa06a97fa0a6@188.114.98.0:2087?mode=auto&path=%2F&security=tls&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%20%221000000%22%2C%20%22scMaxConcurrentPosts%22%3A%20100%2C%20%22scMinPostsIntervalMs%22%3A%2030%2C%20%22xPaddingBytes%22%3A%20%22100-1000%22%2C%20%22noGRPCHeader%22%3A%20false%7D&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=gamehub3.temas-arvha.ir#❓ Undefined (geoip miss)
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@198.41.216.58:443?security=tls&sni=ln.kpcloud.eu.org&type=ws&host=ln.kpcloud.eu.org&path=%2F%3Fed%3D2048#❓ Undefined (geoip miss)
-vless://48198295-b7ba-4b5c-8d85-085d55a6c869@198.41.216.227:443?security=tls&sni=ap.ylks.xyz&type=ws&host=ap.ylks.xyz&path=%2F%3Fed%3D2048&fp=chrome#❓ Undefined (geoip miss)
-vless://81f1f510-3ca7-4734-8956-0f4fce670af5@ca1.vless.co:80?encryption=none&security=none&sni=files.sepehrraisi.ir&type=ws&host=files.sepehrraisi.ir&path=%2Ffastssh%2Fxnznzjsjdk%2F6349eeec85b06%2F#❓ Undefined (dns error)
-vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh27v4.waipdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#❓ Undefined (dns error)
-vmess://46cfcfe1-e450-459d-a3ab-9406011ab3eb@6e0c29ce-e096-d19a-fe89-04374c0dc670.oneplus.pub:80?type=ws&host=tms.dingtalk.com&path=%252F&sni=tms.dingtalk.com#❓ Undefined (dns error)
+{
+    "log": {
+        "level": "warn",
+        "output": "box.log",
+        "timestamp": true
+    },
+    "dns": {
+        "servers": [
+            {
+                "tag": "dns-local",
+                "type": "local"
+            },
+            {
+                "tag": "dns-remote",
+                "type": "udp",
+                "server": "1.1.1.1",
+                "detour": "select"
+            },
+            {
+                "tag": "dns-doh",
+                "type": "https",
+                "server": "1.1.1.1",
+                "server_port": 443,
+                "path": "/dns-query",
+                "detour": "select"
+            },
+            {
+                "tag": "dns-google",
+                "type": "tls",
+                "server": "8.8.8.8",
+                "detour": "select"
+            },
+            {
+                "type": "fakeip",
+                "tag": "dns-fakeip",
+                "inet4_range": "198.18.0.0/15",
+                "inet6_range": "fc00::/18"
+            }
+        ],
+        "rules": [
+            {
+                "rule_set": "geosite-geolocation-ru",
+                "server": "dns-local"
+            },
+            {
+                "rule_set": "geoip-ru",
+                "server": "dns-local"
+            },
+            {
+                "query_type": [
+                    "A",
+                    "AAAA"
+                ],
+                "server": "fakeip"
+            }
+        ],
+        "final": "dns-doh",
+        "independent_cache": true,
+        "strategy": "ipv4_only"
+    },
+    "inbounds": [
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "address": "192.168.7.1/28",
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "gvisor"
+        }
+    ],
+    "route": {
+        "rules": [
+            {
+                "action": "sniff"
+            },
+            {
+                "protocol": "dns",
+                "action": "hijack-dns"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "domain_suffix": ".ru",
+                "outbound": "direct"
+            },
+            {
+                "rule_set": "geosite-geolocation-ru",
+                "outbound": "direct"
+            },
+            {
+                "rule_set": "geoip-ru",
+                "outbound": "direct"
+            }
+        ],
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "default_domain_resolver": "dns-doh",
+        "rule_set": [
+            {
+                "type": "remote",
+                "tag": "geosite-geolocation-ru",
+                "format": "binary",
+                "url": "https://github.com/MishelMF/Profiles/raw/refs/heads/main/geosite-ru.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-ru",
+                "format": "binary",
+                "url": "https://github.com/MishelMF/Profiles/raw/refs/heads/main/geoip-ru.srs",
+                "download_detour": "direct"
+            }
+        ],
+        "final": "select"
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true,
+            "path": "clash.db"
+        }
+    },
+    "outbounds": [
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "selector",
+            "tag": "select",
+            "outbounds": [
+                "auto",
+                "p0_Austria (netcup)",
+                "p1_Germany (SYNLINQ)",
+                "p2_Germany (SYNLINQ)",
+                "p3_Germany (GHOSTnet)",
+                "p4_Hong Kong (LSHIY)",
+                "p5_Hong Kong (HaloCloud)",
+                "p6_Hong Kong (CTG)",
+                "p7_Hong Kong (DMIT)",
+                "p8_Hong Kong (DMIT)",
+                "p9_Hong Kong (Cloudflare)",
+                "p10_Ireland (Unknown)",
+                "p11_Japan (Nearoute)",
+                "p12_Japan (AKILE)",
+                "p13_Japan (M247)",
+                "p14_Russia (Jsc)",
+                "p15_Russia (Yandex.Cloud)",
+                "p16_Russia (Beget)",
+                "p17_Russia (Yandex.Cloud)",
+                "p18_Russia (LLC)",
+                "p19_Russia (Yandex.Cloud)",
+                "p20_Russia (Yandex.Cloud)",
+                "p21_Russia (JSC)",
+                "p22_Russia (JSC)",
+                "p23_Russia (JSC)",
+                "p24_Seychelles (Kaopu)",
+                "p25_Singapore (BrainStorm)",
+                "p26_Singapore (Akamai)",
+                "p27_South Korea (Oracle)",
+                "p28_South Korea (SK)",
+                "p29_South Korea (SK)",
+                "p30_Taiwan (Data)",
+                "p31_Taiwan (Data)",
+                "p32_Taiwan (Data)",
+                "p33_Taiwan (Gigabit)",
+                "p34_Taiwan (Data)",
+                "p35_Taiwan (Data)",
+                "p36_The Netherlands (Play2go)",
+                "p37_The Netherlands (Play2go)",
+                "p38_The Netherlands (Play2go)",
+                "p39_The Netherlands (Big)",
+                "p40_The Netherlands (Big)",
+                "p41_United States (HostPapa)",
+                "p42_United States (HostPapa)",
+                "p43_United States (Cloudflare)",
+                "p44_United States (Cloudflare)",
+                "p45_Vietnam (VIETPN)",
+                "p46_Vietnam (VIETPN)",
+                "p47_Vietnam (VIETPN)",
+                "p48_Vietnam (VIETPN)",
+                "p49_Vietnam (VIETPN)",
+                "p50_Vietnam (VIETPN)",
+                "p51_Vietnam (VIETPN)",
+                "p52_Vietnam (VIETPN)",
+                "p53_Vietnam (VIETPN)",
+                "p54_Vietnam (VIETPN)",
+                "p55_Vietnam (VIETPN)",
+                "p56_Vietnam (VIETPN)",
+                "p57_Vietnam (VIETPN)",
+                "p58_Vietnam (VIETPN)",
+                "p59_Vietnam (VIETPN)",
+                "p60_Vietnam (VIETPN)",
+                "p61_Vietnam (VIETPN)",
+                "p62_Vietnam (VIETPN)",
+                "p63_Vietnam (VIETPN)",
+                "p64_Vietnam (VIETPN)",
+                "p65_Vietnam (VIETPN)",
+                "p66_Vietnam (VIETPN)",
+                "p67_Vietnam (VIETPN)",
+                "p68_Vietnam (VIETPN)",
+                "p69_Vietnam (VIETPN)",
+                "p70_Vietnam (VIETPN)",
+                "p71_Vietnam (VIETPN)",
+                "p72_Vietnam (VIETPN)",
+                "p73_Vietnam (VIETPN)",
+                "p74_Vietnam (VIETPN)",
+                "p75_Vietnam (VIETPN)",
+                "p76_Vietnam (VIETPN)",
+                "p77_Vietnam (VIETPN)",
+                "p78_Vietnam (VIETPN)",
+                "p79_Vietnam (VIETPN)",
+                "p80_Vietnam (VIETPN)",
+                "p81_Vietnam (VIETPN)",
+                "p82_Vietnam (VIETPN)",
+                "p83_Vietnam (VIETPN)",
+                "p84_Vietnam (VIETPN)",
+                "p85_Vietnam (VIETPN)",
+                "p86_Vietnam (VIETPN)",
+                "p87_Vietnam (VIETPN)",
+                "p88_Vietnam (VIETPN)",
+                "p89_Vietnam (VIETPN)",
+                "p90_Vietnam (VIETPN)",
+                "p91_Vietnam (VIETPN)",
+                "p92_Vietnam (VIETPN)",
+                "p93_Vietnam (VIETPN)",
+                "p94_Vietnam (VIETPN)",
+                "p95_Vietnam (VIETPN)",
+                "p96_Vietnam (VIETPN)",
+                "p97_Vietnam (VIETPN)",
+                "p98_Vietnam (VIETPN)",
+                "p99_ndefined (geoip miss)",
+                "p100_ndefined (geoip miss)",
+                "p101_ndefined (geoip miss)",
+                "p102_ndefined (geoip miss)",
+                "p103_ndefined (geoip miss)",
+                "p104_ndefined (geoip miss)",
+                "p105_ndefined (geoip miss)",
+                "p106_ndefined (geoip miss)",
+                "p107_ndefined (geoip miss)",
+                "p108_ndefined (dns error)",
+                "p109_ndefined (dns error)",
+                "p110_ndefined (dns error)"
+            ]
+        },
+        {
+            "type": "urltest",
+            "tag": "auto",
+            "outbounds": [
+                "p0_Austria (netcup)",
+                "p1_Germany (SYNLINQ)",
+                "p2_Germany (SYNLINQ)",
+                "p3_Germany (GHOSTnet)",
+                "p4_Hong Kong (LSHIY)",
+                "p5_Hong Kong (HaloCloud)",
+                "p6_Hong Kong (CTG)",
+                "p7_Hong Kong (DMIT)",
+                "p8_Hong Kong (DMIT)",
+                "p9_Hong Kong (Cloudflare)",
+                "p10_Ireland (Unknown)",
+                "p11_Japan (Nearoute)",
+                "p12_Japan (AKILE)",
+                "p13_Japan (M247)",
+                "p14_Russia (Jsc)",
+                "p15_Russia (Yandex.Cloud)",
+                "p16_Russia (Beget)",
+                "p17_Russia (Yandex.Cloud)",
+                "p18_Russia (LLC)",
+                "p19_Russia (Yandex.Cloud)",
+                "p20_Russia (Yandex.Cloud)",
+                "p21_Russia (JSC)",
+                "p22_Russia (JSC)",
+                "p23_Russia (JSC)",
+                "p24_Seychelles (Kaopu)",
+                "p25_Singapore (BrainStorm)",
+                "p26_Singapore (Akamai)",
+                "p27_South Korea (Oracle)",
+                "p28_South Korea (SK)",
+                "p29_South Korea (SK)",
+                "p30_Taiwan (Data)",
+                "p31_Taiwan (Data)",
+                "p32_Taiwan (Data)",
+                "p33_Taiwan (Gigabit)",
+                "p34_Taiwan (Data)",
+                "p35_Taiwan (Data)",
+                "p36_The Netherlands (Play2go)",
+                "p37_The Netherlands (Play2go)",
+                "p38_The Netherlands (Play2go)",
+                "p39_The Netherlands (Big)",
+                "p40_The Netherlands (Big)",
+                "p41_United States (HostPapa)",
+                "p42_United States (HostPapa)",
+                "p43_United States (Cloudflare)",
+                "p44_United States (Cloudflare)",
+                "p45_Vietnam (VIETPN)",
+                "p46_Vietnam (VIETPN)",
+                "p47_Vietnam (VIETPN)",
+                "p48_Vietnam (VIETPN)",
+                "p49_Vietnam (VIETPN)",
+                "p50_Vietnam (VIETPN)",
+                "p51_Vietnam (VIETPN)",
+                "p52_Vietnam (VIETPN)",
+                "p53_Vietnam (VIETPN)",
+                "p54_Vietnam (VIETPN)",
+                "p55_Vietnam (VIETPN)",
+                "p56_Vietnam (VIETPN)",
+                "p57_Vietnam (VIETPN)",
+                "p58_Vietnam (VIETPN)",
+                "p59_Vietnam (VIETPN)",
+                "p60_Vietnam (VIETPN)",
+                "p61_Vietnam (VIETPN)",
+                "p62_Vietnam (VIETPN)",
+                "p63_Vietnam (VIETPN)",
+                "p64_Vietnam (VIETPN)",
+                "p65_Vietnam (VIETPN)",
+                "p66_Vietnam (VIETPN)",
+                "p67_Vietnam (VIETPN)",
+                "p68_Vietnam (VIETPN)",
+                "p69_Vietnam (VIETPN)",
+                "p70_Vietnam (VIETPN)",
+                "p71_Vietnam (VIETPN)",
+                "p72_Vietnam (VIETPN)",
+                "p73_Vietnam (VIETPN)",
+                "p74_Vietnam (VIETPN)",
+                "p75_Vietnam (VIETPN)",
+                "p76_Vietnam (VIETPN)",
+                "p77_Vietnam (VIETPN)",
+                "p78_Vietnam (VIETPN)",
+                "p79_Vietnam (VIETPN)",
+                "p80_Vietnam (VIETPN)",
+                "p81_Vietnam (VIETPN)",
+                "p82_Vietnam (VIETPN)",
+                "p83_Vietnam (VIETPN)",
+                "p84_Vietnam (VIETPN)",
+                "p85_Vietnam (VIETPN)",
+                "p86_Vietnam (VIETPN)",
+                "p87_Vietnam (VIETPN)",
+                "p88_Vietnam (VIETPN)",
+                "p89_Vietnam (VIETPN)",
+                "p90_Vietnam (VIETPN)",
+                "p91_Vietnam (VIETPN)",
+                "p92_Vietnam (VIETPN)",
+                "p93_Vietnam (VIETPN)",
+                "p94_Vietnam (VIETPN)",
+                "p95_Vietnam (VIETPN)",
+                "p96_Vietnam (VIETPN)",
+                "p97_Vietnam (VIETPN)",
+                "p98_Vietnam (VIETPN)",
+                "p99_ndefined (geoip miss)",
+                "p100_ndefined (geoip miss)",
+                "p101_ndefined (geoip miss)",
+                "p102_ndefined (geoip miss)",
+                "p103_ndefined (geoip miss)",
+                "p104_ndefined (geoip miss)",
+                "p105_ndefined (geoip miss)",
+                "p106_ndefined (geoip miss)",
+                "p107_ndefined (geoip miss)",
+                "p108_ndefined (dns error)",
+                "p109_ndefined (dns error)",
+                "p110_ndefined (dns error)"
+            ]
+        },
+        {
+            "type": "trojan",
+            "tag": "p0_Austria (netcup)",
+            "server": "152.53.45.251",
+            "server_port": 8888,
+            "password": "trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "jflsjlaf.pages.dev",
+                "insecure": true
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "jflsjlaf.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p1_Germany (SYNLINQ)",
+            "server": "37.114.49.38",
+            "server_port": 2056,
+            "password": "4d092122-268a-4a1a-b23f-83931c5abc3a",
+            "tls": {
+                "enabled": true,
+                "server_name": "37.114.49.38",
+                "insecure": true
+            }
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p2_Germany (SYNLINQ)",
+            "server": "37.114.49.38",
+            "server_port": 2056,
+            "password": "4d092122-268a-4a1a-b23f-83931c5abc3a",
+            "tls": {
+                "enabled": true,
+                "server_name": "37.114.49.38",
+                "insecure": true
+            }
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p3_Germany (GHOSTnet)",
+            "server": "83.243.86.103",
+            "server_port": 12855,
+            "password": "github.com/Alvin9999-newpac/fanqiang",
+            "tls": {
+                "enabled": true,
+                "server_name": "83.243.86.103",
+                "insecure": true
+            }
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p4_Hong Kong (LSHIY)",
+            "server": "45.192.195.52",
+            "server_port": 5555,
+            "password": "3286b74d-a633-401f-8e22-6e8e61c5f1d9",
+            "tls": {
+                "enabled": true,
+                "server_name": "45.192.195.52",
+                "insecure": true
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p5_Hong Kong (HaloCloud)",
+            "server": "89.213.230.170",
+            "server_port": 443,
+            "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792",
+            "tls": {
+                "enabled": true,
+                "server_name": "2026.hhhhh.eu.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/89.213.230.170:443",
+                "headers": {
+                    "Host": "2026.hhhhh.eu.org"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p6_Hong Kong (CTG)",
+            "server": "112.213.102.188",
+            "server_port": 41632,
+            "method": "aes-256-cfb",
+            "password": "qwerREWQ@@"
+        },
+        {
+            "type": "trojan",
+            "tag": "p7_Hong Kong (DMIT)",
+            "server": "154.3.37.35",
+            "server_port": 41916,
+            "password": "hmR46dYjqH",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NkBoOON_wUnunfFPyxfUj9Fy-4ytuGn82d6Kp-1LNk0",
+                    "short_id": "5db27b"
+                }
+            },
+            "transport": {
+                "type": "grpc"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p8_Hong Kong (DMIT)",
+            "server": "154.3.37.35",
+            "server_port": 41916,
+            "password": "hmR46dYjqH",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NkBoOON_wUnunfFPyxfUj9Fy-4ytuGn82d6Kp-1LNk0",
+                    "short_id": "5db27b"
+                }
+            },
+            "transport": {
+                "type": "grpc"
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p9_Hong Kong (Cloudflare)",
+            "server": "154.92.9.156",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "tls": {
+                "enabled": true,
+                "server_name": "Worker-Dry-Heart-073a.Eqoniqaq.Workers.Dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "workEr-dRy-heaRt-073A.eqoniqAq.workeRs.dEv"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p10_Ireland (Unknown)",
+            "server": "78.17.13.127",
+            "server_port": 443,
+            "uuid": "139284e0-4b50-4f32-b556-795e1af0b69e",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "travel.yandex.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WCn_ShK3x8wT86ayN58joXjPH0F--Jqa4rq1fWRlanI",
+                    "short_id": "99370637bb1ac53c"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p11_Japan (Nearoute)",
+            "server": "103.100.158.18",
+            "server_port": 29025,
+            "uuid": "c45ab62e-5d25-486a-f91e-807fe4b9c23f",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p12_Japan (AKILE)",
+            "server": "156.246.89.51",
+            "server_port": 443,
+            "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+            "tls": {
+                "enabled": true,
+                "server_name": "156.246.89.51",
+                "insecure": true
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p13_Japan (M247)",
+            "server": "176.97.73.155",
+            "server_port": 443,
+            "uuid": "0b277abf-e0d6-44d8-85c6-f6c7afc0aec5",
+            "tls": {
+                "enabled": true,
+                "server_name": "navi.bankrate.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+                    "short_id": "2da72ce6"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p14_Russia (Jsc)",
+            "server": "5.42.101.151",
+            "server_port": 443,
+            "uuid": "63df6697-5766-4def-bd34-c5bd833f2df7",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OTImehRo1Cg4tW_pL1H2XhzH6W7QASoea3JlX3DZmUE",
+                    "short_id": "8468"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p15_Russia (Yandex.Cloud)",
+            "server": "51.250.80.38",
+            "server_port": 14443,
+            "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
+            "tls": {
+                "enabled": true,
+                "server_name": "ozon.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Oxa7_rWhui5jFI7p8Fyg0G_Msev5-T6aalS4q2qMViI",
+                    "short_id": "3415"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "admin"
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p16_Russia (Beget)",
+            "server": "83.222.25.155",
+            "server_port": 443,
+            "uuid": "2fdd6b51-4fe2-4e2f-803a-3eb284bf038e",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SSR8qHHHwFhf-LHig6DhZFoglHdVdImR6upc5DcpmHI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p17_Russia (Yandex.Cloud)",
+            "server": "93.77.167.124",
+            "server_port": 2443,
+            "uuid": "c77847fe-e7e5-4450-9f10-979827b03c2f",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc",
+                    "short_id": "8f9d033ad6d2cebf"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p18_Russia (LLC)",
+            "server": "95.163.211.125",
+            "server_port": 443,
+            "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnv-img.perekrestok.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MNbAG72pXVO11PRzMRw7puKjDnmkig2mvEmdjow53Wc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p19_Russia (Yandex.Cloud)",
+            "server": "158.160.237.0",
+            "server_port": 3443,
+            "uuid": "52ca0d43-e64a-4127-a972-a15623886a06",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "max.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4",
+                    "short_id": "378086fbdb7c61cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p20_Russia (Yandex.Cloud)",
+            "server": "158.160.237.0",
+            "server_port": 4443,
+            "uuid": "52ca0d43-e64a-4127-a972-a15623886a06",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "max.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4",
+                    "short_id": "378086fbdb7c61cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p21_Russia (JSC)",
+            "server": "176.12.70.49",
+            "server_port": 443,
+            "uuid": "09f13ca4-58fb-4fb7-bfec-791754683a9a",
+            "tls": {
+                "enabled": true,
+                "server_name": "id.vk.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless-grpc-reality"
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p22_Russia (JSC)",
+            "server": "178.72.162.182",
+            "server_port": 52006,
+            "uuid": "75807638-6f19-07d0-ae08-38492ee85c88",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p23_Russia (JSC)",
+            "server": "212.92.101.184",
+            "server_port": 52006,
+            "uuid": "75807638-6f19-2328-ae08-38492ee85c88",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p24_Seychelles (Kaopu)",
+            "server": "154.205.136.122",
+            "server_port": 37849,
+            "uuid": "30e88f67-8445-43ca-ff2b-961bbf6339fc",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/"
+            }
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p25_Singapore (BrainStorm)",
+            "server": "103.106.229.156",
+            "server_port": 2056,
+            "password": "372f3c21-ca44-4982-a830-d0b81e08a7c8",
+            "tls": {
+                "enabled": true,
+                "server_name": "103.106.229.156",
+                "insecure": true
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p26_Singapore (Akamai)",
+            "server": "172.104.61.43",
+            "server_port": 22539,
+            "uuid": "d6d7e024-0a49-483d-bcd7-048c4d30eca6",
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p27_South Korea (Oracle)",
+            "server": "132.145.91.181",
+            "server_port": 8443,
+            "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9",
+            "tls": {
+                "enabled": true,
+                "server_name": "ewgruiehoe.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ewgruiehoe.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p28_South Korea (SK)",
+            "server": "218.237.185.230",
+            "server_port": 4652,
+            "method": "aes-256-cfb",
+            "password": "qwerREWQ@@"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p29_South Korea (SK)",
+            "server": "p141.panda001.net",
+            "server_port": 4652,
+            "method": "aes-256-cfb",
+            "password": "qwerREWQ@@"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p30_Taiwan (Data)",
+            "server": "1.163.146.197",
+            "server_port": 50099,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p31_Taiwan (Data)",
+            "server": "1.165.138.167",
+            "server_port": 50099,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p32_Taiwan (Data)",
+            "server": "111.248.106.149",
+            "server_port": 50099,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p33_Taiwan (Gigabit)",
+            "server": "185.189.160.105",
+            "server_port": 41632,
+            "method": "aes-256-cfb",
+            "password": "qwerREWQ@@"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p34_Taiwan (Data)",
+            "server": "r3mrcg007117fb8.cybervena.com",
+            "server_port": 50099,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p35_Taiwan (Data)",
+            "server": "r3mrcg007147vhp.cybervena.com",
+            "server_port": 50099,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p36_The Netherlands (Play2go)",
+            "server": "144.31.224.14",
+            "server_port": 443,
+            "password": "123456789StrongPass",
+            "tls": {
+                "enabled": true,
+                "server_name": "144.31.224.14",
+                "insecure": true
+            }
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p37_The Netherlands (Play2go)",
+            "server": "144.31.224.14",
+            "server_port": 443,
+            "password": "123456789StrongPass",
+            "tls": {
+                "enabled": true,
+                "server_name": "144.31.224.14",
+                "insecure": true
+            }
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p38_The Netherlands (Play2go)",
+            "server": "144.31.224.14",
+            "server_port": 443,
+            "password": "123456789StrongPass",
+            "tls": {
+                "enabled": true,
+                "server_name": "144.31.224.14",
+                "insecure": true
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p39_The Netherlands (Big)",
+            "server": "194.87.186.134",
+            "server_port": 6354,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4DrioHAbACj61Wq8yZ0wuq"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p40_The Netherlands (Big)",
+            "server": "194.87.186.134",
+            "server_port": 6354,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4DrioHAbACj61Wq8yZ0wuq"
+        },
+        {
+            "type": "vmess",
+            "tag": "p41_United States (HostPapa)",
+            "server": "107.172.75.141",
+            "server_port": 10086,
+            "uuid": "e02c67a8-d769-4d73-833a-ab6acdb86e6e",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "type": "vmess",
+            "tag": "p42_United States (HostPapa)",
+            "server": "107.175.91.118",
+            "server_port": 443,
+            "uuid": "1bb1f95f-7425-4442-93f7-8fc1bd1a2001",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "mivps.mitiendamex.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/v2ray-wisp",
+                "headers": {
+                    "Host": "mivps.mitiendamex.com"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p43_United States (Cloudflare)",
+            "server": "141.193.213.20",
+            "server_port": 8443,
+            "uuid": "39eb8c33-ee7f-4980-b3e5-684aaf390f56",
+            "tls": {
+                "enabled": true,
+                "server_name": "darknet-free.alexid.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "darknet-free.alexid.org"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p44_United States (Cloudflare)",
+            "server": "141.193.213.21",
+            "server_port": 443,
+            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+            "tls": {
+                "enabled": true,
+                "server_name": "sany.august71.workers.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sni.111000.v6.navy/?ed=2560",
+                "headers": {
+                    "Host": "sany.august71.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p45_Vietnam (VIETPN)",
+            "server": "103.186.154.11",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p46_Vietnam (VIETPN)",
+            "server": "103.186.154.12",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p47_Vietnam (VIETPN)",
+            "server": "103.186.154.16",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p48_Vietnam (VIETPN)",
+            "server": "103.186.154.28",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p49_Vietnam (VIETPN)",
+            "server": "103.186.154.36",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p50_Vietnam (VIETPN)",
+            "server": "103.186.154.37",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p51_Vietnam (VIETPN)",
+            "server": "103.186.154.53",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p52_Vietnam (VIETPN)",
+            "server": "103.186.154.56",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p53_Vietnam (VIETPN)",
+            "server": "103.186.154.57",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p54_Vietnam (VIETPN)",
+            "server": "103.186.154.59",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p55_Vietnam (VIETPN)",
+            "server": "103.186.154.152",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p56_Vietnam (VIETPN)",
+            "server": "103.186.154.155",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p57_Vietnam (VIETPN)",
+            "server": "103.186.154.158",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p58_Vietnam (VIETPN)",
+            "server": "103.186.154.159",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p59_Vietnam (VIETPN)",
+            "server": "103.186.154.164",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p60_Vietnam (VIETPN)",
+            "server": "103.186.154.169",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p61_Vietnam (VIETPN)",
+            "server": "103.186.154.170",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p62_Vietnam (VIETPN)",
+            "server": "103.186.154.172",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p63_Vietnam (VIETPN)",
+            "server": "103.186.154.189",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p64_Vietnam (VIETPN)",
+            "server": "103.186.154.218",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p65_Vietnam (VIETPN)",
+            "server": "103.186.154.227",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p66_Vietnam (VIETPN)",
+            "server": "103.186.154.228",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p67_Vietnam (VIETPN)",
+            "server": "103.186.154.232",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p68_Vietnam (VIETPN)",
+            "server": "103.186.154.233",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p69_Vietnam (VIETPN)",
+            "server": "103.186.154.241",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p70_Vietnam (VIETPN)",
+            "server": "103.186.154.242",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p71_Vietnam (VIETPN)",
+            "server": "103.186.154.243",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p72_Vietnam (VIETPN)",
+            "server": "103.186.154.244",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p73_Vietnam (VIETPN)",
+            "server": "103.186.154.254",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p74_Vietnam (VIETPN)",
+            "server": "103.186.155.5",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p75_Vietnam (VIETPN)",
+            "server": "103.186.155.8",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p76_Vietnam (VIETPN)",
+            "server": "103.186.155.15",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p77_Vietnam (VIETPN)",
+            "server": "103.186.155.41",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p78_Vietnam (VIETPN)",
+            "server": "103.186.155.43",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p79_Vietnam (VIETPN)",
+            "server": "103.186.155.44",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p80_Vietnam (VIETPN)",
+            "server": "103.186.155.48",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p81_Vietnam (VIETPN)",
+            "server": "103.186.155.52",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p82_Vietnam (VIETPN)",
+            "server": "103.186.155.54",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p83_Vietnam (VIETPN)",
+            "server": "103.186.155.55",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p84_Vietnam (VIETPN)",
+            "server": "103.186.155.56",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p85_Vietnam (VIETPN)",
+            "server": "103.186.155.68",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p86_Vietnam (VIETPN)",
+            "server": "103.186.155.71",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p87_Vietnam (VIETPN)",
+            "server": "103.186.155.79",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p88_Vietnam (VIETPN)",
+            "server": "103.186.155.80",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p89_Vietnam (VIETPN)",
+            "server": "103.186.155.81",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p90_Vietnam (VIETPN)",
+            "server": "103.186.155.82",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p91_Vietnam (VIETPN)",
+            "server": "103.186.155.127",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p92_Vietnam (VIETPN)",
+            "server": "103.186.155.129",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p93_Vietnam (VIETPN)",
+            "server": "103.186.155.136",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p94_Vietnam (VIETPN)",
+            "server": "103.186.155.149",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p95_Vietnam (VIETPN)",
+            "server": "103.186.155.202",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p96_Vietnam (VIETPN)",
+            "server": "103.186.155.214",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p97_Vietnam (VIETPN)",
+            "server": "103.186.155.234",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p98_Vietnam (VIETPN)",
+            "server": "103.186.155.235",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "vless",
+            "tag": "p99_ndefined (geoip miss)",
+            "server": "8.6.112.0",
+            "server_port": 2053,
+            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+            "tls": {
+                "enabled": true,
+                "server_name": "sni.111000.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "sni.111000.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p100_ndefined (geoip miss)",
+            "server": "8.47.69.0",
+            "server_port": 443,
+            "uuid": "29ff2954-dfea-4d20-8089-059cfa861453",
+            "tls": {
+                "enabled": true,
+                "server_name": "we.ssdxz.cn",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci,ProxyIP.SG.CMLiussss.net",
+                "headers": {
+                    "Host": "we.ssdxz.cn"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p101_ndefined (geoip miss)",
+            "server": "8.47.69.0",
+            "server_port": 443,
+            "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+            "tls": {
+                "enabled": true,
+                "server_name": "azadnet-826.pages.Dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "azadnet-826.pages.Dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p102_ndefined (geoip miss)",
+            "server": "104.16.80.73",
+            "server_port": 8443,
+            "uuid": "b179aef9-46a6-4e21-9a15-d21139c705b9",
+            "tls": {
+                "enabled": true,
+                "server_name": "line.smartphone1.top",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/shop",
+                "headers": {
+                    "Host": "line.smartphone1.top"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p103_ndefined (geoip miss)",
+            "server": "104.17.128.1",
+            "server_port": 2096,
+            "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+            "tls": {
+                "enabled": true,
+                "server_name": "azadnet-1ml.pages.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/azadnet-1ml.pages.dev/?ed=2560&PROT_TYPE=vless",
+                "headers": {
+                    "Host": "azadnet-1ml.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p104_ndefined (geoip miss)",
+            "server": "104.17.150.76",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.calmloud.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.calmloud.com"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p105_ndefined (geoip miss)",
+            "server": "104.18.12.149",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ignitelimit.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.ignitelimit.com"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p106_ndefined (geoip miss)",
+            "server": "104.18.12.149",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.calmloud.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.calmloud.com"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p107_ndefined (geoip miss)",
+            "server": "104.18.16.56",
+            "server_port": 443,
+            "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792",
+            "tls": {
+                "enabled": true,
+                "server_name": "2026.hhhhh.eu.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/222.167.202.31:7443",
+                "headers": {
+                    "Host": "2026.hhhhh.eu.org"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p108_ndefined (dns error)",
+            "server": "www.vidboxco.ir",
+            "server_port": 443,
+            "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792",
+            "tls": {
+                "enabled": true,
+                "server_name": "2026.hhhhh.eu.org",
+                "insecure": true
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/222.167.202.31:744...",
+                "headers": {
+                    "Host": "2026.hhhhh.eu.org"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p109_ndefined (dns error)",
+            "server": "www.wto.org",
+            "server_port": 443,
+            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+            "tls": {
+                "enabled": true,
+                "server_name": "sany.tara132.workers.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sni.111000.dynv6.net/?ed=2560",
+                "headers": {
+                    "Host": "sany.tara132.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p110_ndefined (dns error)",
+            "server": "auth.vercel.com",
+            "server_port": 443,
+            "uuid": "a01daac7-1e65-4645-854d-b47d226f6b08",
+            "tls": {
+                "enabled": true,
+                "server_name": "y6-3cj.pages.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "y6-3cj.pages.dev"
+                }
+            }
+        }
+    ]
+}
