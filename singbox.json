@@ -141,123 +141,123 @@
             "tag": "select",
             "outbounds": [
                 "auto",
-                "p0_Cyprus (Unknown)",
-                "p1_Germany (Alibaba)",
-                "p2_Germany (SYNLINQ)",
-                "p3_Hong Kong (CTG)",
-                "p4_Hong Kong (Baxet)",
-                "p5_Hong Kong (HostHatch)",
-                "p6_India (DigitalOcean)",
-                "p7_Indonesia (Microsoft)",
-                "p8_Indonesia (Microsoft)",
-                "p9_Indonesia (Microsoft)",
-                "p10_Indonesia (Microsoft)",
-                "p11_Indonesia (Microsoft)",
-                "p12_South Korea (SK)",
-                "p13_Spain (BlueVPS)",
-                "p14_Taiwan (Data)",
-                "p15_Taiwan (Data)",
-                "p16_Taiwan (Data)",
-                "p17_Taiwan (Data)",
-                "p18_Taiwan (Gigabit)",
-                "p19_The Netherlands (Oc)",
-                "p20_The Netherlands (Play2go)",
-                "p21_The Netherlands (netcup)",
-                "p22_United States (Unknown)",
-                "p23_United States (BlueVPS)",
-                "p24_United States (HostPapa)",
-                "p25_United States (DigitalOcean)",
-                "p26_Vietnam (VIETPN)",
-                "p27_Vietnam (VIETPN)",
-                "p28_Vietnam (VIETPN)",
-                "p29_Vietnam (VIETPN)",
-                "p30_Vietnam (VIETPN)",
-                "p31_Vietnam (VIETPN)",
-                "p32_Vietnam (VIETPN)",
-                "p33_Vietnam (VIETPN)",
-                "p34_Vietnam (VIETPN)",
-                "p35_Vietnam (VIETPN)",
-                "p36_Vietnam (VIETPN)",
-                "p37_Vietnam (VIETPN)",
-                "p38_Vietnam (VIETPN)",
-                "p39_Vietnam (VIETPN)",
-                "p40_Vietnam (VIETPN)",
-                "p41_Vietnam (VIETPN)",
-                "p42_Vietnam (VIETPN)",
-                "p43_Vietnam (VIETPN)",
-                "p44_Vietnam (VIETPN)",
-                "p45_Vietnam (VIETPN)",
-                "p46_Vietnam (VIETPN)",
-                "p47_Vietnam (VIETPN)",
-                "p48_Vietnam (VIETPN)",
-                "p49_Vietnam (VIETPN)",
-                "p50_Vietnam (VIETPN)",
-                "p51_Vietnam (VIETPN)",
-                "p52_Vietnam (VIETPN)",
-                "p53_Vietnam (VIETPN)",
-                "p54_Vietnam (VIETPN)",
-                "p55_Vietnam (VIETPN)",
-                "p56_Vietnam (VIETPN)",
-                "p57_Vietnam (VIETPN)",
-                "p58_Vietnam (VIETPN)",
-                "p59_Vietnam (VIETPN)",
-                "p60_Vietnam (VIETPN)",
-                "p61_Vietnam (VIETPN)",
-                "p62_Vietnam (VIETPN)",
-                "p63_Vietnam (VIETPN)",
-                "p64_Vietnam (VIETPN)",
-                "p65_Vietnam (VIETPN)",
-                "p66_Vietnam (VIETPN)",
-                "p67_Vietnam (VIETPN)",
-                "p68_Vietnam (VIETPN)",
-                "p69_Vietnam (VIETPN)",
-                "p70_Vietnam (VIETPN)",
-                "p71_Vietnam (VIETPN)",
-                "p72_Vietnam (VIETPN)",
-                "p73_Vietnam (VIETPN)",
-                "p74_Vietnam (VIETPN)",
-                "p75_Vietnam (VIETPN)",
-                "p76_Vietnam (VIETPN)",
-                "p77_Vietnam (VIETPN)",
-                "p78_Vietnam (VIETPN)",
-                "p79_Vietnam (VIETPN)",
-                "p80_Vietnam (VIETPN)",
-                "p81_Vietnam (VIETPN)",
-                "p82_Vietnam (VIETPN)",
-                "p83_Vietnam (VIETPN)",
-                "p84_Vietnam (VIETPN)",
-                "p85_Vietnam (VIETPN)",
-                "p86_Vietnam (VIETPN)",
-                "p87_Vietnam (VIETPN)",
-                "p88_Vietnam (VIETPN)",
-                "p89_Vietnam (VIETPN)",
-                "p90_Vietnam (VIETPN)",
-                "p91_Vietnam (VIETPN)",
-                "p92_Vietnam (VIETPN)",
-                "p93_Vietnam (VIETPN)",
-                "p94_Vietnam (VIETPN)",
-                "p95_Vietnam (VIETPN)",
-                "p96_Vietnam (VIETPN)",
-                "p97_Vietnam (VIETPN)",
-                "p98_Vietnam (VIETPN)",
-                "p99_Vietnam (VIETPN)",
-                "p100_Vietnam (VIETPN)",
-                "p101_Vietnam (VIETPN)",
-                "p102_Vietnam (VIETPN)",
-                "p103_Vietnam (VIETPN)",
-                "p104_Vietnam (VIETPN)",
-                "p105_Vietnam (VIETPN)",
-                "p106_Vietnam (VIETPN)",
-                "p107_Vietnam (VIETPN)",
-                "p108_Vietnam (VIETPN)",
-                "p109_Vietnam (VIETPN)",
-                "p110_Vietnam (VIETPN)",
-                "p111_Vietnam (VIETPN)",
-                "p112_Vietnam (VIETPN)",
-                "p113_Vietnam (VIETPN)",
-                "p114_Vietnam (VIETPN)",
-                "p115_Vietnam (VIETPN)",
-                "p116_Vietnam (VIETPN)",
+                "p0_Belarus (DataHata)",
+                "p1_Bulgaria (Baykov)",
+                "p2_Cyprus (Unknown)",
+                "p3_Cyprus (Unknown)",
+                "p4_Cyprus (Unknown)",
+                "p5_Czechia (MHost)",
+                "p6_Czechia (Unknown)",
+                "p7_Estonia (Oc)",
+                "p8_Finland (Hostkey)",
+                "p9_Germany (SYNLINQ)",
+                "p10_Germany (DigitalOcean)",
+                "p11_Germany (Amazon.com)",
+                "p12_Germany (Hostkey)",
+                "p13_Germany (netcup)",
+                "p14_Germany (aurologic)",
+                "p15_Hong Kong (Alibaba)",
+                "p16_Hong Kong (Alibaba)",
+                "p17_Hong Kong (Alibaba)",
+                "p18_Hong Kong (Amazon.com)",
+                "p19_Hong Kong (VMISS)",
+                "p20_Hong Kong (LUCIDACLOUD)",
+                "p21_Hong Kong (CoreNET)",
+                "p22_Hong Kong (LANDUPS)",
+                "p23_Hong Kong (CTG)",
+                "p24_Hong Kong (Zouter)",
+                "p25_Hong Kong (XNNET)",
+                "p26_Hong Kong (DMIT)",
+                "p27_Hong Kong (Cloudflare)",
+                "p28_Hong Kong (Baxet)",
+                "p29_Hong Kong (HKT)",
+                "p30_India (DigitalOcean)",
+                "p31_Italy (Hostkey)",
+                "p32_Japan (Alibaba)",
+                "p33_Japan (Nearoute)",
+                "p34_Japan (Oracle)",
+                "p35_Japan (Oracle)",
+                "p36_Japan (Oracle)",
+                "p37_Japan (Oracle)",
+                "p38_Japan (Baxet)",
+                "p39_Japan (IT7)",
+                "p40_Kazakhstan (PS)",
+                "p41_Moldova (Global)",
+                "p42_Poland (Hostkey)",
+                "p43_Seychelles (Kaopu)",
+                "p44_Seychelles (Kaopu)",
+                "p45_Singapore (Alibaba)",
+                "p46_Singapore (Amazon.com)",
+                "p47_Singapore (Amazon.com)",
+                "p48_Singapore (Amazon.com)",
+                "p49_Singapore (Amazon.com)",
+                "p50_Singapore (Amazon.com)",
+                "p51_Singapore (Amazon.com)",
+                "p52_Singapore (Akamai)",
+                "p53_Singapore (Akamai)",
+                "p54_Singapore (Akamai)",
+                "p55_South Korea (SK)",
+                "p56_South Korea (Amazon.com)",
+                "p57_South Korea (Korea)",
+                "p58_South Korea (LG)",
+                "p59_South Korea (Oracle)",
+                "p60_South Korea (Korea)",
+                "p61_South Korea (Korea)",
+                "p62_South Korea (Korea)",
+                "p63_Sweden (Aeza)",
+                "p64_Taiwan (Data)",
+                "p65_Taiwan (Data)",
+                "p66_Taiwan (Data)",
+                "p67_Taiwan (Data)",
+                "p68_Taiwan (Gigabit)",
+                "p69_The Netherlands (Cgi)",
+                "p70_The Netherlands (PUSHPKT)",
+                "p71_The Netherlands (Fast)",
+                "p72_The Netherlands (Oc)",
+                "p73_The Netherlands (Oc)",
+                "p74_The Netherlands (Krystal)",
+                "p75_The Netherlands (International)",
+                "p76_The Netherlands (Play2go)",
+                "p77_The Netherlands (Timeweb)",
+                "p78_The Netherlands (Netgrid)",
+                "p79_The Netherlands (B2)",
+                "p80_The Netherlands (Cloudflare)",
+                "p81_The Netherlands (Timeweb)",
+                "p82_United Arab Emirates (Unknown)",
+                "p83_United Arab Emirates (Hostkey)",
+                "p84_United States (Amazon.com)",
+                "p85_United States (Atlantic.net)",
+                "p86_United States (Amazon.com)",
+                "p87_United States (DMIT)",
+                "p88_United States (Unknown)",
+                "p89_United States (GTHost)",
+                "p90_United States (DMIT)",
+                "p91_United States (DMIT)",
+                "p92_United States (Unknown)",
+                "p93_United States (Unknown)",
+                "p94_United States (MULTACOM)",
+                "p95_United States (BlueVPS)",
+                "p96_United States (IT7)",
+                "p97_United States (HostPapa)",
+                "p98_United States (HostPapa)",
+                "p99_United States (LIGHT)",
+                "p100_United States (DigitalOcean)",
+                "p101_United States (MULTACOM)",
+                "p102_United States (DpkgSoft)",
+                "p103_United States (NetLab)",
+                "p104_United States (DMIT)",
+                "p105_United States (DMIT)",
+                "p106_United States (DMIT)",
+                "p107_United States (DMIT)",
+                "p108_United States (DMIT)",
+                "p109_United States (Unknown)",
+                "p110_United States (Unknown)",
+                "p111_United States (HOSTKEY)",
+                "p112_United States (DigitalOcean)",
+                "p113_United States (IT7)",
+                "p114_United States (HostPapa)",
+                "p115_United States (HostPapa)",
+                "p116_United States (GTHost)",
                 "p117_Vietnam (VIETPN)",
                 "p118_Vietnam (VIETPN)",
                 "p119_Vietnam (VIETPN)",
@@ -307,185 +307,183 @@
                 "p163_Vietnam (VIETPN)",
                 "p164_Vietnam (VIETPN)",
                 "p165_Vietnam (VIETPN)",
-                "p166_Vietnam (VIETPN)",
-                "p167_Vietnam (VIETPN)",
-                "p168_Vietnam (VIETPN)",
-                "p169_Vietnam (VIETPN)",
-                "p170_Vietnam (VIETPN)",
-                "p171_Vietnam (VIETPN)",
-                "p172_Vietnam (VIETPN)",
-                "p173_Vietnam (VIETPN)",
-                "p174_Vietnam (VIETPN)",
-                "p175_Vietnam (VIETPN)",
-                "p176_Vietnam (VIETPN)",
-                "p177_Vietnam (VIETPN)",
-                "p178_Vietnam (VIETPN)",
-                "p179_Vietnam (VIETPN)",
-                "p180_Vietnam (VIETPN)",
-                "p181_Vietnam (VIETPN)",
-                "p182_Vietnam (VIETPN)",
-                "p183_Vietnam (VIETPN)",
-                "p184_Vietnam (VIETPN)",
-                "p185_Vietnam (VIETPN)",
-                "p186_Vietnam (VIETPN)",
-                "p187_Vietnam (VIETPN)",
-                "p188_Vietnam (VIETPN)",
-                "p189_Vietnam (VIETPN)",
-                "p190_Vietnam (VIETPN)",
-                "p191_Vietnam (VIETPN)",
-                "p192_Vietnam (VIETPN)",
-                "p193_Vietnam (VIETPN)",
-                "p194_Vietnam (VIETPN)",
-                "p195_Vietnam (VIETPN)",
-                "p196_Vietnam (VIETPN)",
-                "p197_Vietnam (VIETPN)",
-                "p198_Vietnam (VIETPN)",
-                "p199_Vietnam (VIETPN)",
-                "p200_Vietnam (VIETPN)",
-                "p201_Vietnam (VIETPN)",
-                "p202_Vietnam (VIETPN)",
-                "p203_Vietnam (VIETPN)",
-                "p204_Vietnam (VIETPN)",
-                "p205_Vietnam (VIETPN)",
-                "p206_Vietnam (VIETPN)",
-                "p207_Vietnam (VIETPN)",
-                "p208_Vietnam (VIETPN)",
-                "p209_Vietnam (VIETPN)",
-                "p210_Vietnam (VIETPN)",
-                "p211_Vietnam (VIETPN)",
+                "p166_ndefined (geoip miss)",
+                "p167_ndefined (geoip miss)",
+                "p168_ndefined (geoip miss)",
+                "p169_ndefined (geoip miss)",
+                "p170_ndefined (geoip miss)",
+                "p171_ndefined (geoip miss)",
+                "p172_ndefined (geoip miss)",
+                "p173_ndefined (geoip miss)",
+                "p174_ndefined (geoip miss)",
+                "p175_ndefined (geoip miss)",
+                "p176_ndefined (geoip miss)",
+                "p177_ndefined (geoip miss)",
+                "p178_ndefined (geoip miss)",
+                "p179_ndefined (geoip miss)",
+                "p180_ndefined (geoip miss)",
+                "p181_ndefined (geoip miss)",
+                "p182_ndefined (geoip miss)",
+                "p183_ndefined (geoip miss)",
+                "p184_ndefined (geoip miss)",
+                "p185_ndefined (geoip miss)",
+                "p186_ndefined (geoip miss)",
+                "p187_ndefined (geoip miss)",
+                "p188_ndefined (geoip miss)",
+                "p189_ndefined (geoip miss)",
+                "p190_ndefined (geoip miss)",
+                "p191_ndefined (geoip miss)",
+                "p192_ndefined (geoip miss)",
+                "p193_ndefined (geoip miss)",
+                "p194_ndefined (geoip miss)",
+                "p195_ndefined (geoip miss)",
+                "p196_ndefined (geoip miss)",
+                "p197_ndefined (geoip miss)",
+                "p198_ndefined (geoip miss)",
+                "p199_ndefined (geoip miss)",
+                "p200_ndefined (geoip miss)",
+                "p201_ndefined (geoip miss)",
+                "p202_ndefined (geoip miss)",
+                "p203_ndefined (geoip miss)",
+                "p204_ndefined (geoip miss)",
+                "p205_ndefined (geoip miss)",
+                "p206_ndefined (geoip miss)",
+                "p207_ndefined (geoip miss)",
+                "p208_ndefined (geoip miss)",
+                "p209_ndefined (geoip miss)",
+                "p210_ndefined (geoip miss)",
+                "p211_ndefined (geoip miss)",
                 "p212_ndefined (geoip miss)",
                 "p213_ndefined (geoip miss)",
                 "p214_ndefined (geoip miss)",
                 "p215_ndefined (geoip miss)",
                 "p216_ndefined (geoip miss)",
                 "p217_ndefined (geoip miss)",
-                "p218_ndefined (geoip miss)",
-                "p219_ndefined (geoip miss)",
-                "p220_ndefined (geoip miss)",
-                "p221_ndefined (geoip miss)"
+                "p218_ndefined (dns error)",
+                "p219_ndefined (dns error)"
             ]
         },
         {
             "type": "urltest",
             "tag": "auto",
             "outbounds": [
-                "p0_Cyprus (Unknown)",
-                "p1_Germany (Alibaba)",
-                "p2_Germany (SYNLINQ)",
-                "p3_Hong Kong (CTG)",
-                "p4_Hong Kong (Baxet)",
-                "p5_Hong Kong (HostHatch)",
-                "p6_India (DigitalOcean)",
-                "p7_Indonesia (Microsoft)",
-                "p8_Indonesia (Microsoft)",
-                "p9_Indonesia (Microsoft)",
-                "p10_Indonesia (Microsoft)",
-                "p11_Indonesia (Microsoft)",
-                "p12_South Korea (SK)",
-                "p13_Spain (BlueVPS)",
-                "p14_Taiwan (Data)",
-                "p15_Taiwan (Data)",
-                "p16_Taiwan (Data)",
-                "p17_Taiwan (Data)",
-                "p18_Taiwan (Gigabit)",
-                "p19_The Netherlands (Oc)",
-                "p20_The Netherlands (Play2go)",
-                "p21_The Netherlands (netcup)",
-                "p22_United States (Unknown)",
-                "p23_United States (BlueVPS)",
-                "p24_United States (HostPapa)",
-                "p25_United States (DigitalOcean)",
-                "p26_Vietnam (VIETPN)",
-                "p27_Vietnam (VIETPN)",
-                "p28_Vietnam (VIETPN)",
-                "p29_Vietnam (VIETPN)",
-                "p30_Vietnam (VIETPN)",
-                "p31_Vietnam (VIETPN)",
-                "p32_Vietnam (VIETPN)",
-                "p33_Vietnam (VIETPN)",
-                "p34_Vietnam (VIETPN)",
-                "p35_Vietnam (VIETPN)",
-                "p36_Vietnam (VIETPN)",
-                "p37_Vietnam (VIETPN)",
-                "p38_Vietnam (VIETPN)",
-                "p39_Vietnam (VIETPN)",
-                "p40_Vietnam (VIETPN)",
-                "p41_Vietnam (VIETPN)",
-                "p42_Vietnam (VIETPN)",
-                "p43_Vietnam (VIETPN)",
-                "p44_Vietnam (VIETPN)",
-                "p45_Vietnam (VIETPN)",
-                "p46_Vietnam (VIETPN)",
-                "p47_Vietnam (VIETPN)",
-                "p48_Vietnam (VIETPN)",
-                "p49_Vietnam (VIETPN)",
-                "p50_Vietnam (VIETPN)",
-                "p51_Vietnam (VIETPN)",
-                "p52_Vietnam (VIETPN)",
-                "p53_Vietnam (VIETPN)",
-                "p54_Vietnam (VIETPN)",
-                "p55_Vietnam (VIETPN)",
-                "p56_Vietnam (VIETPN)",
-                "p57_Vietnam (VIETPN)",
-                "p58_Vietnam (VIETPN)",
-                "p59_Vietnam (VIETPN)",
-                "p60_Vietnam (VIETPN)",
-                "p61_Vietnam (VIETPN)",
-                "p62_Vietnam (VIETPN)",
-                "p63_Vietnam (VIETPN)",
-                "p64_Vietnam (VIETPN)",
-                "p65_Vietnam (VIETPN)",
-                "p66_Vietnam (VIETPN)",
-                "p67_Vietnam (VIETPN)",
-                "p68_Vietnam (VIETPN)",
-                "p69_Vietnam (VIETPN)",
-                "p70_Vietnam (VIETPN)",
-                "p71_Vietnam (VIETPN)",
-                "p72_Vietnam (VIETPN)",
-                "p73_Vietnam (VIETPN)",
-                "p74_Vietnam (VIETPN)",
-                "p75_Vietnam (VIETPN)",
-                "p76_Vietnam (VIETPN)",
-                "p77_Vietnam (VIETPN)",
-                "p78_Vietnam (VIETPN)",
-                "p79_Vietnam (VIETPN)",
-                "p80_Vietnam (VIETPN)",
-                "p81_Vietnam (VIETPN)",
-                "p82_Vietnam (VIETPN)",
-                "p83_Vietnam (VIETPN)",
-                "p84_Vietnam (VIETPN)",
-                "p85_Vietnam (VIETPN)",
-                "p86_Vietnam (VIETPN)",
-                "p87_Vietnam (VIETPN)",
-                "p88_Vietnam (VIETPN)",
-                "p89_Vietnam (VIETPN)",
-                "p90_Vietnam (VIETPN)",
-                "p91_Vietnam (VIETPN)",
-                "p92_Vietnam (VIETPN)",
-                "p93_Vietnam (VIETPN)",
-                "p94_Vietnam (VIETPN)",
-                "p95_Vietnam (VIETPN)",
-                "p96_Vietnam (VIETPN)",
-                "p97_Vietnam (VIETPN)",
-                "p98_Vietnam (VIETPN)",
-                "p99_Vietnam (VIETPN)",
-                "p100_Vietnam (VIETPN)",
-                "p101_Vietnam (VIETPN)",
-                "p102_Vietnam (VIETPN)",
-                "p103_Vietnam (VIETPN)",
-                "p104_Vietnam (VIETPN)",
-                "p105_Vietnam (VIETPN)",
-                "p106_Vietnam (VIETPN)",
-                "p107_Vietnam (VIETPN)",
-                "p108_Vietnam (VIETPN)",
-                "p109_Vietnam (VIETPN)",
-                "p110_Vietnam (VIETPN)",
-                "p111_Vietnam (VIETPN)",
-                "p112_Vietnam (VIETPN)",
-                "p113_Vietnam (VIETPN)",
-                "p114_Vietnam (VIETPN)",
-                "p115_Vietnam (VIETPN)",
-                "p116_Vietnam (VIETPN)",
+                "p0_Belarus (DataHata)",
+                "p1_Bulgaria (Baykov)",
+                "p2_Cyprus (Unknown)",
+                "p3_Cyprus (Unknown)",
+                "p4_Cyprus (Unknown)",
+                "p5_Czechia (MHost)",
+                "p6_Czechia (Unknown)",
+                "p7_Estonia (Oc)",
+                "p8_Finland (Hostkey)",
+                "p9_Germany (SYNLINQ)",
+                "p10_Germany (DigitalOcean)",
+                "p11_Germany (Amazon.com)",
+                "p12_Germany (Hostkey)",
+                "p13_Germany (netcup)",
+                "p14_Germany (aurologic)",
+                "p15_Hong Kong (Alibaba)",
+                "p16_Hong Kong (Alibaba)",
+                "p17_Hong Kong (Alibaba)",
+                "p18_Hong Kong (Amazon.com)",
+                "p19_Hong Kong (VMISS)",
+                "p20_Hong Kong (LUCIDACLOUD)",
+                "p21_Hong Kong (CoreNET)",
+                "p22_Hong Kong (LANDUPS)",
+                "p23_Hong Kong (CTG)",
+                "p24_Hong Kong (Zouter)",
+                "p25_Hong Kong (XNNET)",
+                "p26_Hong Kong (DMIT)",
+                "p27_Hong Kong (Cloudflare)",
+                "p28_Hong Kong (Baxet)",
+                "p29_Hong Kong (HKT)",
+                "p30_India (DigitalOcean)",
+                "p31_Italy (Hostkey)",
+                "p32_Japan (Alibaba)",
+                "p33_Japan (Nearoute)",
+                "p34_Japan (Oracle)",
+                "p35_Japan (Oracle)",
+                "p36_Japan (Oracle)",
+                "p37_Japan (Oracle)",
+                "p38_Japan (Baxet)",
+                "p39_Japan (IT7)",
+                "p40_Kazakhstan (PS)",
+                "p41_Moldova (Global)",
+                "p42_Poland (Hostkey)",
+                "p43_Seychelles (Kaopu)",
+                "p44_Seychelles (Kaopu)",
+                "p45_Singapore (Alibaba)",
+                "p46_Singapore (Amazon.com)",
+                "p47_Singapore (Amazon.com)",
+                "p48_Singapore (Amazon.com)",
+                "p49_Singapore (Amazon.com)",
+                "p50_Singapore (Amazon.com)",
+                "p51_Singapore (Amazon.com)",
+                "p52_Singapore (Akamai)",
+                "p53_Singapore (Akamai)",
+                "p54_Singapore (Akamai)",
+                "p55_South Korea (SK)",
+                "p56_South Korea (Amazon.com)",
+                "p57_South Korea (Korea)",
+                "p58_South Korea (LG)",
+                "p59_South Korea (Oracle)",
+                "p60_South Korea (Korea)",
+                "p61_South Korea (Korea)",
+                "p62_South Korea (Korea)",
+                "p63_Sweden (Aeza)",
+                "p64_Taiwan (Data)",
+                "p65_Taiwan (Data)",
+                "p66_Taiwan (Data)",
+                "p67_Taiwan (Data)",
+                "p68_Taiwan (Gigabit)",
+                "p69_The Netherlands (Cgi)",
+                "p70_The Netherlands (PUSHPKT)",
+                "p71_The Netherlands (Fast)",
+                "p72_The Netherlands (Oc)",
+                "p73_The Netherlands (Oc)",
+                "p74_The Netherlands (Krystal)",
+                "p75_The Netherlands (International)",
+                "p76_The Netherlands (Play2go)",
+                "p77_The Netherlands (Timeweb)",
+                "p78_The Netherlands (Netgrid)",
+                "p79_The Netherlands (B2)",
+                "p80_The Netherlands (Cloudflare)",
+                "p81_The Netherlands (Timeweb)",
+                "p82_United Arab Emirates (Unknown)",
+                "p83_United Arab Emirates (Hostkey)",
+                "p84_United States (Amazon.com)",
+                "p85_United States (Atlantic.net)",
+                "p86_United States (Amazon.com)",
+                "p87_United States (DMIT)",
+                "p88_United States (Unknown)",
+                "p89_United States (GTHost)",
+                "p90_United States (DMIT)",
+                "p91_United States (DMIT)",
+                "p92_United States (Unknown)",
+                "p93_United States (Unknown)",
+                "p94_United States (MULTACOM)",
+                "p95_United States (BlueVPS)",
+                "p96_United States (IT7)",
+                "p97_United States (HostPapa)",
+                "p98_United States (HostPapa)",
+                "p99_United States (LIGHT)",
+                "p100_United States (DigitalOcean)",
+                "p101_United States (MULTACOM)",
+                "p102_United States (DpkgSoft)",
+                "p103_United States (NetLab)",
+                "p104_United States (DMIT)",
+                "p105_United States (DMIT)",
+                "p106_United States (DMIT)",
+                "p107_United States (DMIT)",
+                "p108_United States (DMIT)",
+                "p109_United States (Unknown)",
+                "p110_United States (Unknown)",
+                "p111_United States (HOSTKEY)",
+                "p112_United States (DigitalOcean)",
+                "p113_United States (IT7)",
+                "p114_United States (HostPapa)",
+                "p115_United States (HostPapa)",
+                "p116_United States (GTHost)",
                 "p117_Vietnam (VIETPN)",
                 "p118_Vietnam (VIETPN)",
                 "p119_Vietnam (VIETPN)",
@@ -535,68 +533,130 @@
                 "p163_Vietnam (VIETPN)",
                 "p164_Vietnam (VIETPN)",
                 "p165_Vietnam (VIETPN)",
-                "p166_Vietnam (VIETPN)",
-                "p167_Vietnam (VIETPN)",
-                "p168_Vietnam (VIETPN)",
-                "p169_Vietnam (VIETPN)",
-                "p170_Vietnam (VIETPN)",
-                "p171_Vietnam (VIETPN)",
-                "p172_Vietnam (VIETPN)",
-                "p173_Vietnam (VIETPN)",
-                "p174_Vietnam (VIETPN)",
-                "p175_Vietnam (VIETPN)",
-                "p176_Vietnam (VIETPN)",
-                "p177_Vietnam (VIETPN)",
-                "p178_Vietnam (VIETPN)",
-                "p179_Vietnam (VIETPN)",
-                "p180_Vietnam (VIETPN)",
-                "p181_Vietnam (VIETPN)",
-                "p182_Vietnam (VIETPN)",
-                "p183_Vietnam (VIETPN)",
-                "p184_Vietnam (VIETPN)",
-                "p185_Vietnam (VIETPN)",
-                "p186_Vietnam (VIETPN)",
-                "p187_Vietnam (VIETPN)",
-                "p188_Vietnam (VIETPN)",
-                "p189_Vietnam (VIETPN)",
-                "p190_Vietnam (VIETPN)",
-                "p191_Vietnam (VIETPN)",
-                "p192_Vietnam (VIETPN)",
-                "p193_Vietnam (VIETPN)",
-                "p194_Vietnam (VIETPN)",
-                "p195_Vietnam (VIETPN)",
-                "p196_Vietnam (VIETPN)",
-                "p197_Vietnam (VIETPN)",
-                "p198_Vietnam (VIETPN)",
-                "p199_Vietnam (VIETPN)",
-                "p200_Vietnam (VIETPN)",
-                "p201_Vietnam (VIETPN)",
-                "p202_Vietnam (VIETPN)",
-                "p203_Vietnam (VIETPN)",
-                "p204_Vietnam (VIETPN)",
-                "p205_Vietnam (VIETPN)",
-                "p206_Vietnam (VIETPN)",
-                "p207_Vietnam (VIETPN)",
-                "p208_Vietnam (VIETPN)",
-                "p209_Vietnam (VIETPN)",
-                "p210_Vietnam (VIETPN)",
-                "p211_Vietnam (VIETPN)",
+                "p166_ndefined (geoip miss)",
+                "p167_ndefined (geoip miss)",
+                "p168_ndefined (geoip miss)",
+                "p169_ndefined (geoip miss)",
+                "p170_ndefined (geoip miss)",
+                "p171_ndefined (geoip miss)",
+                "p172_ndefined (geoip miss)",
+                "p173_ndefined (geoip miss)",
+                "p174_ndefined (geoip miss)",
+                "p175_ndefined (geoip miss)",
+                "p176_ndefined (geoip miss)",
+                "p177_ndefined (geoip miss)",
+                "p178_ndefined (geoip miss)",
+                "p179_ndefined (geoip miss)",
+                "p180_ndefined (geoip miss)",
+                "p181_ndefined (geoip miss)",
+                "p182_ndefined (geoip miss)",
+                "p183_ndefined (geoip miss)",
+                "p184_ndefined (geoip miss)",
+                "p185_ndefined (geoip miss)",
+                "p186_ndefined (geoip miss)",
+                "p187_ndefined (geoip miss)",
+                "p188_ndefined (geoip miss)",
+                "p189_ndefined (geoip miss)",
+                "p190_ndefined (geoip miss)",
+                "p191_ndefined (geoip miss)",
+                "p192_ndefined (geoip miss)",
+                "p193_ndefined (geoip miss)",
+                "p194_ndefined (geoip miss)",
+                "p195_ndefined (geoip miss)",
+                "p196_ndefined (geoip miss)",
+                "p197_ndefined (geoip miss)",
+                "p198_ndefined (geoip miss)",
+                "p199_ndefined (geoip miss)",
+                "p200_ndefined (geoip miss)",
+                "p201_ndefined (geoip miss)",
+                "p202_ndefined (geoip miss)",
+                "p203_ndefined (geoip miss)",
+                "p204_ndefined (geoip miss)",
+                "p205_ndefined (geoip miss)",
+                "p206_ndefined (geoip miss)",
+                "p207_ndefined (geoip miss)",
+                "p208_ndefined (geoip miss)",
+                "p209_ndefined (geoip miss)",
+                "p210_ndefined (geoip miss)",
+                "p211_ndefined (geoip miss)",
                 "p212_ndefined (geoip miss)",
                 "p213_ndefined (geoip miss)",
                 "p214_ndefined (geoip miss)",
                 "p215_ndefined (geoip miss)",
                 "p216_ndefined (geoip miss)",
                 "p217_ndefined (geoip miss)",
-                "p218_ndefined (geoip miss)",
-                "p219_ndefined (geoip miss)",
-                "p220_ndefined (geoip miss)",
-                "p221_ndefined (geoip miss)"
+                "p218_ndefined (dns error)",
+                "p219_ndefined (dns error)"
             ]
         },
         {
             "type": "vless",
-            "tag": "p0_Cyprus (Unknown)",
-            "server": "132.243.228.134",
+            "tag": "p0_Belarus (DataHata)",
+            "server": "87.252.237.250",
+            "server_port": 443,
+            "uuid": "dec329eb-c019-4a69-afc5-f2c9932127af",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wI61klWlPCO6fBvUtiouNDOoimqL9OUKOBNNkj-SQx0",
+                    "short_id": "45"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p1_Bulgaria (Baykov)",
+            "server": "192.145.29.62",
+            "server_port": 443,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p2_Cyprus (Unknown)",
+            "server": "132.243.224.86.alexanderoff.ru",
+            "server_port": 443,
+            "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "gateway.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
+                    "short_id": "c6118398"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p3_Cyprus (Unknown)",
+            "server": "132.243.228.164",
             "server_port": 27439,
             "uuid": "a475fc1b-c719-4c0b-bb67-39d78fa5b302",
             "tls": {
@@ -614,16 +674,112 @@
             }
         },
         {
-            "type": "shadowsocks",
-            "tag": "p1_Germany (Alibaba)",
-            "server": "8.209.74.72",
-            "server_port": 20001,
-            "method": "chacha20-ietf-poly1305",
-            "password": "PWpjPo3tqhPN4yRZ"
+            "type": "vless",
+            "tag": "p4_Cyprus (Unknown)",
+            "server": "132.243.234.60.alexanderoff.ru",
+            "server_port": 443,
+            "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "gateway.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
+                    "short_id": "c6118398"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p5_Czechia (MHost)",
+            "server": "95.85.237.26",
+            "server_port": 443,
+            "uuid": "fc5ffd42-ebad-4466-ba56-c8865680f4f2",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "vk.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cKzljSufhp_TTVyy85qjeByAHzTJZB2SHxKFjHaZHwA",
+                    "short_id": "2e"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p6_Czechia (Unknown)",
+            "server": "192.124.173.14",
+            "server_port": 443,
+            "uuid": "19e94f08-d831-4673-8a03-bb8ebe680eb9",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nDq00UeDI5TKKFipI6rgdVCqiTO98ncHKn90Qp3EsBE",
+                    "short_id": "f2b78452f9233f26"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p7_Estonia (Oc)",
+            "server": "95.85.224.180",
+            "server_port": 443,
+            "uuid": "4c53d3ad-6d43-41cc-b529-4e1475872342",
+            "tls": {
+                "enabled": true,
+                "server_name": "github.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U",
+                    "short_id": "086007"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p8_Finland (Hostkey)",
+            "server": "151.241.221.10",
+            "server_port": 47030,
+            "uuid": "cb1691ad-49cc-46a9-b734-91c109200c32",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8",
+                    "short_id": "e18eda8458cab0d7"
+                }
+            }
         },
         {
             "type": "hysteria2",
-            "tag": "p2_Germany (SYNLINQ)",
+            "tag": "p9_Germany (SYNLINQ)",
             "server": "37.114.49.38",
             "server_port": 2056,
             "password": "4d092122-268a-4a1a-b23f-83931c5abc3a",
@@ -635,121 +791,1018 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p3_Hong Kong (CTG)",
-            "server": "112.213.102.188",
-            "server_port": 41632,
-            "method": "aes-256-cfb",
-            "password": "qwerREWQ@@"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p4_Hong Kong (Baxet)",
-            "server": "212.192.15.209",
-            "server_port": 19081,
-            "method": "aes-256-gcm",
-            "password": "7e1dd4c55bf85da5"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p5_Hong Kong (HostHatch)",
-            "server": "216.250.97.82",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p6_India (DigitalOcean)",
-            "server": "139.59.87.22",
-            "server_port": 16970,
+            "tag": "p10_Germany (DigitalOcean)",
+            "server": "46.101.196.138",
+            "server_port": 23243,
             "method": "chacha20-ietf-poly1305",
-            "password": "6ThD1AgwXc8Stpp7hEohLa"
-        },
-        {
-            "type": "vmess",
-            "tag": "p7_Indonesia (Microsoft)",
-            "server": "48.193.40.230",
-            "server_port": 30804,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 2
-        },
-        {
-            "type": "vmess",
-            "tag": "p8_Indonesia (Microsoft)",
-            "server": "48.193.40.230",
-            "server_port": 30809,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 2
-        },
-        {
-            "type": "vmess",
-            "tag": "p9_Indonesia (Microsoft)",
-            "server": "48.193.40.230",
-            "server_port": 30829,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 2
-        },
-        {
-            "type": "vmess",
-            "tag": "p10_Indonesia (Microsoft)",
-            "server": "48.193.40.230",
-            "server_port": 30833,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 2
-        },
-        {
-            "type": "vmess",
-            "tag": "p11_Indonesia (Microsoft)",
-            "server": "48.193.40.230",
-            "server_port": 30835,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 2
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p12_South Korea (SK)",
-            "server": "218.237.185.230",
-            "server_port": 4652,
-            "method": "aes-256-cfb",
-            "password": "qwerREWQ@@"
+            "password": "Q7cjiVD0oKNE2o9sUnZKQg"
         },
         {
             "type": "vless",
-            "tag": "p13_Spain (BlueVPS)",
-            "server": "155.212.242.75",
-            "server_port": 443,
-            "uuid": "597380c7-1b62-434b-89f6-96b9f49514fa",
+            "tag": "p11_Germany (Amazon.com)",
+            "server": "63.181.11.148",
+            "server_port": 30000,
+            "uuid": "bfd364df-e41a-451b-9a47-a034d7b464a4",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "rbc.ru",
+                "server_name": "frankfurt.ap221.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p12_Germany (Hostkey)",
+            "server": "82.21.114.184",
+            "server_port": 47030,
+            "uuid": "cb1691ad-49cc-46a9-b734-91c109200c32",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "hZ2suCOyxMqdLE9YexeRtoG5r5isMoztbDrfMbiOIEY",
+                    "public_key": "cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8",
+                    "short_id": "e18eda8458cab0d7"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p13_Germany (netcup)",
+            "server": "159.195.6.151",
+            "server_port": 443,
+            "password": "49197da7-4f74-4c34-8229-35561043c113",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TEFfOIgYRUunDwRv_ycZiN8oXGROPx5AQvUCbp9171Q",
+                    "short_id": "fd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p14_Germany (aurologic)",
+            "server": "172.86.93.20",
+            "server_port": 443,
+            "uuid": "8cf1c214-3376-11f1-bf19-dcb6e8e27879",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.kleinanzeigen.de",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XFv4Qy1Pfx_Wj_oLqIqfVpBiykT2zr35X0mwEOME2Wg",
                     "short_id": ""
                 }
             }
         },
         {
+            "type": "vless",
+            "tag": "p15_Hong Kong (Alibaba)",
+            "server": "8.218.117.111",
+            "server_port": 443,
+            "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+            "tls": {
+                "enabled": true,
+                "server_name": "wcs.adobe.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p16_Hong Kong (Alibaba)",
+            "server": "8.218.118.182",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p17_Hong Kong (Alibaba)",
+            "server": "8.218.126.21",
+            "server_port": 443,
+            "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+            "tls": {
+                "enabled": true,
+                "server_name": "app.usercentrics.eu",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p18_Hong Kong (Amazon.com)",
+            "server": "18.162.112.209",
+            "server_port": 30000,
+            "uuid": "c3637f06-2dc6-44cd-9dbe-0c09dac1837b",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "hk.ap221.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p19_Hong Kong (VMISS)",
+            "server": "38.207.161.200",
+            "server_port": 8443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p20_Hong Kong (LUCIDACLOUD)",
+            "server": "103.74.192.228",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p21_Hong Kong (CoreNET)",
+            "server": "103.118.42.99",
+            "server_port": 8443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p22_Hong Kong (LANDUPS)",
+            "server": "103.192.179.132",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
             "type": "shadowsocks",
-            "tag": "p14_Taiwan (Data)",
-            "server": "1.165.138.167",
+            "tag": "p23_Hong Kong (CTG)",
+            "server": "112.213.102.188",
+            "server_port": 41632,
+            "method": "aes-256-cfb",
+            "password": "qwerREWQ@@"
+        },
+        {
+            "type": "vless",
+            "tag": "p24_Hong Kong (Zouter)",
+            "server": "143.14.189.132",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p25_Hong Kong (XNNET)",
+            "server": "149.104.6.78",
+            "server_port": 8443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p26_Hong Kong (DMIT)",
+            "server": "154.3.37.35",
+            "server_port": 41916,
+            "password": "hmR46dYjqH",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NkBoOON_wUnunfFPyxfUj9Fy-4ytuGn82d6Kp-1LNk0",
+                    "short_id": "5db27b"
+                }
+            },
+            "transport": {
+                "type": "grpc"
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p27_Hong Kong (Cloudflare)",
+            "server": "154.92.9.156",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "tls": {
+                "enabled": true,
+                "server_name": "Worker-Dry-Heart-073a.Eqoniqaq.Workers.Dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "workEr-dRy-heaRt-073A.eqoniqAq.workeRs.dEv"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p28_Hong Kong (Baxet)",
+            "server": "212.192.15.209",
+            "server_port": 19081,
+            "method": "aes-256-gcm",
+            "password": "7e1dd4c55bf85da5"
+        },
+        {
+            "type": "vless",
+            "tag": "p29_Hong Kong (HKT)",
+            "server": "219.76.13.177",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p30_India (DigitalOcean)",
+            "server": "139.59.87.22",
+            "server_port": 16970,
+            "method": "chacha20-ietf-poly1305",
+            "password": "6ThD1AgwXc8Stpp7hEohLa"
+        },
+        {
+            "type": "vless",
+            "tag": "p31_Italy (Hostkey)",
+            "server": "151.241.215.110",
+            "server_port": 47030,
+            "uuid": "cb1691ad-49cc-46a9-b734-91c109200c32",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8",
+                    "short_id": "e18eda8458cab0d7"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p32_Japan (Alibaba)",
+            "server": "8.211.167.199",
+            "server_port": 23221,
+            "uuid": "499bd253-e87a-4013-b7f8-ed95ae228508",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "tesla.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aJvkRzvLQp605LZ0LMy-86gY1Y5PKk7-7Q7OIJuS9iE",
+                    "short_id": "472c5450"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p33_Japan (Nearoute)",
+            "server": "103.100.158.18",
+            "server_port": 29025,
+            "uuid": "c45ab62e-5d25-486a-f91e-807fe4b9c23f",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "type": "vless",
+            "tag": "p34_Japan (Oracle)",
+            "server": "140.83.34.214",
+            "server_port": 8443,
+            "uuid": "42add63b-deda-4e71-aa48-ddd288181858",
+            "tls": {
+                "enabled": true,
+                "server_name": "edtunnel-eiz.pages.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560&https://t.me/WangCai2\ud83c\udde8\ud83c\uddf3",
+                "headers": {
+                    "Host": "edtunnel-eiz.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p35_Japan (Oracle)",
+            "server": "151.145.65.117",
+            "server_port": 6532,
+            "uuid": "42add63b-deda-4e71-aa48-ddd288181858",
+            "tls": {
+                "enabled": true,
+                "server_name": "edtunnel-eiz.pages.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560&https://t.me/WangCai2\ud83c\udde8\ud83c\uddf3",
+                "headers": {
+                    "Host": "edtunnel-eiz.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p36_Japan (Oracle)",
+            "server": "152.69.201.51",
+            "server_port": 15039,
+            "uuid": "42add63b-deda-4e71-aa48-ddd288181858",
+            "tls": {
+                "enabled": true,
+                "server_name": "edtunnel-eiz.pages.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560&https://t.me/WangCai2\ud83c\udde8\ud83c\uddf3",
+                "headers": {
+                    "Host": "edtunnel-eiz.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p37_Japan (Oracle)",
+            "server": "158.101.89.113",
+            "server_port": 58443,
+            "uuid": "42add63b-deda-4e71-aa48-ddd288181858",
+            "tls": {
+                "enabled": true,
+                "server_name": "edtunnel-eiz.pages.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560&https://t.me/WangCai2\ud83c\udde8\ud83c\uddf3",
+                "headers": {
+                    "Host": "edtunnel-eiz.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p38_Japan (Baxet)",
+            "server": "185.141.219.158",
+            "server_port": 30312,
+            "method": "aes-256-gcm",
+            "password": "99394cfebe6c0906"
+        },
+        {
+            "type": "vless",
+            "tag": "p39_Japan (IT7)",
+            "server": "212.50.245.5",
+            "server_port": 443,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p40_Kazakhstan (PS)",
+            "server": "213.155.22.217",
+            "server_port": 443,
+            "uuid": "aae59c28-a4e7-46bd-8fa5-a239e8cfe0b1",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI",
+                    "short_id": "ac7f3b2d5e01948b"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p41_Moldova (Global)",
+            "server": "94.103.2.233",
+            "server_port": 443,
+            "password": "6eea921e-bfe7-4618-ab2c-5576bb984893",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AD5oeeDsLYOWS2HbDqHYV_MnhfsUzXKgvYL6Sueavy0",
+                    "short_id": "6d"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p42_Poland (Hostkey)",
+            "server": "151.241.227.110",
+            "server_port": 47030,
+            "uuid": "cb1691ad-49cc-46a9-b734-91c109200c32",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8",
+                    "short_id": "e18eda8458cab0d7"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p43_Seychelles (Kaopu)",
+            "server": "154.205.136.122",
+            "server_port": 37849,
+            "uuid": "30e88f67-8445-43ca-ff2b-961bbf6339fc",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/"
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p44_Seychelles (Kaopu)",
+            "server": "154.205.147.166",
+            "server_port": 11201,
+            "method": "chacha20-ietf-poly1305",
+            "password": "93069d226f003fab"
+        },
+        {
+            "type": "vless",
+            "tag": "p45_Singapore (Alibaba)",
+            "server": "8.219.154.217",
+            "server_port": 8443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p46_Singapore (Amazon.com)",
+            "server": "13.251.157.143",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p47_Singapore (Amazon.com)",
+            "server": "18.138.34.221",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p48_Singapore (Amazon.com)",
+            "server": "18.140.179.70",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p49_Singapore (Amazon.com)",
+            "server": "18.143.179.83",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p50_Singapore (Amazon.com)",
+            "server": "52.77.114.70",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p51_Singapore (Amazon.com)",
+            "server": "52.221.247.133",
+            "server_port": 80,
+            "method": "aes-256-gcm",
+            "password": "dada1203"
+        },
+        {
+            "type": "vless",
+            "tag": "p52_Singapore (Akamai)",
+            "server": "172.104.61.43",
+            "server_port": 22539,
+            "uuid": "d6d7e024-0a49-483d-bcd7-048c4d30eca6",
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p53_Singapore (Akamai)",
+            "server": "172.104.186.18",
+            "server_port": 8443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p54_Singapore (Akamai)",
+            "server": "172.104.191.150",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p55_South Korea (SK)",
+            "server": "nuclear.us.kg",
+            "server_port": 443,
+            "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
+            "tls": {
+                "enabled": true,
+                "server_name": "nuclear.us.kg",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/free/1.226.227.169:50001",
+                "headers": {
+                    "Host": "nuclear.us.kg"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p56_South Korea (Amazon.com)",
+            "server": "43.202.66.54",
+            "server_port": 80,
+            "method": "aes-256-gcm",
+            "password": "dada1203"
+        },
+        {
+            "type": "vless",
+            "tag": "p57_South Korea (Korea)",
+            "server": "112.163.117.142",
+            "server_port": 30005,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p58_South Korea (LG)",
+            "server": "123.98.220.86",
+            "server_port": 10022,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p59_South Korea (Oracle)",
+            "server": "152.70.253.84",
+            "server_port": 8443,
+            "uuid": "42add63b-deda-4e71-aa48-ddd288181858",
+            "tls": {
+                "enabled": true,
+                "server_name": "edtunnel-eiz.pages.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560&https://t.me/WangCai2\ud83c\udde8\ud83c\uddf3",
+                "headers": {
+                    "Host": "edtunnel-eiz.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p60_South Korea (Korea)",
+            "server": "220.127.122.167",
+            "server_port": 10003,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p61_South Korea (Korea)",
+            "server": "221.156.244.231",
+            "server_port": 11904,
+            "uuid": "42add63b-deda-4e71-aa48-ddd288181858",
+            "tls": {
+                "enabled": true,
+                "server_name": "edtunnel-eiz.pages.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "edtunnel-eiz.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p62_South Korea (Korea)",
+            "server": "222.98.23.9",
+            "server_port": 10243,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p63_Sweden (Aeza)",
+            "server": "89.22.237.38",
+            "server_port": 443,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p64_Taiwan (Data)",
+            "server": "1.163.146.197",
             "server_port": 50099,
             "method": "chacha20-ietf-poly1305",
             "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
         },
         {
             "type": "shadowsocks",
-            "tag": "p15_Taiwan (Data)",
+            "tag": "p65_Taiwan (Data)",
             "server": "36.224.150.145",
             "server_port": 50099,
             "method": "chacha20-ietf-poly1305",
@@ -757,23 +1810,23 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p16_Taiwan (Data)",
-            "server": "111.248.66.243",
+            "tag": "p66_Taiwan (Data)",
+            "server": "61.231.153.242",
             "server_port": 50099,
             "method": "chacha20-ietf-poly1305",
             "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
         },
         {
             "type": "shadowsocks",
-            "tag": "p17_Taiwan (Data)",
-            "server": "111.248.106.149",
+            "tag": "p67_Taiwan (Data)",
+            "server": "111.250.13.165",
             "server_port": 50099,
             "method": "chacha20-ietf-poly1305",
-            "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+            "password": "7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56"
         },
         {
             "type": "shadowsocks",
-            "tag": "p18_Taiwan (Gigabit)",
+            "tag": "p68_Taiwan (Gigabit)",
             "server": "185.189.160.105",
             "server_port": 41632,
             "method": "aes-256-cfb",
@@ -781,31 +1834,135 @@
         },
         {
             "type": "vless",
-            "tag": "p19_The Netherlands (Oc)",
-            "server": "95.85.248.115",
-            "server_port": 443,
-            "uuid": "6d524f6e-deea-4f8a-a71d-f32a952e23e5",
+            "tag": "p69_The Netherlands (Cgi)",
+            "server": "31.59.185.146",
+            "server_port": 2053,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
             "tls": {
                 "enabled": true,
-                "server_name": "vk.com",
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p70_The Netherlands (PUSHPKT)",
+            "server": "37.49.227.173",
+            "server_port": 8443,
+            "uuid": "8cf1c214-3376-11f1-bf19-dcb6e8e27879",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "tradingview.com",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Duxwa0WD9RhAy4EsGdWgo2ALlOUWGfZ2KCVLKEP_214",
-                    "short_id": "6d1e4c8f"
+                    "public_key": "T6zoUTIKw5BMEvb5-GPicYK0a1nuXnbOEdKytLblizY",
+                    "short_id": ""
                 }
-            },
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p71_The Netherlands (Fast)",
+            "server": "45.136.126.116",
+            "server_port": 7443,
+            "uuid": "5cd9be48-6cdd-452a-b728-65a47fb6a8fc",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "timeweb.cloud",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rTp9PEn36FtQFu32jWAPO3r-e1W2px3RGSuhR-L1DVM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p72_The Netherlands (Oc)",
+            "server": "95.85.248.67",
+            "server_port": 30047,
+            "uuid": "caf9d5f7-77f2-4033-823e-d55a1996fc4a",
             "transport": {
-                "type": "grpc",
-                "service_name": "vk.push.v1.PushNotificationService"
+                "type": "ws",
+                "path": "/"
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p73_The Netherlands (Oc)",
+            "server": "95.85.248.67",
+            "server_port": 30047,
+            "uuid": "caf9d5f7-77f2-4033-823e-d55a1996fc4a",
+            "transport": {
+                "type": "ws",
+                "path": "/"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p74_The Netherlands (Krystal)",
+            "server": "141.98.24.234",
+            "server_port": 443,
+            "password": "a9866469-18db-4e57-9423-55ae5f96faab",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "T_e4Kf_0Pbc5yM0ltYSjLDn2bZnAyl_m96te767mN1g",
+                    "short_id": "07"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p75_The Netherlands (International)",
+            "server": "144.31.97.125",
+            "server_port": 443,
+            "uuid": "2fdd6b51-4fe2-4e2f-803a-3eb284bf038e",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9mJq2cP3srX_6K1YfMDp1yndvo5CtgL6TEVQ8tm4fVc",
+                    "short_id": ""
+                }
             }
         },
         {
             "type": "hysteria2",
-            "tag": "p20_The Netherlands (Play2go)",
+            "tag": "p76_The Netherlands (Play2go)",
             "server": "144.31.224.14",
             "server_port": 443,
             "password": "123456789StrongPass",
@@ -816,27 +1973,252 @@
             }
         },
         {
-            "type": "trojan",
-            "tag": "p21_The Netherlands (netcup)",
-            "server": "152.53.60.198",
-            "server_port": 8444,
-            "password": "trojan",
+            "type": "vless",
+            "tag": "p77_The Netherlands (Timeweb)",
+            "server": "147.45.134.116",
+            "server_port": 8443,
+            "uuid": "454c36df-0f8b-4908-932f-d23fdc3e88b4",
+            "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "jflsjlaf.pages.dev",
+                "server_name": "www.apple.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k-PFLleB5d-wS6WkDUm235vMDmZgMeg9D3SQhaW8d0I",
+                    "short_id": "743374d54aa12d"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p78_The Netherlands (Netgrid)",
+            "server": "151.247.25.103",
+            "server_port": 47030,
+            "uuid": "cb1691ad-49cc-46a9-b734-91c109200c32",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8",
+                    "short_id": "e18eda8458cab0d7"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p79_The Netherlands (B2)",
+            "server": "192.241.120.122",
+            "server_port": 40443,
+            "uuid": "8e86097f-bcfd-4b3e-89f6-e2ea2518575b",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wKPAR2t-xoUMbBqRHV7SLvGuR9dwrcH6bTSknyBO0T8",
+                    "short_id": "a1b2c3d4e5f6789a"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p80_The Netherlands (Cloudflare)",
+            "server": "193.22.229.138",
+            "server_port": 80,
+            "uuid": "e30ba9e9-afc6-4236-803f-7b4ca30ce44b",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "pimxpass.alex96336997.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p81_The Netherlands (Timeweb)",
+            "server": "212.192.217.42",
+            "server_port": 443,
+            "uuid": "951c7521-7158-4978-b82c-2736d4f21044",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "wikihow.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ",
+                    "short_id": "8bd29483ded126b4"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p82_United Arab Emirates (Unknown)",
+            "server": "89.125.103.52",
+            "server_port": 20129,
+            "method": "aes-256-gcm",
+            "password": "9cdc6440d42cb19c"
+        },
+        {
+            "type": "vless",
+            "tag": "p83_United Arab Emirates (Hostkey)",
+            "server": "151.247.197.77",
+            "server_port": 47030,
+            "uuid": "cb1691ad-49cc-46a9-b734-91c109200c32",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8",
+                    "short_id": "e18eda8458cab0d7"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p84_United States (Amazon.com)",
+            "server": "3.145.201.93",
+            "server_port": 80,
+            "method": "aes-256-gcm",
+            "password": "dada1203"
+        },
+        {
+            "type": "vless",
+            "tag": "p85_United States (Atlantic.net)",
+            "server": "45.58.43.34",
+            "server_port": 443,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p86_United States (Amazon.com)",
+            "server": "52.207.147.180",
+            "server_port": 80,
+            "method": "aes-256-gcm",
+            "password": "dada1203"
+        },
+        {
+            "type": "vless",
+            "tag": "p87_United States (DMIT)",
+            "server": "64.186.245.70",
+            "server_port": 443,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p88_United States (Unknown)",
+            "server": "66.154.114.231",
+            "server_port": 19353,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ExUzHZ3AqMIVRmz9r6mcgy"
+        },
+        {
+            "type": "vmess",
+            "tag": "p89_United States (GTHost)",
+            "server": "67.220.85.46",
+            "server_port": 18000,
+            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+            "security": "aes-128-gcm",
+            "alter_id": 0
+        },
+        {
+            "type": "vless",
+            "tag": "p90_United States (DMIT)",
+            "server": "69.63.208.141",
+            "server_port": 25557,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "snippet.gfw.qzz.io",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "snippet.gfw.qzz.io"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p91_United States (DMIT)",
+            "server": "69.63.210.157",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
                 "insecure": false
             },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "jflsjlaf.pages.dev"
+                    "Host": "sn1.skylee5.cloudns.ch"
                 }
             }
         },
         {
             "type": "vless",
-            "tag": "p22_United States (Unknown)",
+            "tag": "p92_United States (Unknown)",
             "server": "72.56.237.204",
             "server_port": 443,
             "uuid": "90c9c25c-df6c-4438-83d3-ef97166a9184",
@@ -857,8 +2239,52 @@
         },
         {
             "type": "vless",
-            "tag": "p23_United States (BlueVPS)",
-            "server": "91.236.230.57",
+            "tag": "p93_United States (Unknown)",
+            "server": "72.56.247.236",
+            "server_port": 443,
+            "uuid": "19e94f08-d831-4673-8a03-bb8ebe680eb9",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nDq00UeDI5TKKFipI6rgdVCqiTO98ncHKn90Qp3EsBE",
+                    "short_id": "f2b78452f9233f26"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p94_United States (MULTACOM)",
+            "server": "74.48.179.37",
+            "server_port": 32380,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p95_United States (BlueVPS)",
+            "server": "92.118.126.205",
             "server_port": 443,
             "uuid": "8cf1c214-3376-11f1-bf19-dcb6e8e27879",
             "flow": "xtls-rprx-vision",
@@ -877,8 +2303,31 @@
             }
         },
         {
+            "type": "vless",
+            "tag": "p96_United States (IT7)",
+            "server": "104.225.233.21",
+            "server_port": 443,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
             "type": "vmess",
-            "tag": "p24_United States (HostPapa)",
+            "tag": "p97_United States (HostPapa)",
             "server": "107.172.75.141",
             "server_port": 10086,
             "uuid": "e02c67a8-d769-4d73-833a-ab6acdb86e6e",
@@ -886,72 +2335,328 @@
             "alter_id": 0
         },
         {
+            "type": "vmess",
+            "tag": "p98_United States (HostPapa)",
+            "server": "107.175.91.118",
+            "server_port": 443,
+            "uuid": "1bb1f95f-7425-4442-93f7-8fc1bd1a2001",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "mivps.mitiendamex.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/v2ray-wisp"
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p99_United States (LIGHT)",
+            "server": "130.94.12.121",
+            "server_port": 1443,
+            "uuid": "31801968-9877-4ef5-be87-56503c34a69d",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
             "type": "shadowsocks",
-            "tag": "p25_United States (DigitalOcean)",
+            "tag": "p100_United States (DigitalOcean)",
+            "server": "142.93.183.235",
+            "server_port": 20683,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5vldsNMbQ8B4cKDK0sROwj"
+        },
+        {
+            "type": "vless",
+            "tag": "p101_United States (MULTACOM)",
+            "server": "142.171.156.141",
+            "server_port": 21182,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p102_United States (DpkgSoft)",
+            "server": "144.31.127.55.alexanderoff.ru",
+            "server_port": 443,
+            "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "gateway.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
+                    "short_id": "c6118398"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p103_United States (NetLab)",
+            "server": "154.9.227.100",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p104_United States (DMIT)",
+            "server": "154.17.4.159",
+            "server_port": 2053,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p105_United States (DMIT)",
+            "server": "154.17.15.126",
+            "server_port": 2053,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p106_United States (DMIT)",
+            "server": "154.17.15.126",
+            "server_port": 8443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p107_United States (DMIT)",
+            "server": "154.21.92.36",
+            "server_port": 8443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p108_United States (DMIT)",
+            "server": "154.21.95.34",
+            "server_port": 443,
+            "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+            "tls": {
+                "enabled": true,
+                "server_name": "sn1.skylee5.cloudns.ch",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/proxyip=proxyip.cmliussss.net",
+                "headers": {
+                    "Host": "sn1.skylee5.cloudns.ch"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p109_United States (Unknown)",
+            "server": "161.104.105.157",
+            "server_port": 443,
+            "uuid": "321c91b8-0395-4dd5-a7d5-9df5adc5c32b",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn1.ozone.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
+                    "short_id": "d334f1467816a48f"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p110_United States (Unknown)",
+            "server": "161.104.105.165",
+            "server_port": 443,
+            "uuid": "321c91b8-0395-4dd5-a7d5-9df5adc5c32b",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "img.perekrestok.ru",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6QuXF9h6zSZaShf__6zJVSt7v2PBoHl_93srUQ1cylo",
+                    "short_id": "dbb748e1834eb156"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p111_United States (HOSTKEY)",
+            "server": "166.1.89.121.alexanderoff.ru",
+            "server_port": 443,
+            "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "gateway.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
+                    "short_id": "c6118398"
+                }
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p112_United States (DigitalOcean)",
             "server": "167.172.249.115",
             "server_port": 41195,
             "method": "chacha20-ietf-poly1305",
             "password": "SUSbr2eLCXmbc64xOHhgEt"
         },
         {
-            "type": "shadowsocks",
-            "tag": "p26_Vietnam (VIETPN)",
-            "server": "103.186.154.4",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+            "type": "vless",
+            "tag": "p113_United States (IT7)",
+            "server": "176.122.132.65",
+            "server_port": 1991,
+            "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+            "tls": {
+                "enabled": true,
+                "server_name": "s3vz.user-service.chinav.indevs.in",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "s3vz.user-service.chinav.indevs.in"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p114_United States (HostPapa)",
+            "server": "192.210.236.15",
+            "server_port": 10086,
+            "uuid": "8d8c1f6e-3944-4cae-b941-013304ddbde4"
+        },
+        {
+            "type": "vmess",
+            "tag": "p115_United States (HostPapa)",
+            "server": "192.210.236.15",
+            "server_port": 10329,
+            "uuid": "66c59c4f-e97a-4604-8791-e5b113055128",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "type": "vmess",
+            "tag": "p116_United States (GTHost)",
+            "server": "216.106.185.141",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "type": "shadowsocks",
-            "tag": "p27_Vietnam (VIETPN)",
-            "server": "103.186.154.9",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p28_Vietnam (VIETPN)",
-            "server": "103.186.154.11",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p29_Vietnam (VIETPN)",
-            "server": "103.186.154.12",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p30_Vietnam (VIETPN)",
-            "server": "103.186.154.13",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p31_Vietnam (VIETPN)",
-            "server": "103.186.154.14",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p32_Vietnam (VIETPN)",
-            "server": "103.186.154.15",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p33_Vietnam (VIETPN)",
+            "tag": "p117_Vietnam (VIETPN)",
             "server": "103.186.154.16",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -959,31 +2664,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p34_Vietnam (VIETPN)",
-            "server": "103.186.154.17",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p35_Vietnam (VIETPN)",
-            "server": "103.186.154.18",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p36_Vietnam (VIETPN)",
-            "server": "103.186.154.19",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p37_Vietnam (VIETPN)",
+            "tag": "p118_Vietnam (VIETPN)",
             "server": "103.186.154.20",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -991,31 +2672,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p38_Vietnam (VIETPN)",
-            "server": "103.186.154.21",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p39_Vietnam (VIETPN)",
-            "server": "103.186.154.22",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p40_Vietnam (VIETPN)",
-            "server": "103.186.154.23",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p41_Vietnam (VIETPN)",
+            "tag": "p119_Vietnam (VIETPN)",
             "server": "103.186.154.24",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1023,7 +2680,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p42_Vietnam (VIETPN)",
+            "tag": "p120_Vietnam (VIETPN)",
             "server": "103.186.154.25",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1031,15 +2688,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p43_Vietnam (VIETPN)",
-            "server": "103.186.154.27",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p44_Vietnam (VIETPN)",
+            "tag": "p121_Vietnam (VIETPN)",
             "server": "103.186.154.28",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1047,87 +2696,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p45_Vietnam (VIETPN)",
-            "server": "103.186.154.29",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p46_Vietnam (VIETPN)",
-            "server": "103.186.154.30",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p47_Vietnam (VIETPN)",
-            "server": "103.186.154.31",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p48_Vietnam (VIETPN)",
-            "server": "103.186.154.32",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p49_Vietnam (VIETPN)",
-            "server": "103.186.154.33",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p50_Vietnam (VIETPN)",
-            "server": "103.186.154.34",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p51_Vietnam (VIETPN)",
-            "server": "103.186.154.35",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p52_Vietnam (VIETPN)",
-            "server": "103.186.154.36",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p53_Vietnam (VIETPN)",
-            "server": "103.186.154.37",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p54_Vietnam (VIETPN)",
-            "server": "103.186.154.38",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p55_Vietnam (VIETPN)",
+            "tag": "p122_Vietnam (VIETPN)",
             "server": "103.186.154.39",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1135,7 +2704,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p56_Vietnam (VIETPN)",
+            "tag": "p123_Vietnam (VIETPN)",
             "server": "103.186.154.40",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1143,87 +2712,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p57_Vietnam (VIETPN)",
-            "server": "103.186.154.41",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p58_Vietnam (VIETPN)",
-            "server": "103.186.154.42",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p59_Vietnam (VIETPN)",
-            "server": "103.186.154.43",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p60_Vietnam (VIETPN)",
-            "server": "103.186.154.44",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p61_Vietnam (VIETPN)",
-            "server": "103.186.154.45",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p62_Vietnam (VIETPN)",
-            "server": "103.186.154.46",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p63_Vietnam (VIETPN)",
-            "server": "103.186.154.47",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p64_Vietnam (VIETPN)",
-            "server": "103.186.154.48",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p65_Vietnam (VIETPN)",
-            "server": "103.186.154.49",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p66_Vietnam (VIETPN)",
-            "server": "103.186.154.50",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p67_Vietnam (VIETPN)",
+            "tag": "p124_Vietnam (VIETPN)",
             "server": "103.186.154.51",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1231,39 +2720,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p68_Vietnam (VIETPN)",
-            "server": "103.186.154.52",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p69_Vietnam (VIETPN)",
-            "server": "103.186.154.53",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p70_Vietnam (VIETPN)",
-            "server": "103.186.154.54",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p71_Vietnam (VIETPN)",
-            "server": "103.186.154.55",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p72_Vietnam (VIETPN)",
+            "tag": "p125_Vietnam (VIETPN)",
             "server": "103.186.154.56",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1271,31 +2728,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p73_Vietnam (VIETPN)",
-            "server": "103.186.154.57",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p74_Vietnam (VIETPN)",
-            "server": "103.186.154.58",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p75_Vietnam (VIETPN)",
-            "server": "103.186.154.59",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p76_Vietnam (VIETPN)",
+            "tag": "p126_Vietnam (VIETPN)",
             "server": "103.186.154.60",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1303,408 +2736,8 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p77_Vietnam (VIETPN)",
-            "server": "103.186.154.61",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p78_Vietnam (VIETPN)",
-            "server": "103.186.154.62",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p79_Vietnam (VIETPN)",
-            "server": "103.186.154.63",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p80_Vietnam (VIETPN)",
-            "server": "103.186.154.64",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p81_Vietnam (VIETPN)",
-            "server": "103.186.154.65",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p82_Vietnam (VIETPN)",
-            "server": "103.186.154.66",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p83_Vietnam (VIETPN)",
-            "server": "103.186.154.67",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p84_Vietnam (VIETPN)",
-            "server": "103.186.154.68",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p85_Vietnam (VIETPN)",
-            "server": "103.186.154.69",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p86_Vietnam (VIETPN)",
-            "server": "103.186.154.70",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p87_Vietnam (VIETPN)",
-            "server": "103.186.154.71",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p88_Vietnam (VIETPN)",
-            "server": "103.186.154.72",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p89_Vietnam (VIETPN)",
-            "server": "103.186.154.73",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p90_Vietnam (VIETPN)",
-            "server": "103.186.154.74",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p91_Vietnam (VIETPN)",
-            "server": "103.186.154.75",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p92_Vietnam (VIETPN)",
-            "server": "103.186.154.76",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p93_Vietnam (VIETPN)",
-            "server": "103.186.154.77",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p94_Vietnam (VIETPN)",
-            "server": "103.186.154.78",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p95_Vietnam (VIETPN)",
-            "server": "103.186.154.79",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p96_Vietnam (VIETPN)",
-            "server": "103.186.154.80",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p97_Vietnam (VIETPN)",
-            "server": "103.186.154.139",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p98_Vietnam (VIETPN)",
-            "server": "103.186.154.140",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p99_Vietnam (VIETPN)",
-            "server": "103.186.154.141",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p100_Vietnam (VIETPN)",
-            "server": "103.186.154.142",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p101_Vietnam (VIETPN)",
-            "server": "103.186.154.143",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p102_Vietnam (VIETPN)",
-            "server": "103.186.154.144",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p103_Vietnam (VIETPN)",
-            "server": "103.186.154.145",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p104_Vietnam (VIETPN)",
-            "server": "103.186.154.146",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p105_Vietnam (VIETPN)",
-            "server": "103.186.154.147",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p106_Vietnam (VIETPN)",
-            "server": "103.186.154.148",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p107_Vietnam (VIETPN)",
-            "server": "103.186.154.149",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p108_Vietnam (VIETPN)",
-            "server": "103.186.154.151",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p109_Vietnam (VIETPN)",
-            "server": "103.186.154.152",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p110_Vietnam (VIETPN)",
-            "server": "103.186.154.153",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p111_Vietnam (VIETPN)",
-            "server": "103.186.154.154",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p112_Vietnam (VIETPN)",
-            "server": "103.186.154.155",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p113_Vietnam (VIETPN)",
-            "server": "103.186.154.156",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p114_Vietnam (VIETPN)",
-            "server": "103.186.154.157",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p115_Vietnam (VIETPN)",
-            "server": "103.186.154.158",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p116_Vietnam (VIETPN)",
-            "server": "103.186.154.159",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p117_Vietnam (VIETPN)",
-            "server": "103.186.154.160",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p118_Vietnam (VIETPN)",
-            "server": "103.186.154.161",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p119_Vietnam (VIETPN)",
-            "server": "103.186.154.162",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p120_Vietnam (VIETPN)",
-            "server": "103.186.154.163",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p121_Vietnam (VIETPN)",
-            "server": "103.186.154.164",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p122_Vietnam (VIETPN)",
-            "server": "103.186.154.165",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p123_Vietnam (VIETPN)",
-            "server": "103.186.154.166",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p124_Vietnam (VIETPN)",
-            "server": "103.186.154.167",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p125_Vietnam (VIETPN)",
-            "server": "103.186.154.168",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p126_Vietnam (VIETPN)",
-            "server": "103.186.154.169",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
             "tag": "p127_Vietnam (VIETPN)",
-            "server": "103.186.154.170",
+            "server": "103.186.154.71",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
@@ -1720,46 +2753,6 @@
         {
             "type": "shadowsocks",
             "tag": "p129_Vietnam (VIETPN)",
-            "server": "103.186.154.173",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p130_Vietnam (VIETPN)",
-            "server": "103.186.154.174",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p131_Vietnam (VIETPN)",
-            "server": "103.186.154.176",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p132_Vietnam (VIETPN)",
-            "server": "103.186.154.177",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p133_Vietnam (VIETPN)",
-            "server": "103.186.154.178",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p134_Vietnam (VIETPN)",
             "server": "103.186.154.179",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1767,87 +2760,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p135_Vietnam (VIETPN)",
-            "server": "103.186.154.180",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p136_Vietnam (VIETPN)",
-            "server": "103.186.154.181",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p137_Vietnam (VIETPN)",
-            "server": "103.186.154.182",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p138_Vietnam (VIETPN)",
-            "server": "103.186.154.183",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p139_Vietnam (VIETPN)",
-            "server": "103.186.154.184",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p140_Vietnam (VIETPN)",
-            "server": "103.186.154.185",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p141_Vietnam (VIETPN)",
-            "server": "103.186.154.186",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p142_Vietnam (VIETPN)",
-            "server": "103.186.154.187",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p143_Vietnam (VIETPN)",
-            "server": "103.186.154.189",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p144_Vietnam (VIETPN)",
-            "server": "103.186.154.190",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p145_Vietnam (VIETPN)",
+            "tag": "p130_Vietnam (VIETPN)",
             "server": "103.186.154.191",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1855,39 +2768,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p146_Vietnam (VIETPN)",
-            "server": "103.186.154.192",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p147_Vietnam (VIETPN)",
-            "server": "103.186.154.193",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p148_Vietnam (VIETPN)",
-            "server": "103.186.154.194",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p149_Vietnam (VIETPN)",
-            "server": "103.186.154.195",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p150_Vietnam (VIETPN)",
+            "tag": "p131_Vietnam (VIETPN)",
             "server": "103.186.154.196",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1895,7 +2776,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p151_Vietnam (VIETPN)",
+            "tag": "p132_Vietnam (VIETPN)",
             "server": "103.186.154.197",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1903,63 +2784,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p152_Vietnam (VIETPN)",
-            "server": "103.186.154.198",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p153_Vietnam (VIETPN)",
-            "server": "103.186.154.199",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p154_Vietnam (VIETPN)",
-            "server": "103.186.154.200",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p155_Vietnam (VIETPN)",
-            "server": "103.186.154.201",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p156_Vietnam (VIETPN)",
-            "server": "103.186.154.202",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p157_Vietnam (VIETPN)",
-            "server": "103.186.154.203",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p158_Vietnam (VIETPN)",
-            "server": "103.186.154.204",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p159_Vietnam (VIETPN)",
+            "tag": "p133_Vietnam (VIETPN)",
             "server": "103.186.154.205",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1967,7 +2792,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p160_Vietnam (VIETPN)",
+            "tag": "p134_Vietnam (VIETPN)",
             "server": "103.186.154.206",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -1975,55 +2800,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p161_Vietnam (VIETPN)",
-            "server": "103.186.154.207",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p162_Vietnam (VIETPN)",
-            "server": "103.186.154.208",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p163_Vietnam (VIETPN)",
-            "server": "103.186.154.209",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p164_Vietnam (VIETPN)",
-            "server": "103.186.154.210",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p165_Vietnam (VIETPN)",
-            "server": "103.186.154.211",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p166_Vietnam (VIETPN)",
-            "server": "103.186.154.212",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p167_Vietnam (VIETPN)",
+            "tag": "p135_Vietnam (VIETPN)",
             "server": "103.186.154.213",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -2031,7 +2808,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p168_Vietnam (VIETPN)",
+            "tag": "p136_Vietnam (VIETPN)",
             "server": "103.186.154.214",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -2039,7 +2816,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p169_Vietnam (VIETPN)",
+            "tag": "p137_Vietnam (VIETPN)",
             "server": "103.186.154.216",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -2047,127 +2824,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p170_Vietnam (VIETPN)",
-            "server": "103.186.154.218",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p171_Vietnam (VIETPN)",
-            "server": "103.186.154.219",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p172_Vietnam (VIETPN)",
-            "server": "103.186.154.220",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p173_Vietnam (VIETPN)",
-            "server": "103.186.154.221",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p174_Vietnam (VIETPN)",
-            "server": "103.186.154.222",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p175_Vietnam (VIETPN)",
-            "server": "103.186.154.223",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p176_Vietnam (VIETPN)",
-            "server": "103.186.154.224",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p177_Vietnam (VIETPN)",
-            "server": "103.186.154.225",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p178_Vietnam (VIETPN)",
-            "server": "103.186.154.226",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p179_Vietnam (VIETPN)",
-            "server": "103.186.154.227",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p180_Vietnam (VIETPN)",
-            "server": "103.186.154.228",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p181_Vietnam (VIETPN)",
-            "server": "103.186.154.229",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p182_Vietnam (VIETPN)",
-            "server": "103.186.154.230",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p183_Vietnam (VIETPN)",
-            "server": "103.186.154.231",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p184_Vietnam (VIETPN)",
-            "server": "103.186.154.232",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p185_Vietnam (VIETPN)",
+            "tag": "p138_Vietnam (VIETPN)",
             "server": "103.186.154.233",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -2175,23 +2832,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p186_Vietnam (VIETPN)",
-            "server": "103.186.154.234",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p187_Vietnam (VIETPN)",
-            "server": "103.186.154.235",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p188_Vietnam (VIETPN)",
+            "tag": "p139_Vietnam (VIETPN)",
             "server": "103.186.154.236",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -2199,7 +2840,23 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p189_Vietnam (VIETPN)",
+            "tag": "p140_Vietnam (VIETPN)",
+            "server": "103.186.154.244",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p141_Vietnam (VIETPN)",
+            "server": "103.186.154.252",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p142_Vietnam (VIETPN)",
             "server": "103.186.154.254",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -2207,71 +2864,87 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p190_Vietnam (VIETPN)",
-            "server": "103.186.155.15",
+            "tag": "p143_Vietnam (VIETPN)",
+            "server": "103.186.155.13",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p191_Vietnam (VIETPN)",
-            "server": "103.186.155.24",
+            "tag": "p144_Vietnam (VIETPN)",
+            "server": "103.186.155.16",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p192_Vietnam (VIETPN)",
-            "server": "103.186.155.40",
+            "tag": "p145_Vietnam (VIETPN)",
+            "server": "103.186.155.39",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p193_Vietnam (VIETPN)",
-            "server": "103.186.155.51",
+            "tag": "p146_Vietnam (VIETPN)",
+            "server": "103.186.155.41",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p194_Vietnam (VIETPN)",
-            "server": "103.186.155.61",
+            "tag": "p147_Vietnam (VIETPN)",
+            "server": "103.186.155.48",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p195_Vietnam (VIETPN)",
-            "server": "103.186.155.62",
+            "tag": "p148_Vietnam (VIETPN)",
+            "server": "103.186.155.53",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p196_Vietnam (VIETPN)",
-            "server": "103.186.155.64",
+            "tag": "p149_Vietnam (VIETPN)",
+            "server": "103.186.155.54",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p197_Vietnam (VIETPN)",
-            "server": "103.186.155.78",
+            "tag": "p150_Vietnam (VIETPN)",
+            "server": "103.186.155.66",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p198_Vietnam (VIETPN)",
+            "tag": "p151_Vietnam (VIETPN)",
+            "server": "103.186.155.68",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p152_Vietnam (VIETPN)",
+            "server": "103.186.155.70",
+            "server_port": 38388,
+            "method": "aes-256-cfb",
+            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p153_Vietnam (VIETPN)",
             "server": "103.186.155.79",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -2279,15 +2952,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p199_Vietnam (VIETPN)",
-            "server": "103.186.155.101",
-            "server_port": 38388,
-            "method": "aes-256-cfb",
-            "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "p200_Vietnam (VIETPN)",
+            "tag": "p154_Vietnam (VIETPN)",
             "server": "103.186.155.112",
             "server_port": 38388,
             "method": "aes-256-cfb",
@@ -2295,95 +2960,515 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "p201_Vietnam (VIETPN)",
-            "server": "103.186.155.120",
+            "tag": "p155_Vietnam (VIETPN)",
+            "server": "103.186.155.115",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p202_Vietnam (VIETPN)",
-            "server": "103.186.155.125",
+            "tag": "p156_Vietnam (VIETPN)",
+            "server": "103.186.155.118",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p203_Vietnam (VIETPN)",
-            "server": "103.186.155.150",
+            "tag": "p157_Vietnam (VIETPN)",
+            "server": "103.186.155.123",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p204_Vietnam (VIETPN)",
-            "server": "103.186.155.153",
+            "tag": "p158_Vietnam (VIETPN)",
+            "server": "103.186.155.129",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p205_Vietnam (VIETPN)",
-            "server": "103.186.155.154",
+            "tag": "p159_Vietnam (VIETPN)",
+            "server": "103.186.155.132",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p206_Vietnam (VIETPN)",
-            "server": "103.186.155.211",
+            "tag": "p160_Vietnam (VIETPN)",
+            "server": "103.186.155.136",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p207_Vietnam (VIETPN)",
-            "server": "103.186.155.224",
+            "tag": "p161_Vietnam (VIETPN)",
+            "server": "103.186.155.202",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p208_Vietnam (VIETPN)",
-            "server": "103.186.155.227",
+            "tag": "p162_Vietnam (VIETPN)",
+            "server": "103.186.155.203",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p209_Vietnam (VIETPN)",
-            "server": "103.186.155.230",
+            "tag": "p163_Vietnam (VIETPN)",
+            "server": "103.186.155.215",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p210_Vietnam (VIETPN)",
-            "server": "103.186.155.234",
+            "tag": "p164_Vietnam (VIETPN)",
+            "server": "103.186.155.220",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
         },
         {
             "type": "shadowsocks",
-            "tag": "p211_Vietnam (VIETPN)",
-            "server": "103.186.155.239",
+            "tag": "p165_Vietnam (VIETPN)",
+            "server": "103.186.155.222",
             "server_port": 38388,
             "method": "aes-256-cfb",
             "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+        },
+        {
+            "type": "trojan",
+            "tag": "p166_ndefined (geoip miss)",
+            "server": "8.6.112.0",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ignitelimit.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.ignitelimit.com"
+                }
+            }
         },
         {
             "type": "vless",
-            "tag": "p212_ndefined (geoip miss)",
+            "tag": "p167_ndefined (geoip miss)",
+            "server": "8.6.112.0",
+            "server_port": 443,
+            "uuid": "25284107-7424-40a5-8396-cdd0623f4f05",
+            "tls": {
+                "enabled": true,
+                "server_name": "hscraft.top",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ip=ProxyIP.CMLiussss.net",
+                "headers": {
+                    "Host": "hscraft.top"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p168_ndefined (geoip miss)",
+            "server": "8.6.112.0",
+            "server_port": 443,
+            "uuid": "2c72881c-5609-4c10-999e-6f8ce8d0c2b4",
+            "tls": {
+                "enabled": true,
+                "server_name": "vsgyajsb.zahramehri.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vsgyajsb.zahramehri.ir"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p169_ndefined (geoip miss)",
+            "server": "8.6.112.0",
+            "server_port": 2096,
+            "uuid": "fc625795-792d-4d9d-9d38-bffe59467d2d",
+            "tls": {
+                "enabled": true,
+                "server_name": "daluan.eu.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "daluan.eu.org"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p170_ndefined (geoip miss)",
+            "server": "8.6.112.6",
+            "server_port": 2096,
+            "password": "8r<[9'l6hAO#8ZQi",
+            "tls": {
+                "enabled": true,
+                "server_name": "Koma-YT.PAGeS.Dev",
+                "insecure": true
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tr",
+                "headers": {
+                    "Host": "Koma-YT.PAGeS.Dev"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p171_ndefined (geoip miss)",
+            "server": "8.6.112.6",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.calmloud.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.calmloud.com"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p172_ndefined (geoip miss)",
+            "server": "8.6.112.6",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ignitelimit.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.ignitelimit.com"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p173_ndefined (geoip miss)",
+            "server": "8.35.211.68",
+            "server_port": 2087,
+            "uuid": "52f94104-7a84-4342-8bcd-96969eb46cbe",
+            "tls": {
+                "enabled": true,
+                "server_name": "tristandeng.cc.cd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tristandeng.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p174_ndefined (geoip miss)",
+            "server": "8.35.211.98",
+            "server_port": 8443,
+            "uuid": "52f94104-7a84-4342-8bcd-96969eb46cbe",
+            "tls": {
+                "enabled": true,
+                "server_name": "tristandeng.cc.cd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tristandeng.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p175_ndefined (geoip miss)",
+            "server": "8.35.211.105",
+            "server_port": 443,
+            "uuid": "52f94104-7a84-4342-8bcd-96969eb46cbe",
+            "tls": {
+                "enabled": true,
+                "server_name": "tristandeng.cc.cd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tristandeng.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p176_ndefined (geoip miss)",
+            "server": "8.35.211.230",
+            "server_port": 443,
+            "uuid": "52f94104-7a84-4342-8bcd-96969eb46cbe",
+            "tls": {
+                "enabled": true,
+                "server_name": "tristandeng.cc.cd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tristandeng.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p177_ndefined (geoip miss)",
+            "server": "8.39.125.31",
+            "server_port": 2096,
+            "uuid": "52f94104-7a84-4342-8bcd-96969eb46cbe",
+            "tls": {
+                "enabled": true,
+                "server_name": "tristandeng.cc.cd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tristandeng.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p178_ndefined (geoip miss)",
+            "server": "8.39.125.51",
+            "server_port": 2083,
+            "uuid": "52f94104-7a84-4342-8bcd-96969eb46cbe",
+            "tls": {
+                "enabled": true,
+                "server_name": "tristandeng.cc.cd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tristandeng.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p179_ndefined (geoip miss)",
+            "server": "8.39.125.115",
+            "server_port": 2053,
+            "uuid": "52f94104-7a84-4342-8bcd-96969eb46cbe",
+            "tls": {
+                "enabled": true,
+                "server_name": "tristandeng.cc.cd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tristandeng.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p180_ndefined (geoip miss)",
+            "server": "8.39.125.178",
+            "server_port": 443,
+            "uuid": "52f94104-7a84-4342-8bcd-96969eb46cbe",
+            "tls": {
+                "enabled": true,
+                "server_name": "tristandeng.cc.cd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tristandeng.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p181_ndefined (geoip miss)",
+            "server": "8.47.69.0",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb.wdgg1979.nyc.mn",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tr?ed=2560",
+                "headers": {
+                    "Host": "bpb.wdgg1979.nyc.mn"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p182_ndefined (geoip miss)",
+            "server": "104.17.128.1",
+            "server_port": 2096,
+            "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+            "tls": {
+                "enabled": true,
+                "server_name": "azadnet-1ml.pages.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/azadnet-1ml.pages.dev/?ed=2560&PROT_TYPE=vless",
+                "headers": {
+                    "Host": "azadnet-1ml.pages.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p183_ndefined (geoip miss)",
+            "server": "104.18.2.26",
+            "server_port": 2083,
+            "uuid": "fc625795-792d-4d9d-9d38-bffe59467d2d",
+            "tls": {
+                "enabled": true,
+                "server_name": "daluan.eu.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "daluan.eu.org"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p184_ndefined (geoip miss)",
+            "server": "104.18.2.108",
+            "server_port": 8443,
+            "uuid": "fc625795-792d-4d9d-9d38-bffe59467d2d",
+            "tls": {
+                "enabled": true,
+                "server_name": "daluan.eu.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "daluan.eu.org"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p185_ndefined (geoip miss)",
+            "server": "104.18.3.150",
+            "server_port": 443,
+            "uuid": "fc625795-792d-4d9d-9d38-bffe59467d2d",
+            "tls": {
+                "enabled": true,
+                "server_name": "daluan.eu.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "daluan.eu.org"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p186_ndefined (geoip miss)",
             "server": "104.18.4.130",
             "server_port": 80,
             "uuid": "58b4e540-02ec-44d6-b6bc-bb238581d1fd",
@@ -2397,7 +3482,7 @@
         },
         {
             "type": "vless",
-            "tag": "p213_ndefined (geoip miss)",
+            "tag": "p187_ndefined (geoip miss)",
             "server": "104.18.12.149",
             "server_port": 443,
             "uuid": "2b8d9d73-0031-42f9-9914-c8c579e087cb",
@@ -2416,7 +3501,172 @@
         },
         {
             "type": "vless",
-            "tag": "p214_ndefined (geoip miss)",
+            "tag": "p188_ndefined (geoip miss)",
+            "server": "104.18.15.201",
+            "server_port": 2096,
+            "uuid": "fc625795-792d-4d9d-9d38-bffe59467d2d",
+            "tls": {
+                "enabled": true,
+                "server_name": "daluan.eu.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "daluan.eu.org"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p189_ndefined (geoip miss)",
+            "server": "104.18.16.56",
+            "server_port": 443,
+            "uuid": "968e1903-ba56-45df-9b42-cf98b44f2657",
+            "tls": {
+                "enabled": true,
+                "server_name": "net.unknowngod01.sbs",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@ClaudeNet",
+                "headers": {
+                    "Host": "net.unknowngod01.sbs"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p190_ndefined (geoip miss)",
+            "server": "104.18.32.47",
+            "server_port": 443,
+            "uuid": "93f0761d-4393-4b43-a523-e812fa0b7e83",
+            "tls": {
+                "enabled": true,
+                "server_name": "cf.cfvip.lol",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=47.251.95.178",
+                "headers": {
+                    "Host": "cf.cfvip.lol"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p191_ndefined (geoip miss)",
+            "server": "104.18.32.47",
+            "server_port": 443,
+            "uuid": "da78f96e-01d3-4289-9d0b-fbbe3f0a5472",
+            "tls": {
+                "enabled": true,
+                "server_name": "aio.zxcore.biz.id",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/aioproxybot/124.153.168.248-50001",
+                "headers": {
+                    "Host": "aio.zxcore.biz.id"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p192_ndefined (geoip miss)",
+            "server": "104.18.38.97",
+            "server_port": 443,
+            "password": "931d70c1-8644-433a-9e8a-e09e10f5e7f5",
+            "tls": {
+                "enabled": true,
+                "server_name": "v.vivia.cc.cd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "v.vivia.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p193_ndefined (geoip miss)",
+            "server": "104.18.42.163",
+            "server_port": 80,
+            "uuid": "3171ac5c-d746-4298-82e0-d46f2f5aa51f",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/danfeng",
+                "headers": {
+                    "Host": "de.gfw.hidns.co"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p194_ndefined (geoip miss)",
+            "server": "104.18.46.50",
+            "server_port": 443,
+            "uuid": "3264ccbe-dbc5-4d14-8dbe-1c62041cc43f",
+            "tls": {
+                "enabled": true,
+                "server_name": "sk-hk1.feimavip.sbs",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/hk/1",
+                "headers": {
+                    "Host": "sk-hk1.feimavip.sbs"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p195_ndefined (geoip miss)",
+            "server": "104.19.49.15",
+            "server_port": 8443,
+            "uuid": "52f94104-7a84-4342-8bcd-96969eb46cbe",
+            "tls": {
+                "enabled": true,
+                "server_name": "tristandeng.cc.cd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tristandeng.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p196_ndefined (geoip miss)",
             "server": "104.20.5.134",
             "server_port": 2052,
             "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
@@ -2430,7 +3680,21 @@
         },
         {
             "type": "vless",
-            "tag": "p215_ndefined (geoip miss)",
+            "tag": "p197_ndefined (geoip miss)",
+            "server": "104.20.6.134",
+            "server_port": 2052,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "transport": {
+                "type": "ws",
+                "path": "/assets",
+                "headers": {
+                    "Host": "index.0x14.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p198_ndefined (geoip miss)",
             "server": "104.21.31.4",
             "server_port": 8880,
             "uuid": "0a5ab719-2407-4398-b507-8437ef365023",
@@ -2444,7 +3708,40 @@
         },
         {
             "type": "vless",
-            "tag": "p216_ndefined (geoip miss)",
+            "tag": "p199_ndefined (geoip miss)",
+            "server": "104.21.32.203",
+            "server_port": 443,
+            "uuid": "40afa553-1745-4f62-a380-4163c7bb4870",
+            "tls": {
+                "enabled": true,
+                "server_name": "restless-dew-894b.amirhost4.workers.dev",
+                "insecure": true
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "restless-dew-894b.amirhost4.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p200_ndefined (geoip miss)",
+            "server": "104.26.12.31",
+            "server_port": 80,
+            "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
+            "transport": {
+                "type": "ws",
+                "path": "\ud83d\udd12",
+                "headers": {
+                    "Host": "floral-term-d21f.wafajax493.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p201_ndefined (geoip miss)",
             "server": "104.26.13.31",
             "server_port": 80,
             "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
@@ -2457,8 +3754,126 @@
             }
         },
         {
+            "type": "vmess",
+            "tag": "p202_ndefined (geoip miss)",
+            "server": "162.159.38.10",
+            "server_port": 8080,
+            "uuid": "638239ae-5ec4-44f6-9b89-1bd69bb5ee74",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "de.885397.xyz"
+                }
+            }
+        },
+        {
             "type": "vless",
-            "tag": "p217_ndefined (geoip miss)",
+            "tag": "p203_ndefined (geoip miss)",
+            "server": "172.64.147.15",
+            "server_port": 443,
+            "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+            "tls": {
+                "enabled": true,
+                "server_name": "powered-by-surena.configfarsi695fcee895881.workers.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@OnNetVpn",
+                "headers": {
+                    "Host": "powered-by-surena.configfarsi695fcee895881.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p204_ndefined (geoip miss)",
+            "server": "172.64.147.166",
+            "server_port": 443,
+            "password": "931d70c1-8644-433a-9e8a-e09e10f5e7f5",
+            "tls": {
+                "enabled": true,
+                "server_name": "v.vivia.cc.cd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "v.vivia.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p205_ndefined (geoip miss)",
+            "server": "172.64.149.54",
+            "server_port": 443,
+            "uuid": "77534396-dead-4a6c-8761-03939cd4fdc8",
+            "tls": {
+                "enabled": true,
+                "server_name": "my.vulmart.ir",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "my.vulmart.ir"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p206_ndefined (geoip miss)",
+            "server": "172.64.152.241",
+            "server_port": 443,
+            "password": "931d70c1-8644-433a-9e8a-e09e10f5e7f5",
+            "tls": {
+                "enabled": true,
+                "server_name": "v.vivia.cc.cd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "v.vivia.cc.cd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p207_ndefined (geoip miss)",
+            "server": "172.66.44.211",
+            "server_port": 8880,
+            "uuid": "0a5ab719-2407-4398-b507-8437ef365023",
+            "transport": {
+                "type": "ws",
+                "path": "/FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY",
+                "headers": {
+                    "Host": "underthegun.cfd"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p208_ndefined (geoip miss)",
             "server": "172.67.187.117",
             "server_port": 443,
             "uuid": "40afa553-1745-4f62-a380-4163c7bb4870",
@@ -2477,26 +3892,7 @@
         },
         {
             "type": "vless",
-            "tag": "p218_ndefined (geoip miss)",
-            "server": "172.67.216.218",
-            "server_port": 443,
-            "uuid": "03896a37-db8f-44ed-8ce1-45a1577f6da6",
-            "tls": {
-                "enabled": true,
-                "server_name": "stipulations.gelatin.workers.dev",
-                "insecure": true
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiZzIxRUF6V2JFOW5IRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-                "headers": {
-                    "Host": "stipulations.gelatin.workers.dev"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "p219_ndefined (geoip miss)",
+            "tag": "p209_ndefined (geoip miss)",
             "server": "188.114.96.0",
             "server_port": 443,
             "uuid": "40afa553-1745-4f62-a380-4163c7bb4870",
@@ -2519,18 +3915,137 @@
         },
         {
             "type": "vless",
-            "tag": "p220_ndefined (geoip miss)",
+            "tag": "p210_ndefined (geoip miss)",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "1f034338-33a3-40f7-8e82-e4042e8410af",
+            "tls": {
+                "enabled": true,
+                "server_name": "gardconfig12.bnam38637.workers.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "ws",
+                "headers": {
+                    "Host": "gardconfig12.bnam38637.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p211_ndefined (geoip miss)",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "40afa553-1745-4f62-a380-4163c7bb4870",
+            "tls": {
+                "enabled": true,
+                "server_name": "restless-dew-894b.amirhost4.workers.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "restless-dew-894b.amirhost4.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p212_ndefined (geoip miss)",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "f2564bb4-9960-4ccb-8017-bc02802f768a",
+            "tls": {
+                "enabled": true,
+                "server_name": "white-snowflake-e65e.queenmahsan1.workers.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "ws",
+                "headers": {
+                    "Host": "white-snowflake-e65e.queenmahsan1.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p213_ndefined (geoip miss)",
+            "server": "188.114.97.1",
+            "server_port": 2053,
+            "uuid": "0b3e7958-e5c4-498f-ab21-b49686f95d2d",
+            "tls": {
+                "enabled": true,
+                "server_name": "bold-term-4edd.mbigspot.workers.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "bold-term-4edd.mbigspot.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p214_ndefined (geoip miss)",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "1f034338-33a3-40f7-8e82-e4042e8410af",
+            "tls": {
+                "enabled": true,
+                "server_name": "gardconfig12.bnam38637.workers.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "ws",
+                "headers": {
+                    "Host": "gardconfig12.bnam38637.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p215_ndefined (geoip miss)",
             "server": "188.114.98.0",
             "server_port": 443,
             "uuid": "054b9fdb-4ca8-4b2e-9855-c1515c4937c5",
             "tls": {
                 "enabled": true,
                 "server_name": "ekhtelal120.mobailfarid4.ir",
-                "insecure": true
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/?ed=2048",
                 "headers": {
                     "Host": "ekhtelal120.mobailfarid4.ir"
                 }
@@ -2538,7 +4053,26 @@
         },
         {
             "type": "vless",
-            "tag": "p221_ndefined (geoip miss)",
+            "tag": "p216_ndefined (geoip miss)",
+            "server": "188.114.98.0",
+            "server_port": 2096,
+            "uuid": "fc625795-792d-4d9d-9d38-bffe59467d2d",
+            "tls": {
+                "enabled": true,
+                "server_name": "daluan.eu.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "daluan.eu.org"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p217_ndefined (geoip miss)",
             "server": "188.114.98.112",
             "server_port": 80,
             "uuid": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
@@ -2547,6 +4081,46 @@
                 "path": "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY",
                 "headers": {
                     "Host": "elenaaaaaaaaaa.cloudns.pro."
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p218_ndefined (dns error)",
+            "server": "tegr.firstvideocdn.ru",
+            "server_port": 52006,
+            "uuid": "75807638-6f19-07d0-ae08-38492ee85c88",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "tegr.firstvideocdn.ru",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p219_ndefined (dns error)",
+            "server": "v1.dabache.top",
+            "server_port": 2083,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "tls": {
+                "enabled": true,
+                "server_name": "wk1.f1w.de5.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "wk1.f1w.de5.net"
                 }
             }
         }
