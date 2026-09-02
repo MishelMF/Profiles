@@ -115,7 +115,7 @@
             },
             {
                 "action": "resolve",
-                "server": "dns-tunnel"
+                "server": "dns-remote"
             },
             {
                 "rule_set": "gov-ru",
