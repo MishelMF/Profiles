@@ -1,34 +1,28 @@
-vless://2232d904-8e6a-4202-8240-6efd8aec02e9@84.32.100.247:443?security=tls&flow=xtls-rprx-vision&fp=chrome&sni=app.streamru4.net&encryption=none&type=tcp#🇩🇪 Germany (UAB) 1301.5233436023761 139
-vless://a52c04f5-5d58-4bef-9a89-2a270e50fc4b@195.110.15.2:43000?encryption=none&flow=xtls-rprx-vision&fp=firefox&headerType=none&pbk=cXHiKEpk_2lN7x4H_TBrkBPuNTNJX-5_IP1RMKmOgWE&security=reality&sid=d72da7ef&sni=195.110.15.2&type=tcp#🇩🇪 Germany (Unknown) 987.741736139646 159
-vless://07df3711-07a1-4649-9a61-3f16cb931d02@93.123.85.194:443?security=reality&type=tcp&packetEncoding=xudp&sni=345739t.de19.h1clayd.click&fp=firefox&sid=23732d14a527990d&pbk=hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA&encryption=none#🇩🇪 Germany (dataforest) 962.9901933041141 311
-vless://2208b003-78b1-453c-b5ca-ce847ff0efd6@201.8.71.201:443?security=reality&fp=chrome&pbk=l3fn2CzC6-oVy6Mf5jafL-kVs8aX_jUfMUjhupBkPz0&sid=1a5d9b3be394fdc7&sni=b1eb8et.de14.h1clayd.click&type=raw#🇧🇷 Brazil (Unknown) 880.8391298138461 150
-vless://95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f@196.245.153.105:443?security=reality&sni=345739t.de15.h1clayd.click&type=tcp&fp=chrome&pbk=hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA&sid=23732d14a527990d#🇸🇰 Slovakia (Orion) 783.8438116121365 3705
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.115:443?allowInsecure=0&fp=chrome&headerType=none&insecure=0&security=tls&sni=discovergreatjobsandadvanceyourcareer.com&type=tcp#🇪🇸 Spain (GTHost) 756.260103110968 240
-vless://2208b003-78b1-453c-b5ca-ce847ff0efd6@132.243.66.234:443?security=reality&sni=21bd48g.us14.h1clayd.click&fp=chrome&pbk=nwdvbnPAo7PyzB7zUJFU-6F0d6dIPO1mSVGdIKoQ_To&sid=36aa133397bf5a6d&type=grpc&encryption=none#🇺🇸 United States (Unknown) 682.9133276166732 473
-vmess://b831381d-6324-4d53-ad4f-8cda48b30811@195.133.135.238:10086#🇸🇬 Singapore (Viewqwest) 603.5915804811142 4673
-vless://2006aa32-9ba2-4fe0-bd3d-3deaceb621e1@129.153.128.162:853?security=none&type=ws&path=%2Fws&host=firsty.app&encryption=none#🇺🇸 United States (Oracle) 598.8891270369573 598
-vless://c1208c5a-2350-0003-affd-fc41b4319286@85.234.100.32:443?encryption=none&fp=firefox&host=decdn-28.nome-rkp.net&path=/media/ws/&security=tls&sni=decdn-28.nome-rkp.net&type=ws#🇩🇪 Germany (Global) 461.7960243021 483
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.159:443?security=tls&sni=resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com#🇺🇸 United States (Unknown) 450.6156875001985 332
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.212.215.138:443?insecure=1&sni=13.212.215.138#🇸🇬 Singapore (Amazon.com) 391.07064024237945 627
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.179.113.70:443?insecure=1&sni=54.179.113.70#🇸🇬 Singapore (Amazon.com) 363.849563042144 619
-vless://4201786b-d99b-4147-a5f0-20d47acddb81@132.243.163.125:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw&sid=6976d670818644cc&sni=4935e4t.de25.h1clayd.click#🇬🇧 United Kingdom (Alexhost) 361.11409755511596 1194
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@43.255.157.53:48158?type=tcp&security=reality&flow=xtls-rprx-vision&fp=ios&pbk=7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo&sid=54cca3c1c1c7&sni=www.apple.com#🇺🇸 United States (XNNET) 354.6936417364352 644
-vless://f4c5605a-8424-441e-b23d-d6384d012c28@108.138.26.24:80?type=ws&host=dcm4kwis2exkw.cloudfront.net&path=/#🇺🇸 United States (Amazon.com) 334.83822498819933 5363
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.212.78.207:443?insecure=1&sni=13.212.78.207#🇸🇬 Singapore (Amazon.com) 328.70211876872986 628
-vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@104.21.71.249:443?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org&security=tls#❓ Undefined (geoip miss) 226.05581345894734 6624
-vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@172.64.229.21:443?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org&security=tls#❓ Undefined (geoip miss) 199.50950173704797 3734
-vless://1751bebc-1bf1-420c-8b9d-97157aad179b@168.110.21.56:18453?security=none&type=tcp&encryption=none#🇯🇵 Japan (Oracle) 189.1752434209284 668
-vless://45fbaffc-0737-4fd7-bef1-3f0af83330be@82.139.235.73:443?encryption=none&fp=chrome&pbk=IXRlHf-YEhBbvFahvvyQD173TUy2UfKNjZljrZw5NHA&security=reality&sid=52ac85a27935&sni=cloudflare.com&type=tcp#🇩🇪 Germany (IPXO) 163.66003188560856 322
-vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@172.67.187.145:80?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org#❓ Undefined (geoip miss) 143.02024245427424 6329
-vless://f4c5605a-8424-441e-b23d-d6384d012c28@99.86.77.43:80?type=ws&host=dcm4kwis2exkw.cloudfront.net#🇺🇸 United States (Unknown) 131.39516984465538 2607
-vmess://bd67fcd2-ec34-40a6-aac6-67731f2d7011@141.193.213.21:8443?type=ws&host=matrix.phonicsindia.mobi&path=%252F&sni=matrix.phonicsindia.mobi&security=tls#🇺🇸 United States (Cloudflare) 132.6037603985741 4816
-vless://b19c62cc-f2c2-4895-aee1-978a0f58f8c8@170.114.52.2:443?security=tls&type=ws&path=%2F&host=matrix.phonicsindia.mobi&sni=matrix.phonicsindia.mobi&fp=chrome#🇺🇸 United States (Cloudflare) 74.6061515582665 699
-vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@104.21.80.180:443?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org&security=tls#❓ Undefined (geoip miss) 67.51058266472135 3308
-vless://f4c5605a-8424-441e-b23d-d6384d012c28@99.86.77.123:80?type=ws&host=dcm4kwis2exkw.cloudfront.net#🇺🇸 United States (Unknown) 52.96667395848755 1060
-vmess://081dbf5a-d8b6-40c8-96f8-3c4ca9f50442@141.11.139.102:32515#🇯🇵 Japan (ByteVirt) 31.764988252704985 8079
-vmess://c8b455ad-fff1-43e9-9af9-d97585c4534a@162.159.128.17:443?type=ws&host=ny-v2ray.ryin.vip&path=%252Fryinsocksv2board&sni=ny-v2ray.ryin.vip&security=tls#❓ Undefined (geoip miss) 0.0 391
-vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@104.18.42.163:443?type=ws&host=guanwang.awsno.com&path=%252Fhls%252Fcctv5phd.m3u8&sni=guanwang.awsno.com&security=tls&fp=chrome#❓ Undefined (geoip miss) 0.0 428
-vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@172.64.145.93:443?type=ws&host=guanwang.awsno.com&path=%252Fhls%252Fcctv5phd.m3u8&sni=guanwang.awsno.com&security=tls#❓ Undefined (geoip miss) 0.0 429
-vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@188.114.99.137:443?type=ws&host=guanwang.awsno.com&path=%252Fhls%252Fcctv5phd.m3u8&sni=guanwang.awsno.com&security=tls&fp=chrome#❓ Undefined (geoip miss) 0.0 447
-vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@172.67.190.164:443?type=ws&host=guanwang.awsno.com&path=%252Fhls%252Fcctv5phd.m3u8&sni=guanwang.awsno.com&security=tls&fp=chrome#❓ Undefined (geoip miss) 0.0 766
-vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@172.67.137.158:443?type=ws&host=nomino.11hi8itbaf.workers.dev&path=%252Fguanwang.awsno.com%252Fhls%252Fcctv5phd.m3u8&sni=nomino.11hi8itbaf.workers.dev&security=tls#❓ Undefined (geoip miss) 0.0 771
+vless://cfa71937-73d5-4eb8-9b25-eadecd944803@104.18.31.78:8080?security=none&type=ws&path=%2F&host=sh-harand.shcharand00.workers.dev&packetEncoding=xudp&encryption=none#❓ Undefined (geoip miss) 1248.594426610508 195
+vless://a30903dc-1bf0-4be5-8b1b-603a3a56211c@48.103.120.7:443?encryption=none&fp=firefox&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&security=reality&sid=868419504747f6de&sni=svc-net-ctl.galioncc.com&type=tcp#🇺🇸 United States (Unknown) 1097.7124770261541 152
+vless://a30903dc-1bf0-0003-8b1b-603a3a56211c@48.103.120.22:443?encryption=none&fp=firefox&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&security=reality&sid=868419504747f6de&sni=svc-net-ctl.galioncc.com&type=tcp#🇺🇸 United States (Unknown) 694.3112406039276 528
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.227.10.208:443?insecure=1&security=tls&sni=18.227.10.208#🇺🇸 United States (Amazon.com) 638.3698475336948 422
+hysteria2://MZKlrFbG73bKvCDe8VPul5PR9xQm@35.207.53.51:20999?insecure=1&sni=www.apple.com#🇺🇸 United States (Google) 463.84558209199525 495
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.179.113.70:443?insecure=1&sni=54.179.113.70#🇸🇬 Singapore (Amazon.com) 458.08188945886394 629
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.179.113.70:443?insecure=1&sni=vpn-sg-001.fastervpn.world#🇸🇬 Singapore (Amazon.com) 447.3888768281664 595
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.212.215.138:443?insecure=1&sni=13.212.215.138#🇸🇬 Singapore (Amazon.com) 413.68565575716326 624
+vmess://4caf156a-3309-4105-8388-d388eb9e1105@170.114.45.6:443?type=ws&host=id2.nathaya.web.id&path=%252Fwhatever%252Fvmess&sni=zoomgov.nathaya.web.id&security=tls#🇺🇸 United States (Cloudflare) 359.53286327816113 532
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.212.78.207:443?insecure=1&sni=13.212.78.207#🇸🇬 Singapore (Amazon.com) 356.4022770853344 618
+vless://a346c521-7a7f-452b-9356-a4893feb5982@78.17.215.141:443?flow=xtls-rprx-vision&security=reality&sni=de15-r.bankai.party&fp=qq&pbk=FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0&sid=457fab2ac885dbe0#🇮🇪 Ireland (Unknown) 255.93576505647837 146
+trojan://123456@34.80.15.95:443/?type=tcp&security=tls&sni=tw.ctt25.uk&fp=chrome#🇹🇼 Taiwan (Google) 253.23396804126693 734
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@2.26.2.201:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg&security=reality&sid=a3565610aa574a6e&sni=nl-s-2-b1.pythonmakemigreat.wiki&type=tcp#🇺🇸 United States (Unknown) 227.591528090904 1265
+vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@172.67.187.145:80?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org#❓ Undefined (geoip miss) 156.06637239952454 4285
+vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@172.67.172.155:443?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org&security=tls#❓ Undefined (geoip miss) 122.0208929605371 5997
+vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@104.21.7.133:80?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org#❓ Undefined (geoip miss) 111.72893209416978 1446
+vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@172.66.203.67:443?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org&security=tls#❓ Undefined (geoip miss) 112.51396940568259 2359
+vmess://b831381d-6324-4d53-ad4f-8cda48b30811@195.133.135.238:10086#🇸🇬 Singapore (Viewqwest) 98.99043899553631 4410
+vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@104.17.147.222:80?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org#❓ Undefined (geoip miss) 76.24837072155248 5888
+vless://836c4d68-e086-11f1-aabc-67841df8a6f9@185.65.202.122:10004?path=%2Fvpnjantit&security=none&encryption=none&type=ws#🇩🇪 Germany (Baykov) 59.583206615643945 190
+vmess://b831381d-6324-4d53-ad4f-8cda48b30811@192.228.145.118:10086#🇲🇾 Malaysia (TIME) 55.300000222605924 4839
+vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@104.18.42.163:443?type=ws&host=guanwang.awsno.com&path=%252Fhls%252Fcctv5phd.m3u8&sni=guanwang.awsno.com&security=tls&fp=chrome#❓ Undefined (geoip miss) 0.0 420
+vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@188.114.99.137:443?type=ws&host=guanwang.awsno.com&path=%252Fhls%252Fcctv5phd.m3u8&sni=guanwang.awsno.com&security=tls&fp=chrome#❓ Undefined (geoip miss) 0.0 432
+vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@172.64.145.93:443?type=ws&host=guanwang.awsno.com&path=%252Fhls%252Fcctv5phd.m3u8&sni=guanwang.awsno.com&security=tls#❓ Undefined (geoip miss) 0.0 441
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@202.61.73.152:80?&security=false&fp=chrome&type=ws&headerType=none&host=202.61.73.152&path=%2Fplatform102#🇲🇾 Malaysia (Unknown) 0.0 609
+vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@172.67.137.158:443?type=ws&host=nomino.11hi8itbaf.workers.dev&path=%252Fguanwang.awsno.com%252Fhls%252Fcctv5phd.m3u8&sni=nomino.11hi8itbaf.workers.dev&security=tls#❓ Undefined (geoip miss) 0.0 763
+vmess://6a89a215-22bf-4bd7-9642-b95b2e09583a@172.67.190.164:443?type=ws&host=guanwang.awsno.com&path=%252Fhls%252Fcctv5phd.m3u8&sni=guanwang.awsno.com&security=tls&fp=chrome#❓ Undefined (geoip miss) 0.0 779
+vmess://0cf6d970-3f1d-4aae-a989-92a8f76ae3db@188.114.99.137:443?type=ws&host=vmess.lbw666.dpdns.org&path=%252Fws&sni=vmess.lbw666.dpdns.org&security=tls#❓ Undefined (geoip miss) 0.0 5350
