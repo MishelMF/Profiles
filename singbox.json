@@ -201,69 +201,157 @@
             "tag": "select",
             "outbounds": [
                 "auto",
-                "p0_Brazil (Unknown) 1308.0030653890526 122",
-                "p1_Germany (Microsoft) 1230.0370045095287 2185",
-                "p2_Denmark (Webdock.io) 836.1443451828957 282",
-                "p3_United States (Amazon.com) 595.3585685857867 363",
-                "p4_Singapore (Amazon.com) 398.90460313665585 605",
-                "p5_Singapore (Amazon.com) 357.95154838484416 615",
-                "p6_Hong Kong (Global) 319.96725216397573 417",
-                "p7_United States (Unknown) 196.4706468052638 1359",
-                "p8_ndefined (geoip miss) 148.4421288584884 4175",
-                "p9_ndefined (geoip miss) 139.17648049643265 8507",
-                "p10_United States (DMIT) 128.90087001024014 442",
-                "p11_ndefined (geoip miss) 128.30642678881497 1888",
-                "p12_ndefined (geoip miss) 116.79200326610508 3638",
-                "p13_Germany (xTom) 111.99817298492576 3204",
-                "p14_Hong Kong (Alibaba) 107.6230449262976 320",
-                "p15_ndefined (geoip miss) 81.59136639464143 650",
-                "p16_ndefined (geoip miss) 54.12982919590571 8464",
-                "p17_ndefined (geoip miss) 46.51877509960709 1534",
-                "p18_ndefined (geoip miss) 0.0 422",
-                "p19_ndefined (geoip miss) 0.0 450",
-                "p20_ndefined (geoip miss) 0.0 460",
-                "p21_Malaysia (Unknown) 0.0 542",
-                "p22_ndefined (geoip miss) 0.0 772",
-                "p23_ndefined (geoip miss) 0.0 779",
-                "p24_ndefined (geoip miss) 0.0 1838",
-                "p25_United States (Cloudflare) 0.0 2539"
+                "p0_United States (Unknown) 1577.384643259119 131",
+                "p1_Brazil (Unknown) 1218.977857438749 132",
+                "p2_Brazil (Unknown) 1120.113597139793 1052",
+                "p3_Switzerland (Private) 1114.2196051184649 230",
+                "p4_France (OVH) 900.4587031246897 146",
+                "p5_ndefined (geoip miss) 807.6277061309275 701",
+                "p6_United Kingdom (Unknown) 769.7728740900832 125",
+                "p7_United States (DigitalOcean) 721.1870158692262 302",
+                "p8_United States (Oracle) 603.4021079754564 286",
+                "p9_Hong Kong (Unknown) 573.7213748744264 591",
+                "p10_United States (Unknown) 544.7519269688369 184",
+                "p11_Saudi Arabia (Cloudflare) 486.0878455897168 183",
+                "p12_United States (XNNET) 480.42785275642836 533",
+                "p13_France (Cloudflare) 423.1688673303619 340",
+                "p14_Singapore (Amazon.com) 417.4360086386889 594",
+                "p15_China (Unknown) 416.3119591022789 909",
+                "p16_Singapore (Amazon.com) 415.57123773853397 613",
+                "p17_ndefined (geoip miss) 344.72682186190804 466",
+                "p18_ndefined (geoip miss) 302.0859584886905 3558",
+                "p19_Hong Kong (Tencent) 278.14054772010957 1626",
+                "p20_United Kingdom (Unknown) 274.2732544125691 166",
+                "p21_Japan (Oracle) 258.28478815609395 593",
+                "p22_Hong Kong (Tencent) 248.52183966284113 1597",
+                "p23_United States (Cloudflare) 228.67549523106408 2614",
+                "p24_ndefined (geoip miss) 192.76185196090157 5575",
+                "p25_Hong Kong (Alibaba) 185.7641425651645 3311",
+                "p26_ndefined (geoip miss) 165.16127317430752 3721",
+                "p27_ndefined (geoip miss) 165.01390038323493 8547",
+                "p28_ndefined (geoip miss) 148.33983612716105 3078",
+                "p29_ndefined (geoip miss) 149.55415314951833 8842",
+                "p30_ndefined (geoip miss) 138.22591681200979 3744",
+                "p31_ndefined (geoip miss) 136.6098512087825 7678",
+                "p32_ndefined (geoip miss) 127.46149840112574 2572",
+                "p33_Singapore (Viewqwest) 110.17340180939487 5641",
+                "p34_ndefined (geoip miss) 110.01560166588575 5519",
+                "p35_ndefined (geoip miss) 101.40655984913595 5518",
+                "p36_ndefined (geoip miss) 91.45522968877353 2954",
+                "p37_ndefined (geoip miss) 92.68000125814194 4728",
+                "p38_ndefined (geoip miss) 92.8269564077572 8482",
+                "p39_ndefined (geoip miss) 84.04558591831291 3470",
+                "p40_ndefined (geoip miss) 84.26208425069403 7788",
+                "p41_United Kingdom (Unknown) 75.23759270893508 121",
+                "p42_United States (Unknown) 66.48707753266676 115",
+                "p43_ndefined (geoip miss) 65.90102380913778 1324",
+                "p44_ndefined (geoip miss) 64.76615279343123 5120",
+                "p45_ndefined (geoip miss) 55.92304997355763 6615",
+                "p46_ndefined (geoip miss) 37.10264690591704 4881",
+                "p47_ndefined (geoip miss) 27.61256393219747 1521",
+                "p48_ndefined (geoip miss) 27.621249494009874 3731",
+                "p49_United States (Cloudflare) 0.0 250",
+                "p50_ndefined (geoip miss) 0.0 421",
+                "p51_ndefined (geoip miss) 0.0 423",
+                "p52_ndefined (geoip miss) 0.0 474",
+                "p53_ndefined (geoip miss) 0.0 474",
+                "p54_Malaysia (Unknown) 0.0 533",
+                "p55_ndefined (geoip miss) 0.0 760",
+                "p56_ndefined (geoip miss) 0.0 794",
+                "p57_ndefined (geoip miss) 0.0 1511",
+                "p58_South Korea (Oracle) 0.0 1713",
+                "p59_United States (Cloudflare) 0.0 2600",
+                "p60_United States (Cloudflare) 0.0 2612",
+                "p61_ndefined (geoip miss) 0.0 4184"
             ]
         },
         {
             "type": "urltest",
             "tag": "auto",
             "outbounds": [
-                "p0_Brazil (Unknown) 1308.0030653890526 122",
-                "p1_Germany (Microsoft) 1230.0370045095287 2185",
-                "p2_Denmark (Webdock.io) 836.1443451828957 282",
-                "p3_United States (Amazon.com) 595.3585685857867 363",
-                "p4_Singapore (Amazon.com) 398.90460313665585 605",
-                "p5_Singapore (Amazon.com) 357.95154838484416 615",
-                "p6_Hong Kong (Global) 319.96725216397573 417",
-                "p7_United States (Unknown) 196.4706468052638 1359",
-                "p8_ndefined (geoip miss) 148.4421288584884 4175",
-                "p9_ndefined (geoip miss) 139.17648049643265 8507",
-                "p10_United States (DMIT) 128.90087001024014 442",
-                "p11_ndefined (geoip miss) 128.30642678881497 1888",
-                "p12_ndefined (geoip miss) 116.79200326610508 3638",
-                "p13_Germany (xTom) 111.99817298492576 3204",
-                "p14_Hong Kong (Alibaba) 107.6230449262976 320",
-                "p15_ndefined (geoip miss) 81.59136639464143 650",
-                "p16_ndefined (geoip miss) 54.12982919590571 8464",
-                "p17_ndefined (geoip miss) 46.51877509960709 1534",
-                "p18_ndefined (geoip miss) 0.0 422",
-                "p19_ndefined (geoip miss) 0.0 450",
-                "p20_ndefined (geoip miss) 0.0 460",
-                "p21_Malaysia (Unknown) 0.0 542",
-                "p22_ndefined (geoip miss) 0.0 772",
-                "p23_ndefined (geoip miss) 0.0 779",
-                "p24_ndefined (geoip miss) 0.0 1838",
-                "p25_United States (Cloudflare) 0.0 2539"
+                "p0_United States (Unknown) 1577.384643259119 131",
+                "p1_Brazil (Unknown) 1218.977857438749 132",
+                "p2_Brazil (Unknown) 1120.113597139793 1052",
+                "p3_Switzerland (Private) 1114.2196051184649 230",
+                "p4_France (OVH) 900.4587031246897 146",
+                "p5_ndefined (geoip miss) 807.6277061309275 701",
+                "p6_United Kingdom (Unknown) 769.7728740900832 125",
+                "p7_United States (DigitalOcean) 721.1870158692262 302",
+                "p8_United States (Oracle) 603.4021079754564 286",
+                "p9_Hong Kong (Unknown) 573.7213748744264 591",
+                "p10_United States (Unknown) 544.7519269688369 184",
+                "p11_Saudi Arabia (Cloudflare) 486.0878455897168 183",
+                "p12_United States (XNNET) 480.42785275642836 533",
+                "p13_France (Cloudflare) 423.1688673303619 340",
+                "p14_Singapore (Amazon.com) 417.4360086386889 594",
+                "p15_China (Unknown) 416.3119591022789 909",
+                "p16_Singapore (Amazon.com) 415.57123773853397 613",
+                "p17_ndefined (geoip miss) 344.72682186190804 466",
+                "p18_ndefined (geoip miss) 302.0859584886905 3558",
+                "p19_Hong Kong (Tencent) 278.14054772010957 1626",
+                "p20_United Kingdom (Unknown) 274.2732544125691 166",
+                "p21_Japan (Oracle) 258.28478815609395 593",
+                "p22_Hong Kong (Tencent) 248.52183966284113 1597",
+                "p23_United States (Cloudflare) 228.67549523106408 2614",
+                "p24_ndefined (geoip miss) 192.76185196090157 5575",
+                "p25_Hong Kong (Alibaba) 185.7641425651645 3311",
+                "p26_ndefined (geoip miss) 165.16127317430752 3721",
+                "p27_ndefined (geoip miss) 165.01390038323493 8547",
+                "p28_ndefined (geoip miss) 148.33983612716105 3078",
+                "p29_ndefined (geoip miss) 149.55415314951833 8842",
+                "p30_ndefined (geoip miss) 138.22591681200979 3744",
+                "p31_ndefined (geoip miss) 136.6098512087825 7678",
+                "p32_ndefined (geoip miss) 127.46149840112574 2572",
+                "p33_Singapore (Viewqwest) 110.17340180939487 5641",
+                "p34_ndefined (geoip miss) 110.01560166588575 5519",
+                "p35_ndefined (geoip miss) 101.40655984913595 5518",
+                "p36_ndefined (geoip miss) 91.45522968877353 2954",
+                "p37_ndefined (geoip miss) 92.68000125814194 4728",
+                "p38_ndefined (geoip miss) 92.8269564077572 8482",
+                "p39_ndefined (geoip miss) 84.04558591831291 3470",
+                "p40_ndefined (geoip miss) 84.26208425069403 7788",
+                "p41_United Kingdom (Unknown) 75.23759270893508 121",
+                "p42_United States (Unknown) 66.48707753266676 115",
+                "p43_ndefined (geoip miss) 65.90102380913778 1324",
+                "p44_ndefined (geoip miss) 64.76615279343123 5120",
+                "p45_ndefined (geoip miss) 55.92304997355763 6615",
+                "p46_ndefined (geoip miss) 37.10264690591704 4881",
+                "p47_ndefined (geoip miss) 27.61256393219747 1521",
+                "p48_ndefined (geoip miss) 27.621249494009874 3731",
+                "p49_United States (Cloudflare) 0.0 250",
+                "p50_ndefined (geoip miss) 0.0 421",
+                "p51_ndefined (geoip miss) 0.0 423",
+                "p52_ndefined (geoip miss) 0.0 474",
+                "p53_ndefined (geoip miss) 0.0 474",
+                "p54_Malaysia (Unknown) 0.0 533",
+                "p55_ndefined (geoip miss) 0.0 760",
+                "p56_ndefined (geoip miss) 0.0 794",
+                "p57_ndefined (geoip miss) 0.0 1511",
+                "p58_South Korea (Oracle) 0.0 1713",
+                "p59_United States (Cloudflare) 0.0 2600",
+                "p60_United States (Cloudflare) 0.0 2612",
+                "p61_ndefined (geoip miss) 0.0 4184"
             ]
         },
         {
+            "type": "hysteria2",
+            "tag": "p0_United States (Unknown) 1577.384643259119 131",
+            "server": "189.24.101.225",
+            "server_port": 4430,
+            "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+            "tls": {
+                "enabled": true,
+                "server_name": "189.24.101.225",
+                "insecure": true
+            },
+            "obfs": {
+                "type": "salamander",
+                "password": "off3io88xwyc76g8"
+            }
+        },
+        {
             "type": "vless",
-            "tag": "p0_Brazil (Unknown) 1308.0030653890526 122",
+            "tag": "p1_Brazil (Unknown) 1218.977857438749 132",
             "server": "189.30.65.203",
             "server_port": 2083,
             "uuid": "490dc3b4-8d1d-49fd-840e-bd5277b41557",
@@ -273,59 +361,222 @@
             }
         },
         {
-            "type": "shadowsocks",
-            "tag": "p1_Germany (Microsoft) 1230.0370045095287 2185",
-            "server": "135.220.178.46",
-            "server_port": 46303,
-            "method": "chacha20-ietf-poly1305",
-            "password": "zZMNTGpPl38ASlbI1EKOBJ"
-        },
-        {
             "type": "vless",
-            "tag": "p2_Denmark (Webdock.io) 836.1443451828957 282",
-            "server": "193.180.208.167",
-            "server_port": 443,
-            "uuid": "5d7b401c-78fa-4254-872e-6d42bf7e75ec",
+            "tag": "p2_Brazil (Unknown) 1120.113597139793 1052",
+            "server": "191.217.215.228",
+            "server_port": 2096,
+            "uuid": "fbe22815-0718-4eae-816f-e91c67d15b54",
             "tls": {
                 "enabled": true,
-                "server_name": "v2n5.11676767.xyz",
-                "insecure": false
+                "server_name": "st3b6e5.rumedia-cdn.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
             },
             "transport": {
                 "type": "ws",
-                "path": "/doujin/channels/cbfp=chrome",
+                "path": "/cdn/v3/live",
                 "headers": {
-                    "Host": "v2n5.11676767.xyz"
+                    "Host": "st3b6e5.rumedia-cdn.com"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p3_Switzerland (Private) 1114.2196051184649 230",
+            "server": "179.43.140.24",
+            "server_port": 42831,
+            "uuid": "a925a98c-ad7a-40c6-9fdf-130a1de69416",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "http",
+                "path": "/3x",
+                "host": [
+                    "down-cdn.dingtalk.com"
+                ]
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p4_France (OVH) 900.4587031246897 146",
+            "server": "145.239.55.210",
+            "server_port": 80,
+            "uuid": "2bc80e77-9590-4ded-a48b-0eda493f611b",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p5_ndefined (geoip miss) 807.6277061309275 701",
+            "server": "104.16.114.7",
+            "server_port": 443,
+            "password": "1vkFHbQX_gN1U8V8jVc",
+            "tls": {
+                "enabled": true,
+                "server_name": "mhpanel.kigaping.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojan-ws",
+                "headers": {
+                    "Host": "mhpanel.kigaping.com"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p6_United Kingdom (Unknown) 769.7728740900832 125",
+            "server": "31.76.3.51",
+            "server_port": 443,
+            "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+            "tls": {
+                "enabled": true,
+                "server_name": "accessfooter.cleanfoodshop.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/media/ws/"
+            }
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p7_United States (DigitalOcean) 721.1870158692262 302",
+            "server": "206.189.229.48",
+            "server_port": 443,
+            "password": "YV1sd3tfCZngTtnvRmy7",
+            "tls": {
+                "enabled": true,
+                "server_name": "206.189.229.48",
+                "insecure": true
+            },
+            "obfs": {
+                "type": "salamander",
+                "password": "ZuPf4OcXKvotJdDxlTus"
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p8_United States (Oracle) 603.4021079754564 286",
+            "server": "129.153.128.162",
+            "server_port": 853,
+            "uuid": "2006aa32-9ba2-4fe0-bd3d-3deaceb621e1",
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "firsty.app"
                 }
             }
         },
         {
             "type": "hysteria2",
-            "tag": "p3_United States (Amazon.com) 595.3585685857867 363",
-            "server": "18.227.10.208",
+            "tag": "p9_Hong Kong (Unknown) 573.7213748744264 591",
+            "server": "39.109.110.93",
             "server_port": 443,
-            "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+            "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
             "tls": {
                 "enabled": true,
-                "server_name": "18.227.10.208",
+                "server_name": "39.109.110.93",
                 "insecure": true
+            },
+            "obfs": {
+                "type": "salamander",
+                "password": "aemx2gndpgrt1qau"
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p10_United States (Unknown) 544.7519269688369 184",
+            "server": "189.24.115.30",
+            "server_port": 443,
+            "uuid": "3a1c6827-72a1-4d1c-9413-44109ff815f4",
+            "tls": {
+                "enabled": true,
+                "server_name": "navi.bankrate.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
+                    "short_id": "2da72ce6"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p11_Saudi Arabia (Cloudflare) 486.0878455897168 183",
+            "server": "91.209.253.54",
+            "server_port": 443,
+            "password": "1vkFHbQX_gN1U8V8jVc",
+            "tls": {
+                "enabled": true,
+                "server_name": "mhpanel.kigaping.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojan-ws",
+                "headers": {
+                    "Host": "mhpanel.kigaping.com"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p12_United States (XNNET) 480.42785275642836 533",
+            "server": "43.255.157.222",
+            "server_port": 443,
+            "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+            "tls": {
+                "enabled": true,
+                "server_name": "xvxn1hkzf.mateflora.com",
+                "insecure": false
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p13_France (Cloudflare) 423.1688673303619 340",
+            "server": "141.11.202.143",
+            "server_port": 443,
+            "password": "1vkFHbQX_gN1U8V8jVc",
+            "tls": {
+                "enabled": true,
+                "server_name": "mhpanel.kigaping.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojan-ws",
+                "headers": {
+                    "Host": "mhpanel.kigaping.com"
+                }
             }
         },
         {
             "type": "hysteria2",
-            "tag": "p4_Singapore (Amazon.com) 398.90460313665585 605",
-            "server": "13.212.215.138",
-            "server_port": 443,
-            "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-            "tls": {
-                "enabled": true,
-                "server_name": "13.212.215.138",
-                "insecure": true
-            }
-        },
-        {
-            "type": "hysteria2",
-            "tag": "p5_Singapore (Amazon.com) 357.95154838484416 615",
+            "tag": "p14_Singapore (Amazon.com) 417.4360086386889 594",
             "server": "13.212.78.207",
             "server_port": 443,
             "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
@@ -336,58 +587,44 @@
             }
         },
         {
-            "type": "vless",
-            "tag": "p6_Hong Kong (Global) 319.96725216397573 417",
-            "server": "62.60.232.250",
+            "type": "vmess",
+            "tag": "p15_China (Unknown) 416.3119591022789 909",
+            "server": "161.120.223.62",
             "server_port": 8443,
-            "uuid": "88a209b0-5dd9-493f-9cae-ace820544a24",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tm1f7W3RTgSx1F6NsoE32TborUxVe1udZQr4LhDAIio",
-                    "short_id": "c9927d0548a2fcd1"
-                }
-            }
+            "uuid": "17136e7d-6678-403f-af08-29ca2438031f",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "type": "hysteria2",
-            "tag": "p7_United States (Unknown) 196.4706468052638 1359",
-            "server": "129.225.181.46",
-            "server_port": 8443,
-            "password": "oracle_hy2_pass_2026",
+            "tag": "p16_Singapore (Amazon.com) 415.57123773853397 613",
+            "server": "13.212.215.138",
+            "server_port": 443,
+            "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
             "tls": {
                 "enabled": true,
-                "server_name": "129.225.181.46",
+                "server_name": "13.212.215.138",
                 "insecure": true
             }
         },
         {
-            "type": "vmess",
-            "tag": "p8_ndefined (geoip miss) 148.4421288584884 4175",
-            "server": "104.21.0.1",
+            "type": "vless",
+            "tag": "p17_ndefined (geoip miss) 344.72682186190804 466",
+            "server": "104.17.3.81",
             "server_port": 80,
-            "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-            "security": "auto",
-            "alter_id": 0,
+            "uuid": "fdd8f4d0-4500-11ef-8227-1577c1651679",
             "transport": {
                 "type": "ws",
-                "path": "/ws",
+                "path": "//worryfree",
                 "headers": {
-                    "Host": "vmess.lbw666.dpdns.org"
+                    "Host": "sg-vless-ws.bypass.id"
                 }
             }
         },
         {
             "type": "vmess",
-            "tag": "p9_ndefined (geoip miss) 139.17648049643265 8507",
-            "server": "104.21.71.249",
+            "tag": "p18_ndefined (geoip miss) 302.0859584886905 3558",
+            "server": "172.66.0.1",
             "server_port": 443,
             "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
             "security": "auto",
@@ -406,14 +643,78 @@
             }
         },
         {
+            "type": "shadowsocks",
+            "tag": "p19_Hong Kong (Tencent) 278.14054772010957 1626",
+            "server": "43.161.217.165",
+            "server_port": 8388,
+            "method": "aes-256-gcm",
+            "password": "MySecretPass123"
+        },
+        {
             "type": "vless",
-            "tag": "p10_United States (DMIT) 128.90087001024014 442",
-            "server": "64.186.233.233",
+            "tag": "p20_United Kingdom (Unknown) 274.2732544125691 166",
+            "server": "31.77.142.19",
             "server_port": 443,
-            "uuid": "d006ef4a-d235-4691-bf05-abbe0d14055c",
+            "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
             "tls": {
                 "enabled": true,
-                "server_name": "clash.ddm4.cn",
+                "server_name": "calendarbaseline.lucheeebezlimitnoekino.stream",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/media/ws/"
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p21_Japan (Oracle) 258.28478815609395 593",
+            "server": "158.101.148.234",
+            "server_port": 443,
+            "password": "ec893967c30f4c3a8b6d4c975af95f45",
+            "tls": {
+                "enabled": true,
+                "server_name": "oracle-tokyo-2.waverider.yingdigame.com",
+                "insecure": false
+            }
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "p22_Hong Kong (Tencent) 248.52183966284113 1597",
+            "server": "43.161.217.165",
+            "server_port": 80,
+            "method": "aes-256-gcm",
+            "password": "MySecretPass123"
+        },
+        {
+            "type": "vless",
+            "tag": "p23_United States (Cloudflare) 228.67549523106408 2614",
+            "server": "170.114.45.6",
+            "server_port": 80,
+            "uuid": "9ce32242-557a-4d18-864d-c9c385b3dfa4",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "matrix.learnpodedu.com"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p24_ndefined (geoip miss) 192.76185196090157 5575",
+            "server": "172.66.0.1",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -422,15 +723,52 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/vless",
+                "path": "/lMnsZUN4/",
                 "headers": {
-                    "Host": "clash.ddm4.cn"
+                    "Host": "v2ray1.dozapp.xyz"
+                }
+            }
+        },
+        {
+            "type": "hysteria2",
+            "tag": "p25_Hong Kong (Alibaba) 185.7641425651645 3311",
+            "server": "43.103.2.53",
+            "server_port": 443,
+            "password": "hAUdd15a7YGHUSgiPOUz",
+            "tls": {
+                "enabled": true,
+                "server_name": "43.103.2.53",
+                "insecure": true
+            },
+            "obfs": {
+                "type": "salamander",
+                "password": "9veAh9pTbrAfDwM1fIYI"
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p26_ndefined (geoip miss) 165.16127317430752 3721",
+            "server": "172.64.80.1",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/lMnsZUN4/",
+                "headers": {
+                    "Host": "v2ray1.dozapp.xyz"
                 }
             }
         },
         {
             "type": "vmess",
-            "tag": "p11_ndefined (geoip miss) 128.30642678881497 1888",
+            "tag": "p27_ndefined (geoip miss) 165.01390038323493 8547",
             "server": "104.17.136.198",
             "server_port": 443,
             "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
@@ -451,8 +789,8 @@
         },
         {
             "type": "vmess",
-            "tag": "p12_ndefined (geoip miss) 116.79200326610508 3638",
-            "server": "172.66.0.1",
+            "tag": "p28_ndefined (geoip miss) 148.33983612716105 3078",
+            "server": "104.21.80.180",
             "server_port": 443,
             "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
             "security": "auto",
@@ -472,40 +810,71 @@
         },
         {
             "type": "vmess",
-            "tag": "p13_Germany (xTom) 111.99817298492576 3204",
-            "server": "23.165.200.150",
-            "server_port": 52080,
-            "uuid": "672cdade-bb05-4c86-b578-e5d09b79524a",
+            "tag": "p29_ndefined (geoip miss) 149.55415314951833 8842",
+            "server": "104.27.0.1",
+            "server_port": 443,
+            "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
             "security": "auto",
             "alter_id": 0,
-            "transport": {
-                "type": "http",
-                "path": "/QQqun-737805443",
-                "host": [
-                    "down-cdn.dingtalk.com"
-                ]
-            }
-        },
-        {
-            "type": "hysteria2",
-            "tag": "p14_Hong Kong (Alibaba) 107.6230449262976 320",
-            "server": "43.103.2.53",
-            "server_port": 443,
-            "password": "hAUdd15a7YGHUSgiPOUz",
             "tls": {
                 "enabled": true,
-                "server_name": "43.103.2.53",
-                "insecure": true
+                "server_name": "vmess.lbw666.dpdns.org",
+                "insecure": false
             },
-            "obfs": {
-                "type": "salamander",
-                "password": "9veAh9pTbrAfDwM1fIYI"
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "vmess.lbw666.dpdns.org"
+                }
             }
         },
         {
             "type": "vmess",
-            "tag": "p15_ndefined (geoip miss) 81.59136639464143 650",
-            "server": "104.17.147.222",
+            "tag": "p30_ndefined (geoip miss) 138.22591681200979 3744",
+            "server": "172.64.229.21",
+            "server_port": 443,
+            "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "vmess.lbw666.dpdns.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "vmess.lbw666.dpdns.org"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p31_ndefined (geoip miss) 136.6098512087825 7678",
+            "server": "104.21.71.249",
+            "server_port": 443,
+            "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "vmess.lbw666.dpdns.org",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "vmess.lbw666.dpdns.org"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p32_ndefined (geoip miss) 127.46149840112574 2572",
+            "server": "104.21.7.133",
             "server_port": 80,
             "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
             "security": "auto",
@@ -520,23 +889,102 @@
         },
         {
             "type": "vmess",
-            "tag": "p16_ndefined (geoip miss) 54.12982919590571 8464",
-            "server": "172.67.187.145",
-            "server_port": 80,
-            "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+            "tag": "p33_Singapore (Viewqwest) 110.17340180939487 5641",
+            "server": "195.133.135.238",
+            "server_port": 10086,
+            "uuid": "b831381d-6324-4d53-ad4f-8cda48b30811",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "type": "vmess",
+            "tag": "p34_ndefined (geoip miss) 110.01560166588575 5519",
+            "server": "172.67.167.78",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": false
+            },
             "transport": {
                 "type": "ws",
-                "path": "/ws",
+                "path": "/lMnsZUN4/",
                 "headers": {
-                    "Host": "vmess.lbw666.dpdns.org"
+                    "Host": "v2ray1.dozapp.xyz"
                 }
             }
         },
         {
             "type": "vmess",
-            "tag": "p17_ndefined (geoip miss) 46.51877509960709 1534",
+            "tag": "p35_ndefined (geoip miss) 101.40655984913595 5518",
+            "server": "104.17.77.77",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/lMnsZUN4/",
+                "headers": {
+                    "Host": "v2ray1.dozapp.xyz"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p36_ndefined (geoip miss) 91.45522968877353 2954",
+            "server": "188.114.99.137",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/lMnsZUN4/",
+                "headers": {
+                    "Host": "v2ray1.dozapp.xyz"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p37_ndefined (geoip miss) 92.68000125814194 4728",
+            "server": "172.64.150.28",
+            "server_port": 443,
+            "password": "1vkFHbQX_gN1U8V8jVc",
+            "tls": {
+                "enabled": true,
+                "server_name": "mhpanel.kigaping.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "android"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojan-ws",
+                "headers": {
+                    "Host": "mhpanel.kigaping.com"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p38_ndefined (geoip miss) 92.8269564077572 8482",
             "server": "172.66.203.67",
             "server_port": 443,
             "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
@@ -556,9 +1004,235 @@
             }
         },
         {
+            "type": "trojan",
+            "tag": "p39_ndefined (geoip miss) 84.04558591831291 3470",
+            "server": "104.16.242.176",
+            "server_port": 443,
+            "password": "1vkFHbQX_gN1U8V8jVc",
+            "tls": {
+                "enabled": true,
+                "server_name": "mhpanel.kigaping.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojan-ws",
+                "headers": {
+                    "Host": "mhpanel.kigaping.com"
+                }
+            }
+        },
+        {
             "type": "vmess",
-            "tag": "p18_ndefined (geoip miss) 0.0 422",
-            "server": "172.64.145.93",
+            "tag": "p40_ndefined (geoip miss) 84.26208425069403 7788",
+            "server": "104.21.0.1",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/lMnsZUN4/",
+                "headers": {
+                    "Host": "v2ray1.dozapp.xyz"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p41_United Kingdom (Unknown) 75.23759270893508 121",
+            "server": "31.76.3.52",
+            "server_port": 443,
+            "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+            "tls": {
+                "enabled": true,
+                "server_name": "payablemeta.cleanfoodshop.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/media/ws/"
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p42_United States (Unknown) 66.48707753266676 115",
+            "server": "2.26.93.106",
+            "server_port": 443,
+            "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+            "tls": {
+                "enabled": true,
+                "server_name": "depotchannel.lucheeebezlimitnoekino.stream",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/media/ws/",
+                "headers": {
+                    "Host": "depotchannel.lucheeebezlimitnoekino.stream"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p43_ndefined (geoip miss) 65.90102380913778 1324",
+            "server": "104.24.0.1",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/lMnsZUN4/",
+                "headers": {
+                    "Host": "v2ray1.dozapp.xyz"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p44_ndefined (geoip miss) 64.76615279343123 5120",
+            "server": "104.18.0.1",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/lMnsZUN4/",
+                "headers": {
+                    "Host": "v2ray1.dozapp.xyz"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p45_ndefined (geoip miss) 55.92304997355763 6615",
+            "server": "188.114.96.3",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/lMnsZUN4/",
+                "headers": {
+                    "Host": "v2ray1.dozapp.xyz"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p46_ndefined (geoip miss) 37.10264690591704 4881",
+            "server": "104.24.137.130",
+            "server_port": 443,
+            "password": "1vkFHbQX_gN1U8V8jVc",
+            "tls": {
+                "enabled": true,
+                "server_name": "mhpanel.kigaping.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojan-ws",
+                "headers": {
+                    "Host": "mhpanel.kigaping.com"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p47_ndefined (geoip miss) 27.61256393219747 1521",
+            "server": "172.66.193.96",
+            "server_port": 443,
+            "password": "1vkFHbQX_gN1U8V8jVc",
+            "tls": {
+                "enabled": true,
+                "server_name": "mhpanel.kigaping.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojan-ws",
+                "headers": {
+                    "Host": "mhpanel.kigaping.com"
+                }
+            }
+        },
+        {
+            "type": "trojan",
+            "tag": "p48_ndefined (geoip miss) 27.621249494009874 3731",
+            "server": "104.25.39.241",
+            "server_port": 443,
+            "password": "1vkFHbQX_gN1U8V8jVc",
+            "tls": {
+                "enabled": true,
+                "server_name": "mhpanel.kigaping.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojan-ws",
+                "headers": {
+                    "Host": "mhpanel.kigaping.com"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p49_United States (Cloudflare) 0.0 250",
+            "server": "103.116.7.10",
+            "server_port": 2053,
+            "uuid": "50414e45-4c5f-5a45-5553-9c45f3fee7fb",
+            "tls": {
+                "enabled": true,
+                "server_name": "dzzxiyeku44s.mahdihonarvar5.workers.dev",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/stream/PANEL_ZEUS/9c45f3fee7fb",
+                "headers": {
+                    "Host": "dzzxiyeku44s.mahdihonarvar5.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p50_ndefined (geoip miss) 0.0 421",
+            "server": "104.18.42.163",
             "server_port": 443,
             "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
             "security": "auto",
@@ -578,8 +1252,8 @@
         },
         {
             "type": "vmess",
-            "tag": "p19_ndefined (geoip miss) 0.0 450",
-            "server": "104.18.42.163",
+            "tag": "p51_ndefined (geoip miss) 0.0 423",
+            "server": "172.64.145.93",
             "server_port": 443,
             "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
             "security": "auto",
@@ -587,11 +1261,7 @@
             "tls": {
                 "enabled": true,
                 "server_name": "guanwang.awsno.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+                "insecure": false
             },
             "transport": {
                 "type": "ws",
@@ -602,8 +1272,22 @@
             }
         },
         {
+            "type": "vless",
+            "tag": "p52_ndefined (geoip miss) 0.0 474",
+            "server": "104.17.3.81",
+            "server_port": 80,
+            "uuid": "fdd8f4d0-4500-11ef-8227-1577c1651679",
+            "transport": {
+                "type": "ws",
+                "path": "/worryfree",
+                "headers": {
+                    "Host": "sg-vless-ws.bypass.id"
+                }
+            }
+        },
+        {
             "type": "vmess",
-            "tag": "p20_ndefined (geoip miss) 0.0 460",
+            "tag": "p53_ndefined (geoip miss) 0.0 474",
             "server": "188.114.99.137",
             "server_port": 443,
             "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
@@ -628,7 +1312,7 @@
         },
         {
             "type": "vless",
-            "tag": "p21_Malaysia (Unknown) 0.0 542",
+            "tag": "p54_Malaysia (Unknown) 0.0 533",
             "server": "202.61.73.152",
             "server_port": 80,
             "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -642,7 +1326,7 @@
         },
         {
             "type": "vmess",
-            "tag": "p22_ndefined (geoip miss) 0.0 772",
+            "tag": "p55_ndefined (geoip miss) 0.0 760",
             "server": "172.67.137.158",
             "server_port": 443,
             "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
@@ -663,7 +1347,7 @@
         },
         {
             "type": "vmess",
-            "tag": "p23_ndefined (geoip miss) 0.0 779",
+            "tag": "p56_ndefined (geoip miss) 0.0 794",
             "server": "172.67.190.164",
             "server_port": 443,
             "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
@@ -688,43 +1372,75 @@
         },
         {
             "type": "vmess",
-            "tag": "p24_ndefined (geoip miss) 0.0 1838",
-            "server": "104.21.7.133",
-            "server_port": 443,
-            "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+            "tag": "p57_ndefined (geoip miss) 0.0 1511",
+            "server": "172.67.161.144",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "vmess.lbw666.dpdns.org",
+                "server_name": "v2ray1.dozapp.xyz",
                 "insecure": false
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws",
+                "path": "/lMnsZUN4/",
                 "headers": {
-                    "Host": "vmess.lbw666.dpdns.org"
+                    "Host": "v2ray1.dozapp.xyz"
                 }
             }
         },
         {
             "type": "vmess",
-            "tag": "p25_United States (Cloudflare) 0.0 2539",
-            "server": "170.114.45.6",
-            "server_port": 443,
-            "uuid": "4caf156a-3309-4105-8388-d388eb9e1105",
+            "tag": "p58_South Korea (Oracle) 0.0 1713",
+            "server": "129.154.61.196",
+            "server_port": 800,
+            "uuid": "a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "zoomgov.nathaya.web.id",
-                "insecure": false
-            },
+            "alter_id": 0
+        },
+        {
+            "type": "vless",
+            "tag": "p59_United States (Cloudflare) 0.0 2600",
+            "server": "170.114.45.6",
+            "server_port": 80,
+            "uuid": "9ce32242-557a-4d18-864d-c9c385b3dfa4",
             "transport": {
                 "type": "ws",
-                "path": "/whatever/vmess",
+                "path": "/",
                 "headers": {
-                    "Host": "id2.nathaya.web.id"
+                    "Host": "matrix.learnpodedu.com"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "tag": "p60_United States (Cloudflare) 0.0 2612",
+            "server": "170.114.45.6",
+            "server_port": 80,
+            "uuid": "9ce32242-557a-4d18-864d-c9c385b3dfa4",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "matrix.learnpodedu.com"
+                }
+            }
+        },
+        {
+            "type": "vmess",
+            "tag": "p61_ndefined (geoip miss) 0.0 4184",
+            "server": "104.17.147.222",
+            "server_port": 80,
+            "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "vmess.lbw666.dpdns.org"
                 }
             }
         }
